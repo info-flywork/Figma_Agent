@@ -1,0 +1,2479 @@
+{
+  "palette": [
+    {
+      "role": "Arka plan",
+      "hex": "#84B37C"
+    }
+  ],
+  "frames": [
+    {
+      "id": "01",
+      "lang": "English",
+      "screen": "home",
+      "files": {
+        "ios": "store/English/ios-01.png",
+        "play": "store/English/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "English",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/English/ios-02.png",
+        "play": "store/English/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "English",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/English/ios-03.png",
+        "play": "store/English/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "English",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/English/ios-04.png",
+        "play": "store/English/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "English",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/English/ios-05.png",
+        "play": "store/English/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "English",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/English/ios-06.png",
+        "play": "store/English/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "English",
+      "screen": "chat",
+      "files": {
+        "ios": "store/English/ios-07.png",
+        "play": "store/English/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "English",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/English/ios-08.png",
+        "play": "store/English/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Türkçe",
+      "screen": "home",
+      "files": {
+        "ios": "store/Türkçe/ios-01.png",
+        "play": "store/Türkçe/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Türkçe",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Türkçe/ios-02.png",
+        "play": "store/Türkçe/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Türkçe",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Türkçe/ios-03.png",
+        "play": "store/Türkçe/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Türkçe",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Türkçe/ios-04.png",
+        "play": "store/Türkçe/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Türkçe",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Türkçe/ios-05.png",
+        "play": "store/Türkçe/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Türkçe",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Türkçe/ios-06.png",
+        "play": "store/Türkçe/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Türkçe",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Türkçe/ios-07.png",
+        "play": "store/Türkçe/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Türkçe",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Türkçe/ios-08.png",
+        "play": "store/Türkçe/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Deutsch",
+      "screen": "home",
+      "files": {
+        "ios": "store/Deutsch/ios-01.png",
+        "play": "store/Deutsch/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Deutsch",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Deutsch/ios-02.png",
+        "play": "store/Deutsch/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Deutsch",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Deutsch/ios-03.png",
+        "play": "store/Deutsch/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Deutsch",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Deutsch/ios-04.png",
+        "play": "store/Deutsch/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Deutsch",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Deutsch/ios-05.png",
+        "play": "store/Deutsch/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Deutsch",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Deutsch/ios-06.png",
+        "play": "store/Deutsch/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Deutsch",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Deutsch/ios-07.png",
+        "play": "store/Deutsch/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Deutsch",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Deutsch/ios-08.png",
+        "play": "store/Deutsch/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Español",
+      "screen": "home",
+      "files": {
+        "ios": "store/Español/ios-01.png",
+        "play": "store/Español/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Español",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Español/ios-02.png",
+        "play": "store/Español/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Español",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Español/ios-03.png",
+        "play": "store/Español/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Español",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Español/ios-04.png",
+        "play": "store/Español/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Español",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Español/ios-05.png",
+        "play": "store/Español/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Español",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Español/ios-06.png",
+        "play": "store/Español/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Español",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Español/ios-07.png",
+        "play": "store/Español/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Español",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Español/ios-08.png",
+        "play": "store/Español/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Français",
+      "screen": "home",
+      "files": {
+        "ios": "store/Français/ios-01.png",
+        "play": "store/Français/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Français",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Français/ios-02.png",
+        "play": "store/Français/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Français",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Français/ios-03.png",
+        "play": "store/Français/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Français",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Français/ios-04.png",
+        "play": "store/Français/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Français",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Français/ios-05.png",
+        "play": "store/Français/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Français",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Français/ios-06.png",
+        "play": "store/Français/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Français",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Français/ios-07.png",
+        "play": "store/Français/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Français",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Français/ios-08.png",
+        "play": "store/Français/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Italiano",
+      "screen": "home",
+      "files": {
+        "ios": "store/Italiano/ios-01.png",
+        "play": "store/Italiano/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Italiano",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Italiano/ios-02.png",
+        "play": "store/Italiano/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Italiano",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Italiano/ios-03.png",
+        "play": "store/Italiano/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Italiano",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Italiano/ios-04.png",
+        "play": "store/Italiano/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Italiano",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Italiano/ios-05.png",
+        "play": "store/Italiano/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Italiano",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Italiano/ios-06.png",
+        "play": "store/Italiano/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Italiano",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Italiano/ios-07.png",
+        "play": "store/Italiano/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Italiano",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Italiano/ios-08.png",
+        "play": "store/Italiano/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Português (Brasil)",
+      "screen": "home",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-01.png",
+        "play": "store/Português (Brasil)/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Português (Brasil)",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-02.png",
+        "play": "store/Português (Brasil)/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Português (Brasil)",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-03.png",
+        "play": "store/Português (Brasil)/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Português (Brasil)",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-04.png",
+        "play": "store/Português (Brasil)/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Português (Brasil)",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-05.png",
+        "play": "store/Português (Brasil)/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Português (Brasil)",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-06.png",
+        "play": "store/Português (Brasil)/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Português (Brasil)",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-07.png",
+        "play": "store/Português (Brasil)/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Português (Brasil)",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-08.png",
+        "play": "store/Português (Brasil)/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Русский",
+      "screen": "home",
+      "files": {
+        "ios": "store/Русский/ios-01.png",
+        "play": "store/Русский/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Русский",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/Русский/ios-02.png",
+        "play": "store/Русский/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Русский",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/Русский/ios-03.png",
+        "play": "store/Русский/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Русский",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/Русский/ios-04.png",
+        "play": "store/Русский/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Русский",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/Русский/ios-05.png",
+        "play": "store/Русский/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Русский",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/Русский/ios-06.png",
+        "play": "store/Русский/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Русский",
+      "screen": "chat",
+      "files": {
+        "ios": "store/Русский/ios-07.png",
+        "play": "store/Русский/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Русский",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/Русский/ios-08.png",
+        "play": "store/Русский/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "日本語",
+      "screen": "home",
+      "files": {
+        "ios": "store/日本語/ios-01.png",
+        "play": "store/日本語/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "日本語",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/日本語/ios-02.png",
+        "play": "store/日本語/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "日本語",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/日本語/ios-03.png",
+        "play": "store/日本語/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "日本語",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/日本語/ios-04.png",
+        "play": "store/日本語/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "日本語",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/日本語/ios-05.png",
+        "play": "store/日本語/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "日本語",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/日本語/ios-06.png",
+        "play": "store/日本語/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "日本語",
+      "screen": "chat",
+      "files": {
+        "ios": "store/日本語/ios-07.png",
+        "play": "store/日本語/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "日本語",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/日本語/ios-08.png",
+        "play": "store/日本語/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "한국어",
+      "screen": "home",
+      "files": {
+        "ios": "store/한국어/ios-01.png",
+        "play": "store/한국어/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "한국어",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/한국어/ios-02.png",
+        "play": "store/한국어/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "한국어",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/한국어/ios-03.png",
+        "play": "store/한국어/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "한국어",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/한국어/ios-04.png",
+        "play": "store/한국어/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "한국어",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/한국어/ios-05.png",
+        "play": "store/한국어/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "한국어",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/한국어/ios-06.png",
+        "play": "store/한국어/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "한국어",
+      "screen": "chat",
+      "files": {
+        "ios": "store/한국어/ios-07.png",
+        "play": "store/한국어/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "한국어",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/한국어/ios-08.png",
+        "play": "store/한국어/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "简体中文",
+      "screen": "home",
+      "files": {
+        "ios": "store/简体中文/ios-01.png",
+        "play": "store/简体中文/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "简体中文",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/简体中文/ios-02.png",
+        "play": "store/简体中文/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "简体中文",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/简体中文/ios-03.png",
+        "play": "store/简体中文/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "简体中文",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/简体中文/ios-04.png",
+        "play": "store/简体中文/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "简体中文",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/简体中文/ios-05.png",
+        "play": "store/简体中文/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "简体中文",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/简体中文/ios-06.png",
+        "play": "store/简体中文/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "简体中文",
+      "screen": "chat",
+      "files": {
+        "ios": "store/简体中文/ios-07.png",
+        "play": "store/简体中文/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "简体中文",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/简体中文/ios-08.png",
+        "play": "store/简体中文/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "हिन्दी",
+      "screen": "home",
+      "files": {
+        "ios": "store/हिन्दी/ios-01.png",
+        "play": "store/हिन्दी/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "हिन्दी",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/हिन्दी/ios-02.png",
+        "play": "store/हिन्दी/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "हिन्दी",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/हिन्दी/ios-03.png",
+        "play": "store/हिन्दी/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "हिन्दी",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/हिन्दी/ios-04.png",
+        "play": "store/हिन्दी/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "हिन्दी",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/हिन्दी/ios-05.png",
+        "play": "store/हिन्दी/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "हिन्दी",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/हिन्दी/ios-06.png",
+        "play": "store/हिन्दी/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "हिन्दी",
+      "screen": "chat",
+      "files": {
+        "ios": "store/हिन्दी/ios-07.png",
+        "play": "store/हिन्दी/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "हिन्दी",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/हिन्दी/ios-08.png",
+        "play": "store/हिन्दी/play-08.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "English",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/English/ios-09.png",
+        "play": "store/English/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Türkçe",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Türkçe/ios-09.png",
+        "play": "store/Türkçe/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Deutsch",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Deutsch/ios-09.png",
+        "play": "store/Deutsch/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Español",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Español/ios-09.png",
+        "play": "store/Español/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Français",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Français/ios-09.png",
+        "play": "store/Français/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Italiano",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Italiano/ios-09.png",
+        "play": "store/Italiano/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Português (Brasil)",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-09.png",
+        "play": "store/Português (Brasil)/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "Русский",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/Русский/ios-09.png",
+        "play": "store/Русский/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "日本語",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/日本語/ios-09.png",
+        "play": "store/日本語/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "한국어",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/한국어/ios-09.png",
+        "play": "store/한국어/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "简体中文",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/简体中文/ios-09.png",
+        "play": "store/简体中文/play-09.png"
+      }
+    },
+    {
+      "id": "09",
+      "lang": "हिन्दी",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/हिन्दी/ios-09.png",
+        "play": "store/हिन्दी/play-09.png"
+      }
+    }
+  ],
+  "base": [
+    {
+      "id": "01",
+      "screen": "home",
+      "files": {
+        "ios": "store/base/ios-01.png",
+        "play": "store/base/play-01.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-01.png"
+      },
+      "figmaHash": {
+        "ios": "31a54d2f8343b9b6b915d36bf9f437a20a6dfc4c",
+        "play": "2fea31d96b7f068d26b0ce4c28b3c4c7e52bd854"
+      }
+    },
+    {
+      "id": "02",
+      "screen": "fasting-result-screen",
+      "files": {
+        "ios": "store/base/ios-02.png",
+        "play": "store/base/play-02.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-02.png"
+      },
+      "figmaHash": {
+        "ios": "ab79e3579aa0050f2a88613c041ec20cb01307cf",
+        "play": "a6377f49a0e1b74d091f29098dd3aa823545ba7b"
+      }
+    },
+    {
+      "id": "03",
+      "screen": "fasting-plan-time-change",
+      "files": {
+        "ios": "store/base/ios-03.png",
+        "play": "store/base/play-03.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-03.png"
+      },
+      "figmaHash": {
+        "ios": "1868478e4385b851fd1a7bbff46d05f010806faf",
+        "play": "291671186c43f804a359312cc9904d5dc41118d6"
+      }
+    },
+    {
+      "id": "04",
+      "screen": "hunger-tracker-details-9",
+      "files": {
+        "ios": "store/base/ios-04.png",
+        "play": "store/base/play-04.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-04.png"
+      },
+      "figmaHash": {
+        "ios": "d866b538781b5152e268c6e2bc3e662628f05102",
+        "play": "97df05da666ce708466354375563ebb89c00177b"
+      }
+    },
+    {
+      "id": "05",
+      "screen": "weight-records-home-2",
+      "files": {
+        "ios": "store/base/ios-05.png",
+        "play": "store/base/play-05.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-05.png"
+      },
+      "figmaHash": {
+        "ios": "319196bbe835cb04df17f58924b18e114ad98309",
+        "play": "f9e2ef93a0ecf806bef07e1b6ed257c3f16e4799"
+      }
+    },
+    {
+      "id": "06",
+      "screen": "water-records-filled",
+      "files": {
+        "ios": "store/base/ios-06.png",
+        "play": "store/base/play-06.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-06.png"
+      },
+      "figmaHash": {
+        "ios": "214e204356cace91b1a0f436c65f489b3159000d",
+        "play": "656d7435c2c3508ed60e3d3cdbb20d5406170a0b"
+      }
+    },
+    {
+      "id": "07",
+      "screen": "chat",
+      "files": {
+        "ios": "store/base/ios-07.png",
+        "play": "store/base/play-07.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-07.png"
+      },
+      "figmaHash": {
+        "ios": "748334614f17d280d81ef530ca3049536fe4e535",
+        "play": "ddfa9829ed7364b083923a6cab223b2c10d20ad2"
+      }
+    },
+    {
+      "id": "08",
+      "screen": "fasting-meal-records-3",
+      "files": {
+        "ios": "store/base/ios-08.png",
+        "play": "store/base/play-08.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-08.png"
+      },
+      "figmaHash": {
+        "ios": "7706b243c68329db3ecdf877b85e6b21c4c409e9",
+        "play": "259738332d46f44ebd3581051de1e4643e031bf1"
+      }
+    },
+    {
+      "id": "09",
+      "screen": "mochi-word",
+      "files": {
+        "ios": "store/base/ios-03.png",
+        "play": "store/base/play-03.png"
+      },
+      "reuse": "03",
+      "figmaHash": {
+        "ios": "1868478e4385b851fd1a7bbff46d05f010806faf",
+        "play": "291671186c43f804a359312cc9904d5dc41118d6"
+      }
+    }
+  ],
+  "placed": true,
+  "copy": {
+    "English": {
+      "01": {
+        "headline": "YOUR FAST AT A GLANCE",
+        "highlight": "AT A GLANCE",
+        "sub": "Timer, water and weight in one view"
+      },
+      "02": {
+        "headline": "FAST. TRACK. RESULTS!",
+        "highlight": "RESULTS!",
+        "sub": "See your progress, feel unstoppable!"
+      },
+      "03": {
+        "headline": "CHANGE FASTING TIME",
+        "highlight": "TIME",
+        "sub": "Make it work for you!"
+      },
+      "04": {
+        "headline": "LISTEN TO YOUR HUNGER",
+        "highlight": "HUNGER",
+        "sub": "Know when it’s real hunger"
+      },
+      "05": {
+        "headline": "RECORD EVERY WIN!",
+        "highlight": "WIN!",
+        "sub": "Track. Save. Celebrate."
+      },
+      "06": {
+        "headline": "TRACK EVERY DROP!",
+        "highlight": "DROP!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "GET COACH ADVICE ANYTIME!",
+        "highlight": "ANYTIME!",
+        "sub": "Smart tips, instant support."
+      },
+      "08": {
+        "headline": "LEARN WITH MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Bite-sized tips for every fast"
+      },
+      "09": {
+        "headline": "GROW YOUR MOCHI WORLD",
+        "highlight": "WORLD",
+        "sub": "Every fast makes it bloom"
+      }
+    },
+    "Türkçe": {
+      "01": {
+        "headline": "ORUCUN TEK BAKIŞTA",
+        "highlight": "TEK BAKIŞTA",
+        "sub": "Sayaç, su ve kilo tek ekranda"
+      },
+      "02": {
+        "headline": "ORUÇ. TAKİP. SONUÇ!",
+        "highlight": "SONUÇ!",
+        "sub": "İlerlemeni gör, durdurulamaz hisset!"
+      },
+      "03": {
+        "headline": "ORUÇ SÜRENİ DEĞİŞTİR",
+        "highlight": "DEĞİŞTİR",
+        "sub": "Sana göre ayarla!"
+      },
+      "04": {
+        "headline": "DİNLE KENDİ AÇLIĞINI",
+        "highlight": "AÇLIĞINI",
+        "sub": "Gerçek açlığı fark et"
+      },
+      "05": {
+        "headline": "HER ZAFERİ KAYDET!",
+        "highlight": "KAYDET!",
+        "sub": "Takip et. Kaydet. Kutla."
+      },
+      "06": {
+        "headline": "HER DAMLAYI TAKİP ET!",
+        "highlight": "TAKİP ET!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "KOÇ TAVSİYESİ HER ZAMAN!",
+        "highlight": "HER ZAMAN!",
+        "sub": "Akıllı ipuçları, anında destek."
+      },
+      "08": {
+        "headline": "BİRLİKTE MOCHİ İLE",
+        "highlight": "MOCHİ İLE",
+        "sub": "Her oruç için kısa ipuçları"
+      },
+      "09": {
+        "headline": "MOCHİ DÜNYANI BÜYÜT",
+        "highlight": "BÜYÜT",
+        "sub": "Her oruç biraz daha çiçek açar"
+      }
+    },
+    "Deutsch": {
+      "01": {
+        "headline": "DEIN FASTEN AUF EINEN BLICK",
+        "highlight": "AUF EINEN BLICK",
+        "sub": "Timer, Wasser und Gewicht im Überblick"
+      },
+      "02": {
+        "headline": "FASTEN. TRACKEN. ERGEBNISSE!",
+        "highlight": "ERGEBNISSE!",
+        "sub": "Sieh deinen Fortschritt, fühl dich stark!"
+      },
+      "03": {
+        "headline": "ÄNDERE DEINE FASTENZEIT",
+        "highlight": "FASTENZEIT",
+        "sub": "Wie es zu dir passt!"
+      },
+      "04": {
+        "headline": "HÖR AUF DEINEN HUNGER",
+        "highlight": "HUNGER",
+        "sub": "Erkenne echten Hunger"
+      },
+      "05": {
+        "headline": "FEIERE JEDEN ERFOLG!",
+        "highlight": "ERFOLG!",
+        "sub": "Tracken. Speichern. Feiern."
+      },
+      "06": {
+        "headline": "VERFOLGE JEDEN TROPFEN!",
+        "highlight": "TROPFEN!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "HOL DIR COACH-TIPPS JEDERZEIT!",
+        "highlight": "JEDERZEIT!",
+        "sub": "Smarte Tipps, sofortige Hilfe."
+      },
+      "08": {
+        "headline": "LERNE MIT MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Kleine Tipps für jedes Fasten"
+      },
+      "09": {
+        "headline": "LASS DEINE MOCHI-WELT WACHSEN",
+        "highlight": "WACHSEN",
+        "sub": "Jedes Fasten lässt sie erblühen"
+      }
+    },
+    "Español": {
+      "01": {
+        "headline": "TU AYUNO DE UN VISTAZO",
+        "highlight": "DE UN VISTAZO",
+        "sub": "Temporizador, agua y peso en una vista"
+      },
+      "02": {
+        "headline": "AYUNA. REGISTRA. ¡RESULTADOS!",
+        "highlight": "¡RESULTADOS!",
+        "sub": "Ve tu progreso, ¡siéntete imparable!"
+      },
+      "03": {
+        "headline": "CAMBIA TU TIEMPO DE AYUNO",
+        "highlight": "AYUNO",
+        "sub": "¡Hazlo a tu medida!"
+      },
+      "04": {
+        "headline": "ESCUCHA TU HAMBRE",
+        "highlight": "HAMBRE",
+        "sub": "Reconoce el hambre real"
+      },
+      "05": {
+        "headline": "¡REGISTRA CADA LOGRO!",
+        "highlight": "LOGRO!",
+        "sub": "Registra. Guarda. Celebra."
+      },
+      "06": {
+        "headline": "¡SIGUE CADA GOTA!",
+        "highlight": "GOTA!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "¡CONSEJOS DE TU COACH SIEMPRE!",
+        "highlight": "SIEMPRE!",
+        "sub": "Tips inteligentes, apoyo al instante."
+      },
+      "08": {
+        "headline": "APRENDE CON MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Mini consejos para cada ayuno"
+      },
+      "09": {
+        "headline": "HAZ CRECER TU MUNDO MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Cada ayuno lo hace florecer"
+      }
+    },
+    "Français": {
+      "01": {
+        "headline": "TON JEÛNE D’UN SEUL REGARD",
+        "highlight": "D’UN SEUL REGARD",
+        "sub": "Chrono, eau et poids sur un écran"
+      },
+      "02": {
+        "headline": "JEÛNE. SUIVI. RÉSULTATS!",
+        "highlight": "RÉSULTATS!",
+        "sub": "Vois tes progrès, deviens imparable!"
+      },
+      "03": {
+        "headline": "CHANGE TA DURÉE DE JEÛNE",
+        "highlight": "JEÛNE",
+        "sub": "À ton rythme!"
+      },
+      "04": {
+        "headline": "ÉCOUTE TA FAIM",
+        "highlight": "FAIM",
+        "sub": "Reconnais la vraie faim"
+      },
+      "05": {
+        "headline": "NOTE CHAQUE VICTOIRE!",
+        "highlight": "VICTOIRE!",
+        "sub": "Suis. Enregistre. Célèbre."
+      },
+      "06": {
+        "headline": "SUIS CHAQUE GOUTTE!",
+        "highlight": "GOUTTE!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "CONSEILS DU COACH 24H/24!",
+        "highlight": "24H/24!",
+        "sub": "Astuces malignes, aide immédiate."
+      },
+      "08": {
+        "headline": "APPRENDS AVEC MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Petits conseils pour chaque jeûne"
+      },
+      "09": {
+        "headline": "FAIS GRANDIR TON MONDE MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Chaque jeûne le fait éclore"
+      }
+    },
+    "Italiano": {
+      "01": {
+        "headline": "IL TUO DIGIUNO A COLPO D’OCCHIO",
+        "highlight": "A COLPO D’OCCHIO",
+        "sub": "Timer, acqua e peso in una schermata"
+      },
+      "02": {
+        "headline": "DIGIUNA. TRACCIA. RISULTATI!",
+        "highlight": "RISULTATI!",
+        "sub": "Guarda i progressi, sentiti inarrestabile!"
+      },
+      "03": {
+        "headline": "CAMBIA IL TEMPO DI DIGIUNO",
+        "highlight": "DIGIUNO",
+        "sub": "Su misura per te!"
+      },
+      "04": {
+        "headline": "ASCOLTA LA TUA FAME",
+        "highlight": "FAME",
+        "sub": "Riconosci la fame vera"
+      },
+      "05": {
+        "headline": "REGISTRA OGNI VITTORIA!",
+        "highlight": "VITTORIA!",
+        "sub": "Traccia. Salva. Festeggia."
+      },
+      "06": {
+        "headline": "TRACCIA OGNI GOCCIA!",
+        "highlight": "GOCCIA!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "CONSIGLI DEL COACH SEMPRE!",
+        "highlight": "SEMPRE!",
+        "sub": "Consigli smart, supporto immediato."
+      },
+      "08": {
+        "headline": "IMPARA CON MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Mini consigli per ogni digiuno"
+      },
+      "09": {
+        "headline": "FAI CRESCERE IL TUO MONDO MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Ogni digiuno lo fa fiorire"
+      }
+    },
+    "Português (Brasil)": {
+      "01": {
+        "headline": "SEU JEJUM DE RELANCE",
+        "highlight": "DE RELANCE",
+        "sub": "Timer, água e peso em uma tela"
+      },
+      "02": {
+        "headline": "JEJUE. ACOMPANHE. RESULTADOS!",
+        "highlight": "RESULTADOS!",
+        "sub": "Veja seu progresso, sinta-se imparável!"
+      },
+      "03": {
+        "headline": "MUDE SEU TEMPO DE JEJUM",
+        "highlight": "JEJUM",
+        "sub": "Do seu jeito!"
+      },
+      "04": {
+        "headline": "OUÇA SUA FOME",
+        "highlight": "FOME",
+        "sub": "Saiba quando é fome de verdade"
+      },
+      "05": {
+        "headline": "REGISTRE CADA CONQUISTA!",
+        "highlight": "CONQUISTA!",
+        "sub": "Acompanhe. Salve. Comemore."
+      },
+      "06": {
+        "headline": "ACOMPANHE CADA GOTA!",
+        "highlight": "GOTA!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "DICAS DO COACH A QUALQUER HORA!",
+        "highlight": "QUALQUER HORA!",
+        "sub": "Dicas inteligentes, apoio na hora."
+      },
+      "08": {
+        "headline": "APRENDA COM O MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Dicas rápidas para cada jejum"
+      },
+      "09": {
+        "headline": "FAÇA CRESCER SEU MUNDO MOCHI",
+        "highlight": "MOCHI",
+        "sub": "Cada jejum o faz florescer"
+      }
+    },
+    "Русский": {
+      "01": {
+        "headline": "ТВОЁ ГОЛОДАНИЕ ПЕРЕД ГЛАЗАМИ",
+        "highlight": "ПЕРЕД ГЛАЗАМИ",
+        "sub": "Таймер, вода и вес на одном экране"
+      },
+      "02": {
+        "headline": "ГОЛОДАЙ. СЛЕДИ. РЕЗУЛЬТАТ!",
+        "highlight": "РЕЗУЛЬТАТ!",
+        "sub": "Смотри прогресс и чувствуй силу!"
+      },
+      "03": {
+        "headline": "ИЗМЕНИ ВРЕМЯ ГОЛОДАНИЯ",
+        "highlight": "ГОЛОДАНИЯ",
+        "sub": "Подстрой под себя!"
+      },
+      "04": {
+        "headline": "СЛУШАЙ СВОЙ ГОЛОД",
+        "highlight": "ГОЛОД",
+        "sub": "Отличай настоящий голод"
+      },
+      "05": {
+        "headline": "ФИКСИРУЙ КАЖДУЮ ПОБЕДУ!",
+        "highlight": "ПОБЕДУ!",
+        "sub": "Следи. Сохраняй. Празднуй."
+      },
+      "06": {
+        "headline": "ЗАПИСЫВАЙ КАЖДУЮ КАПЛЮ!",
+        "highlight": "КАПЛЮ!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "СОВЕТЫ КОУЧА В ЛЮБОЕ ВРЕМЯ!",
+        "highlight": "В ЛЮБОЕ ВРЕМЯ!",
+        "sub": "Умные советы, мгновенная поддержка."
+      },
+      "08": {
+        "headline": "УЧИСЬ С МОЧИ",
+        "highlight": "МОЧИ",
+        "sub": "Короткие советы для каждого голодания"
+      },
+      "09": {
+        "headline": "РАСТИ СВОЙ МИР МОЧИ",
+        "highlight": "МОЧИ",
+        "sub": "Каждый пост помогает ему расцвести"
+      }
+    },
+    "日本語": {
+      "01": {
+        "headline": "断食をひと目で",
+        "highlight": "ひと目で",
+        "sub": "タイマー・水・体重を1画面で"
+      },
+      "02": {
+        "headline": "断食。記録。成果！",
+        "highlight": "成果！",
+        "sub": "進歩を見て、止まらない自分に！"
+      },
+      "03": {
+        "headline": "断食時間を変更",
+        "highlight": "変更",
+        "sub": "あなたに合わせよう！"
+      },
+      "04": {
+        "headline": "空腹の声を聞こう",
+        "highlight": "聞こう",
+        "sub": "本当の空腹を見分けよう"
+      },
+      "05": {
+        "headline": "すべての成果を記録！",
+        "highlight": "記録！",
+        "sub": "記録。保存。お祝い。"
+      },
+      "06": {
+        "headline": "一滴ずつ記録！",
+        "highlight": "記録！",
+        "sub": ""
+      },
+      "07": {
+        "headline": "いつでもコーチに相談！",
+        "highlight": "相談！",
+        "sub": "スマートなヒントで即サポート"
+      },
+      "08": {
+        "headline": "MOCHIと学ぼう",
+        "highlight": "学ぼう",
+        "sub": "断食ごとのミニヒント"
+      },
+      "09": {
+        "headline": "MOCHIの世界を 育てよう",
+        "highlight": "育てよう",
+        "sub": "断食するたびに花開く"
+      }
+    },
+    "한국어": {
+      "01": {
+        "headline": "내 단식을 한눈에",
+        "highlight": "한눈에",
+        "sub": "타이머, 물, 체중을 한 화면에"
+      },
+      "02": {
+        "headline": "단식. 기록. 결과!",
+        "highlight": "결과!",
+        "sub": "진행 상황을 보고 멈추지 마세요!"
+      },
+      "03": {
+        "headline": "단식 시간 바꾸기",
+        "highlight": "바꾸기",
+        "sub": "나에게 맞게 설정!"
+      },
+      "04": {
+        "headline": "내 배고픔에 귀 기울여요",
+        "highlight": "귀 기울여요",
+        "sub": "진짜 배고픔을 구분해요"
+      },
+      "05": {
+        "headline": "모든 성과를 기록!",
+        "highlight": "기록!",
+        "sub": "기록. 저장. 축하."
+      },
+      "06": {
+        "headline": "한 방울도 기록!",
+        "highlight": "기록!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "언제든 코치 조언!",
+        "highlight": "코치 조언!",
+        "sub": "스마트 팁, 즉각적인 도움"
+      },
+      "08": {
+        "headline": "모찌와 함께 배우기",
+        "highlight": "배우기",
+        "sub": "단식마다 짧은 팁"
+      },
+      "09": {
+        "headline": "나의 모찌 월드를 키워요",
+        "highlight": "키워요",
+        "sub": "단식할 때마다 꽃피어요"
+      }
+    },
+    "简体中文": {
+      "01": {
+        "headline": "断食进度一目了然",
+        "highlight": "一目了然",
+        "sub": "计时、饮水、体重一屏掌握"
+      },
+      "02": {
+        "headline": "断食。追踪。见成效！",
+        "highlight": "见成效！",
+        "sub": "查看进步，势不可挡！"
+      },
+      "03": {
+        "headline": "更改断食时长",
+        "highlight": "时长",
+        "sub": "按你的节奏来！"
+      },
+      "04": {
+        "headline": "倾听你的饥饿感",
+        "highlight": "饥饿感",
+        "sub": "分辨真正的饥饿"
+      },
+      "05": {
+        "headline": "记录每一次成功！",
+        "highlight": "成功！",
+        "sub": "追踪。保存。庆祝。"
+      },
+      "06": {
+        "headline": "记录每一滴水！",
+        "highlight": "每一滴水！",
+        "sub": ""
+      },
+      "07": {
+        "headline": "教练建议随时看！",
+        "highlight": "随时看！",
+        "sub": "智能建议，即时支持"
+      },
+      "08": {
+        "headline": "和 Mochi 一起学习",
+        "highlight": "一起学习",
+        "sub": "每次断食的小贴士"
+      },
+      "09": {
+        "headline": "养成你的 Mochi 世界",
+        "highlight": "Mochi 世界",
+        "sub": "每次断食都会让它绽放"
+      }
+    },
+    "हिन्दी": {
+      "01": {
+        "headline": "आपका उपवास एक नज़र में",
+        "highlight": "एक नज़र में",
+        "sub": "टाइमर, पानी और वज़न एक ही स्क्रीन पर"
+      },
+      "02": {
+        "headline": "उपवास करें। ट्रैक करें। नतीजे पाएं!",
+        "highlight": "नतीजे पाएं!",
+        "sub": "अपनी प्रगति देखें और ताक़त महसूस करें!"
+      },
+      "03": {
+        "headline": "उपवास का समय बदलें",
+        "highlight": "उपवास का समय",
+        "sub": "इसे अपने हिसाब से बनाएं!"
+      },
+      "04": {
+        "headline": "अपनी भूख सुनें",
+        "highlight": "अपनी भूख",
+        "sub": "जानें कब भूख सच में है"
+      },
+      "05": {
+        "headline": "हर उपलब्धि दर्ज करें",
+        "highlight": "उपलब्धि!",
+        "sub": "ट्रैक करें। सहेजें। जश्न मनाएं।"
+      },
+      "06": {
+        "headline": "हर बूंद ट्रैक करें!",
+        "highlight": "बूंद!",
+        "sub": ""
+      },
+      "07": {
+        "headline": "कोच की सलाह कभी भी!",
+        "highlight": "कोच की",
+        "sub": "स्मार्ट सलाह और तुरंत मदद"
+      },
+      "08": {
+        "headline": "मोची के साथ सीखें",
+        "highlight": "मोची के साथ",
+        "sub": "हर उपवास के लिए छोटी टिप्स"
+      },
+      "09": {
+        "headline": "बसाइए मोची की दुनिया",
+        "highlight": "मोची की दुनिया",
+        "sub": "हर उपवास से यह खिल उठती है"
+      }
+    }
+  },
+  "figma": {
+    "page": "2727:3699",
+    "sections": {
+      "ios": "2727:3700",
+      "play": "2750:7287",
+      "banner-1024x500": "2756:10707",
+      "banner-3840x1646": "2761:11547",
+      "banner-3840x2560": "2763:11623"
+    },
+    "phone": {
+      "ios": "2731:3700",
+      "play": "2731:3708",
+      "playCamera": "2731:3715"
+    },
+    "nodes": {
+      "English": {
+        "01": {
+          "ios": "2739:4165",
+          "play": "2750:7288"
+        },
+        "02": {
+          "ios": "2739:4166",
+          "play": "2750:7654"
+        },
+        "03": {
+          "ios": "2739:4167",
+          "play": "2750:7800"
+        },
+        "04": {
+          "ios": "2739:4168",
+          "play": "2750:7956"
+        },
+        "05": {
+          "ios": "2739:4169",
+          "play": "2750:8025"
+        },
+        "06": {
+          "ios": "2739:4170",
+          "play": "2750:8201"
+        },
+        "07": {
+          "ios": "2739:4171",
+          "play": "2750:8367"
+        },
+        "08": {
+          "ios": "2739:4172",
+          "play": "2750:8436"
+        },
+        "09": {
+          "ios": "2770:13371",
+          "play": "2770:13612"
+        }
+      },
+      "Türkçe": {
+        "01": {
+          "ios": "2744:3998",
+          "play": "2751:7570"
+        },
+        "02": {
+          "ios": "2744:4359",
+          "play": "2751:7936"
+        },
+        "03": {
+          "ios": "2744:4500",
+          "play": "2751:8082"
+        },
+        "04": {
+          "ios": "2744:4651",
+          "play": "2751:8238"
+        },
+        "05": {
+          "ios": "2744:4715",
+          "play": "2751:8307"
+        },
+        "06": {
+          "ios": "2744:4886",
+          "play": "2751:8483"
+        },
+        "07": {
+          "ios": "2744:5047",
+          "play": "2751:8649"
+        },
+        "08": {
+          "ios": "2744:5111",
+          "play": "2751:8718"
+        },
+        "09": {
+          "ios": "2772:13443",
+          "play": "2772:13605"
+        }
+      },
+      "Deutsch": {
+        "01": {
+          "ios": "2744:5226",
+          "play": "2751:8838"
+        },
+        "02": {
+          "ios": "2744:5587",
+          "play": "2751:9204"
+        },
+        "03": {
+          "ios": "2744:5728",
+          "play": "2751:9350"
+        },
+        "04": {
+          "ios": "2744:5879",
+          "play": "2751:9506"
+        },
+        "05": {
+          "ios": "2744:5943",
+          "play": "2751:9575"
+        },
+        "06": {
+          "ios": "2744:6114",
+          "play": "2751:9751"
+        },
+        "07": {
+          "ios": "2744:6275",
+          "play": "2751:9917"
+        },
+        "08": {
+          "ios": "2744:6339",
+          "play": "2751:9986"
+        },
+        "09": {
+          "ios": "2773:13515",
+          "play": "2773:13677"
+        }
+      },
+      "Español": {
+        "01": {
+          "ios": "2748:4596",
+          "play": "2751:10592"
+        },
+        "02": {
+          "ios": "2748:4957",
+          "play": "2751:10958"
+        },
+        "03": {
+          "ios": "2748:5098",
+          "play": "2751:11104"
+        },
+        "04": {
+          "ios": "2748:5249",
+          "play": "2751:11260"
+        },
+        "05": {
+          "ios": "2748:5313",
+          "play": "2751:11329"
+        },
+        "06": {
+          "ios": "2748:5484",
+          "play": "2751:11505"
+        },
+        "07": {
+          "ios": "2748:5645",
+          "play": "2751:11671"
+        },
+        "08": {
+          "ios": "2748:5709",
+          "play": "2751:11740"
+        },
+        "09": {
+          "ios": "2773:13837",
+          "play": "2773:13999"
+        }
+      },
+      "Français": {
+        "01": {
+          "ios": "2748:6123",
+          "play": "2751:11860"
+        },
+        "02": {
+          "ios": "2748:6484",
+          "play": "2751:12226"
+        },
+        "03": {
+          "ios": "2748:6625",
+          "play": "2751:12372"
+        },
+        "04": {
+          "ios": "2748:6776",
+          "play": "2751:12528"
+        },
+        "05": {
+          "ios": "2748:6840",
+          "play": "2751:12597"
+        },
+        "06": {
+          "ios": "2748:7011",
+          "play": "2751:12773"
+        },
+        "07": {
+          "ios": "2748:7172",
+          "play": "2751:12939"
+        },
+        "08": {
+          "ios": "2748:7236",
+          "play": "2751:13008"
+        },
+        "09": {
+          "ios": "2773:14159",
+          "play": "2773:14321"
+        }
+      },
+      "Italiano": {
+        "01": {
+          "ios": "2748:7650",
+          "play": "2751:13128"
+        },
+        "02": {
+          "ios": "2748:8011",
+          "play": "2751:13494"
+        },
+        "03": {
+          "ios": "2748:8152",
+          "play": "2751:13640"
+        },
+        "04": {
+          "ios": "2748:8303",
+          "play": "2751:13796"
+        },
+        "05": {
+          "ios": "2748:8367",
+          "play": "2751:13865"
+        },
+        "06": {
+          "ios": "2748:8538",
+          "play": "2751:14041"
+        },
+        "07": {
+          "ios": "2748:8699",
+          "play": "2751:14207"
+        },
+        "08": {
+          "ios": "2748:8763",
+          "play": "2751:14276"
+        },
+        "09": {
+          "ios": "2773:14481",
+          "play": "2773:14643"
+        }
+      },
+      "Português (Brasil)": {
+        "01": {
+          "ios": "2748:9177",
+          "play": "2751:15125"
+        },
+        "02": {
+          "ios": "2748:9538",
+          "play": "2751:15491"
+        },
+        "03": {
+          "ios": "2748:9679",
+          "play": "2751:15637"
+        },
+        "04": {
+          "ios": "2748:9830",
+          "play": "2751:15793"
+        },
+        "05": {
+          "ios": "2748:9894",
+          "play": "2751:15862"
+        },
+        "06": {
+          "ios": "2748:10065",
+          "play": "2751:16038"
+        },
+        "07": {
+          "ios": "2748:10226",
+          "play": "2751:16204"
+        },
+        "08": {
+          "ios": "2748:10290",
+          "play": "2751:16273"
+        },
+        "09": {
+          "ios": "2773:14803",
+          "play": "2773:14965"
+        }
+      },
+      "Русский": {
+        "01": {
+          "ios": "2748:10704",
+          "play": "2751:16393"
+        },
+        "02": {
+          "ios": "2748:11065",
+          "play": "2751:16759"
+        },
+        "03": {
+          "ios": "2748:11206",
+          "play": "2751:16905"
+        },
+        "04": {
+          "ios": "2748:11357",
+          "play": "2751:17061"
+        },
+        "05": {
+          "ios": "2748:11421",
+          "play": "2751:17130"
+        },
+        "06": {
+          "ios": "2748:11592",
+          "play": "2751:17306"
+        },
+        "07": {
+          "ios": "2748:11753",
+          "play": "2751:17472"
+        },
+        "08": {
+          "ios": "2748:11817",
+          "play": "2751:17541"
+        },
+        "09": {
+          "ios": "2773:15125",
+          "play": "2773:15287"
+        }
+      },
+      "日本語": {
+        "01": {
+          "ios": "2748:12231",
+          "play": "2751:17661"
+        },
+        "02": {
+          "ios": "2748:12592",
+          "play": "2751:18027"
+        },
+        "03": {
+          "ios": "2748:12733",
+          "play": "2751:18173"
+        },
+        "04": {
+          "ios": "2748:12884",
+          "play": "2751:18328"
+        },
+        "05": {
+          "ios": "2748:12948",
+          "play": "2751:18396"
+        },
+        "06": {
+          "ios": "2748:13119",
+          "play": "2751:18571"
+        },
+        "07": {
+          "ios": "2748:13280",
+          "play": "2751:18737"
+        },
+        "08": {
+          "ios": "2748:13344",
+          "play": "2751:18804"
+        },
+        "09": {
+          "ios": "2773:15447",
+          "play": "2773:15609"
+        }
+      },
+      "한국어": {
+        "01": {
+          "ios": "2748:13758",
+          "play": "2751:19653"
+        },
+        "02": {
+          "ios": "2748:14119",
+          "play": "2751:20019"
+        },
+        "03": {
+          "ios": "2748:14260",
+          "play": "2751:20165"
+        },
+        "04": {
+          "ios": "2748:14411",
+          "play": "2751:20321"
+        },
+        "05": {
+          "ios": "2748:14475",
+          "play": "2751:20390"
+        },
+        "06": {
+          "ios": "2748:14646",
+          "play": "2751:20566"
+        },
+        "07": {
+          "ios": "2748:14807",
+          "play": "2751:20732"
+        },
+        "08": {
+          "ios": "2748:14871",
+          "play": "2751:20799"
+        },
+        "09": {
+          "ios": "2773:15769",
+          "play": "2773:15931"
+        }
+      },
+      "简体中文": {
+        "01": {
+          "ios": "2748:15285",
+          "play": "2751:20919"
+        },
+        "02": {
+          "ios": "2748:15646",
+          "play": "2751:21285"
+        },
+        "03": {
+          "ios": "2748:15787",
+          "play": "2751:21431"
+        },
+        "04": {
+          "ios": "2748:15938",
+          "play": "2751:21586"
+        },
+        "05": {
+          "ios": "2748:16002",
+          "play": "2751:21654"
+        },
+        "06": {
+          "ios": "2748:16173",
+          "play": "2751:21829"
+        },
+        "07": {
+          "ios": "2748:16334",
+          "play": "2751:21995"
+        },
+        "08": {
+          "ios": "2748:16398",
+          "play": "2751:22062"
+        },
+        "09": {
+          "ios": "2773:16091",
+          "play": "2773:16253"
+        }
+      },
+      "हिन्दी": {
+        "01": {
+          "ios": "2748:16812",
+          "play": "2751:22182"
+        },
+        "02": {
+          "ios": "2748:17173",
+          "play": "2751:22548"
+        },
+        "03": {
+          "ios": "2748:17314",
+          "play": "2751:22694"
+        },
+        "04": {
+          "ios": "2748:17465",
+          "play": "2751:22849"
+        },
+        "05": {
+          "ios": "2748:17529",
+          "play": "2751:22917"
+        },
+        "06": {
+          "ios": "2748:17700",
+          "play": "2751:23093"
+        },
+        "07": {
+          "ios": "2748:17861",
+          "play": "2751:23259"
+        },
+        "08": {
+          "ios": "2748:17925",
+          "play": "2751:23328"
+        },
+        "09": {
+          "ios": "2773:16413",
+          "play": "2773:16575"
+        }
+      }
+    }
+  },
+  "banners": [
+    {
+      "lang": "English",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/English/banner-1024x500.png",
+      "figmaNode": "2756:10708"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Türkçe/banner-1024x500.png",
+      "figmaNode": "2756:11274"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Deutsch/banner-1024x500.png",
+      "figmaNode": "2756:11776"
+    },
+    {
+      "lang": "Español",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Español/banner-1024x500.png",
+      "figmaNode": "2756:12278"
+    },
+    {
+      "lang": "Français",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Français/banner-1024x500.png",
+      "figmaNode": "2756:12780"
+    },
+    {
+      "lang": "Italiano",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Italiano/banner-1024x500.png",
+      "figmaNode": "2756:13282"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Português (Brasil)/banner-1024x500.png",
+      "figmaNode": "2756:13784"
+    },
+    {
+      "lang": "Русский",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Русский/banner-1024x500.png",
+      "figmaNode": "2756:14286"
+    },
+    {
+      "lang": "日本語",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/日本語/banner-1024x500.png",
+      "figmaNode": "2756:14788"
+    },
+    {
+      "lang": "한국어",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/한국어/banner-1024x500.png",
+      "figmaNode": "2756:15290"
+    },
+    {
+      "lang": "简体中文",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/简体中文/banner-1024x500.png",
+      "figmaNode": "2756:15792"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/हिन्दी/banner-1024x500.png",
+      "figmaNode": "2756:16294"
+    },
+    {
+      "lang": "English",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/English/banner-3840x1646.png",
+      "figmaNode": "2761:11548"
+    },
+    {
+      "lang": "English",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/English/banner-3840x2560.png",
+      "figmaNode": "2763:11624"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Türkçe/banner-3840x1646.png",
+      "figmaNode": "2764:12269"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Deutsch/banner-3840x1646.png",
+      "figmaNode": "2764:12839"
+    },
+    {
+      "lang": "Español",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Español/banner-3840x1646.png",
+      "figmaNode": "2764:13409"
+    },
+    {
+      "lang": "Français",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Français/banner-3840x1646.png",
+      "figmaNode": "2764:13979"
+    },
+    {
+      "lang": "Italiano",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Italiano/banner-3840x1646.png",
+      "figmaNode": "2764:14549"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Português (Brasil)/banner-3840x1646.png",
+      "figmaNode": "2764:15119"
+    },
+    {
+      "lang": "Русский",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Русский/banner-3840x1646.png",
+      "figmaNode": "2764:15689"
+    },
+    {
+      "lang": "日本語",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/日本語/banner-3840x1646.png",
+      "figmaNode": "2764:16259"
+    },
+    {
+      "lang": "한국어",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/한국어/banner-3840x1646.png",
+      "figmaNode": "2764:16829"
+    },
+    {
+      "lang": "简体中文",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/简体中文/banner-3840x1646.png",
+      "figmaNode": "2764:17399"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/हिन्दी/banner-3840x1646.png",
+      "figmaNode": "2764:17969"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Türkçe/banner-3840x2560.png",
+      "figmaNode": "2765:13105"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Deutsch/banner-3840x2560.png",
+      "figmaNode": "2765:13675"
+    },
+    {
+      "lang": "Español",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Español/banner-3840x2560.png",
+      "figmaNode": "2765:14245"
+    },
+    {
+      "lang": "Français",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Français/banner-3840x2560.png",
+      "figmaNode": "2765:14815"
+    },
+    {
+      "lang": "Italiano",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Italiano/banner-3840x2560.png",
+      "figmaNode": "2765:15385"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Português (Brasil)/banner-3840x2560.png",
+      "figmaNode": "2765:15955"
+    },
+    {
+      "lang": "Русский",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Русский/banner-3840x2560.png",
+      "figmaNode": "2765:16525"
+    },
+    {
+      "lang": "日本語",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/日本語/banner-3840x2560.png",
+      "figmaNode": "2765:17095"
+    },
+    {
+      "lang": "한국어",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/한국어/banner-3840x2560.png",
+      "figmaNode": "2765:17665"
+    },
+    {
+      "lang": "简体中文",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/简体中文/banner-3840x2560.png",
+      "figmaNode": "2765:18235"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/हिन्दी/banner-3840x2560.png",
+      "figmaNode": "2765:18805"
+    }
+  ],
+  "bannerBase": {
+    "1024x500": {
+      "file": "store/base/banner-1024x500.png",
+      "source": "store/base/ios-04.png",
+      "figmaHash": "f84106e32a331720633dd2cbfd0e2b641c0b116a",
+      "screens": [
+        "01",
+        "02"
+      ],
+      "title": "01"
+    },
+    "3840x1646": {
+      "file": "store/base/banner-3840x1646.png",
+      "source": "store/base/ios-04.png",
+      "figmaHash": "b781a60096ae394981c00df12fcbca5ef856e691",
+      "screens": [
+        "01",
+        "02"
+      ],
+      "title": "01"
+    },
+    "3840x2560": {
+      "file": "store/base/banner-3840x2560.png",
+      "source": "store/base/ios-04.png",
+      "figmaHash": "bbbda823d2b86fa7a82d62e9390c69d71d554109",
+      "screens": [
+        "01",
+        "02"
+      ],
+      "title": "01"
+    }
+  }
+}

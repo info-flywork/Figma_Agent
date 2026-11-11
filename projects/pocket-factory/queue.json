@@ -1,0 +1,94 @@
+{
+  "project": "pocket-factory",
+  "updatedAt": "2026-11-03T06:41:59.804Z",
+  "items": [
+    {
+      "id": "splash",
+      "note": ""
+    },
+    {
+      "id": "resume-prep",
+      "note": ""
+    },
+    {
+      "id": "tutorial",
+      "note": ""
+    },
+    {
+      "id": "factory-home",
+      "note": ""
+    },
+    {
+      "id": "world-select",
+      "note": ""
+    },
+    {
+      "id": "world-locked",
+      "note": ""
+    },
+    {
+      "id": "level-select",
+      "note": ""
+    },
+    {
+      "id": "level-locked",
+      "note": ""
+    },
+    {
+      "id": "building-upgrade",
+      "note": ""
+    },
+    {
+      "id": "settings",
+      "note": ""
+    },
+    {
+      "id": "level-mission",
+      "note": ""
+    },
+    {
+      "id": "new-machine",
+      "note": ""
+    },
+    {
+      "id": "prep-board",
+      "note": ""
+    },
+    {
+      "id": "fixed-part",
+      "note": ""
+    },
+    {
+      "id": "out-of-moves",
+      "note": ""
+    },
+    {
+      "id": "production-run",
+      "note": ""
+    },
+    {
+      "id": "production-failed",
+      "note": ""
+    },
+    {
+      "id": "level-complete",
+      "note": ""
+    },
+    {
+      "id": "grand-final",
+      "note": ""
+    },
+    {
+      "id": "hint",
+      "note": ""
+    },
+    {
+      "id": "insufficient-coins",
+      "note": ""
+    },
+    {
+      "id": "paused",
+      "note": ""
+    }
+  ]
+}

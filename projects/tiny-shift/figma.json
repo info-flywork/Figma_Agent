@@ -1,0 +1,499 @@
+{
+  "fileKey": "eopC3VjhUPmJUT15i7SgR5",
+  "pages": {
+    "screens": "0:1",
+    "components": "3:2",
+    "store": "114:2547"
+  },
+  "collections": {
+    "color": "VariableCollectionId:3:3",
+    "size": "VariableCollectionId:3:26"
+  },
+  "variables": {
+    "panel/base": "VariableID:3:4",
+    "panel/row": "VariableID:3:5",
+    "panel/border": "VariableID:3:6",
+    "ink/primary": "VariableID:3:7",
+    "ink/secondary": "VariableID:3:8",
+    "ink/onColor": "VariableID:3:9",
+    "brand/green": "VariableID:3:10",
+    "brand/greenDark": "VariableID:3:11",
+    "brand/blue": "VariableID:3:12",
+    "brand/blueDark": "VariableID:3:13",
+    "brand/red": "VariableID:3:14",
+    "brand/redDark": "VariableID:3:15",
+    "brand/yellow": "VariableID:3:16",
+    "brand/yellowDark": "VariableID:3:17",
+    "neutral/button": "VariableID:3:18",
+    "neutral/buttonDark": "VariableID:3:19",
+    "neutral/white": "VariableID:3:20",
+    "board/grass": "VariableID:3:21",
+    "board/grassDark": "VariableID:3:22",
+    "board/road": "VariableID:3:23",
+    "board/frame": "VariableID:3:24",
+    "scrim": "VariableID:3:25",
+    "space/4": "VariableID:3:27",
+    "space/8": "VariableID:3:28",
+    "space/12": "VariableID:3:29",
+    "space/16": "VariableID:3:30",
+    "space/20": "VariableID:3:31",
+    "space/24": "VariableID:3:32",
+    "space/32": "VariableID:3:33",
+    "radius/tile": "VariableID:3:34",
+    "radius/button": "VariableID:3:35",
+    "radius/panel": "VariableID:3:36",
+    "radius/full": "VariableID:3:37"
+  },
+  "components": {
+    "icons": {
+      "pause": "3:41",
+      "play": "3:44",
+      "restart": "3:48",
+      "home": "3:52",
+      "settings": "3:57",
+      "back": "3:60",
+      "close": "3:63",
+      "chevron": "3:66",
+      "sound": "3:71",
+      "music": "3:76",
+      "haptics": "3:80",
+      "globe": "3:85",
+      "document": "3:90",
+      "shield": "3:94",
+      "bulb": "3:98",
+      "lock": "3:102",
+      "check": "3:105",
+      "image": "3:110",
+      "timer": "59:1476"
+    },
+    "Timer Chip": {
+      "set": "59:1489",
+      "Normal": "59:1477",
+      "Low": "59:1483"
+    },
+    "Currency/Star": "3:111",
+    "Currency/Coin": "3:113",
+    "Button": {
+      "set": "4:34",
+      "Primary/L": "4:2",
+      "Primary/M": "4:6",
+      "Secondary/L": "4:10",
+      "Secondary/M": "4:14",
+      "Danger/L": "4:18",
+      "Danger/M": "4:22",
+      "Neutral/L": "4:26",
+      "Neutral/M": "4:30"
+    },
+    "Icon Button": {
+      "set": "4:47",
+      "Blue": "4:35",
+      "Red": "4:39",
+      "White": "4:43"
+    },
+    "Stat Pill": {
+      "set": "4:57",
+      "Star": "4:48",
+      "Coin": "4:52"
+    },
+    "Toggle": {
+      "set": "4:62",
+      "On": "4:58",
+      "Off": "4:60"
+    },
+    "Title Ribbon": "5:19",
+    "Settings Row": {
+      "set": "5:50"
+    },
+    "Reward Chip": {
+      "set": "5:60"
+    },
+    "Level Tile": {
+      "set": "5:73"
+    },
+    "Top Bar": "5:74",
+    "Speech Bubble": "5:92",
+    "Road Tile": {
+      "set": "6:88",
+      "Straight": "6:48",
+      "Straight/Lit": "6:52",
+      "Curve": "6:56",
+      "Curve/Lit": "6:60",
+      "Cross": "6:64",
+      "Cross/Lit": "6:68",
+      "T": "6:72",
+      "T/Lit": "6:76",
+      "Grass": "6:80",
+      "Grass/Lit": "6:84",
+      "House": "18:276",
+      "House/Lit": "18:280",
+      "img": {
+        "tile-straight": [
+          "18:284",
+          "18:285"
+        ],
+        "tile-curve": [
+          "18:287",
+          "18:288"
+        ],
+        "tile-cross": [
+          "18:290",
+          "18:291"
+        ],
+        "tile-t": [
+          "18:293",
+          "18:294"
+        ],
+        "tile-grass": [
+          "18:296",
+          "18:297"
+        ],
+        "tile-house": [
+          "18:299",
+          "18:300"
+        ]
+      }
+    },
+    "Vehicle": "6:89",
+    "VehicleImg": {
+      "vehicle-firetruck": "18:302"
+    }
+  },
+  "sections": {
+    "01-opening": "7:2",
+    "02-gameplay": "7:3",
+    "03-town": "7:4",
+    "04-game-dialogs": "7:5",
+    "05-settings": "7:6",
+    "06-shop": "99:2512"
+  },
+  "layout": "2026-11-03 düzeni: Section içinde ekran x = 40 + sıra*450, y = 80; sıra = flow.md numara sırası, varyantlar (b) ana ekranın hemen sağında. 01: 60:1556 (logo launch) → 01-01 → 01-02 · 02: 02-01, 02-01b, 02-02…02-14 · 03: 03-01, 03-01b, 03-02…03-06 · 04: 04-01, 04-02, 04-03, 04-03b, 04-04. Her ekranın altında 'Dev Note · <frame>' kartı (430 genişlik, y = 80 + bölümdeki en uzun ekran + 40; Amaç / Nereden gelir / Etkileşim → hedef / Veri-kural). Section'lar x=0, alt alta 200 px arayla (y 0 / 1633 / 3304 / 5038 / 6671). · 06-shop: x=0, y=8304 (06-01-paywall, HUG 1136).",
+  "devNotes": {
+    "01-opening": [
+      "94:2512",
+      "94:2528",
+      "94:2544"
+    ],
+    "02-gameplay": [
+      "94:2560",
+      "94:2576",
+      "94:2592",
+      "94:2608",
+      "94:2624",
+      "94:2640",
+      "94:2656",
+      "94:2672",
+      "94:2688",
+      "94:2704",
+      "94:2720",
+      "94:2736",
+      "94:2752",
+      "94:2768",
+      "94:2784"
+    ],
+    "03-town": [
+      "94:2800",
+      "94:2816",
+      "94:2832",
+      "94:2848",
+      "94:2864",
+      "94:2880",
+      "94:2896"
+    ],
+    "04-game-dialogs": [
+      "94:2912",
+      "94:2928",
+      "94:2944",
+      "94:2960",
+      "94:2976"
+    ],
+    "05-settings": [
+      "94:2992"
+    ],
+    "06-shop": [
+      "99:2704"
+    ]
+  },
+  "screens": {
+    "01-01-splash": {
+      "id": "10:263",
+      "status": "reference",
+      "img": {
+        "01-01-splash-bg": "10:264",
+        "01-01-milo": "10:289"
+      }
+    },
+    "02-03-vehicle-move": {
+      "id": "9:138",
+      "status": "reference",
+      "img": {
+        "02-03-vehicle-move-bg": "9:139",
+        "02-03-goal-house": "9:188"
+      }
+    },
+    "03-04-town-complete": {
+      "id": "7:7",
+      "status": "reference",
+      "img": {
+        "03-04-town-complete-bg": "7:8",
+        "03-04-milo": "7:78"
+      }
+    },
+    "04-01-pause": {
+      "id": "9:323",
+      "status": "reference",
+      "img": {
+        "04-01-pause-bg": "9:324"
+      }
+    },
+    "05-01-settings": {
+      "id": "8:55",
+      "status": "reference",
+      "img": {
+        "05-01-settings-bg": "8:56"
+      }
+    },
+    "01-02-tutorial": {
+      "id": "24:291",
+      "status": "designed",
+      "clonedFrom": "02-03-vehicle-move",
+      "img": {}
+    },
+    "02-01-game": {
+      "id": "24:470",
+      "status": "designed",
+      "clonedFrom": "02-03-vehicle-move"
+    },
+    "02-02-route-check": {
+      "id": "24:657",
+      "status": "designed",
+      "clonedFrom": "02-03-vehicle-move"
+    },
+    "02-04-level-complete": {
+      "id": "24:882",
+      "status": "designed",
+      "clonedFrom": "03-04-town-complete"
+    },
+    "02-05-out-of-moves": {
+      "id": "24:959",
+      "status": "designed",
+      "clonedFrom": "04-01-pause",
+      "img": {
+        "02-05-milo": "24:989"
+      }
+    },
+    "03-01-town": {
+      "id": "25:640",
+      "status": "built",
+      "clonedFrom": "03-04-town-complete",
+      "img": {
+        "03-01-town-bg": "25:641",
+        "03-01-market-thumb": "25:742"
+      },
+      "note": "screen-edit: Building Card içine Restore Steps 70:2463, maliyet 3★, Restore Awning butonu"
+    },
+    "03-02-renovate": {
+      "id": "25:775",
+      "status": "built",
+      "clonedFrom": "03-04-town-complete",
+      "img": {
+        "03-02-renovate-bg": "25:776",
+        "03-02-market-before": "25:829",
+        "03-02-market-step1": "25:836"
+      },
+      "note": "screen-edit: parça parça restorasyon (5×3★), Restore Steps 70:2492, Restore Roof butonu, NOW görseli (tente yenilenmiş)"
+    },
+    "03-03-level-select": {
+      "id": "25:859",
+      "status": "designed",
+      "clonedFrom": "05-01-settings"
+    },
+    "04-02-restart-confirm": {
+      "id": "25:1046",
+      "status": "designed",
+      "clonedFrom": "04-01-pause"
+    },
+    "04-03-hint": {
+      "id": "25:1086",
+      "status": "designed",
+      "clonedFrom": "04-01-pause"
+    },
+    "04-04-not-enough-coins": {
+      "id": "25:1130",
+      "status": "designed",
+      "clonedFrom": "04-01-pause"
+    },
+    "04-05-continue": {
+      "id": "135:2605",
+      "status": "built",
+      "clonedFrom": "04-04-not-enough-coins",
+      "note": "screen-add: coin karşılığı devam hakkı (900 coin → +5 hamle), Dev Note 135:2634",
+      "img": {
+        "04-05-continue-bg": "135:2606"
+      }
+    },
+    "02-01b-game-move-limit": {
+      "id": "37:840",
+      "status": "designed",
+      "clonedFrom": "02-01-game",
+      "variantOf": "02-01-game",
+      "note": "hamle sınırlı durum (audit a-001)"
+    },
+    "03-01b-town-need-stars": {
+      "id": "37:932",
+      "status": "designed",
+      "clonedFrom": "03-01-town",
+      "variantOf": "03-01-town",
+      "note": "yıldız yetersiz durumu (audit a-007)"
+    },
+    "04-03b-hint-free": {
+      "id": "42:988",
+      "status": "designed",
+      "clonedFrom": "04-03-hint",
+      "variantOf": "04-03-hint",
+      "note": "B1–3 ücretsiz ipucu (audit a-017)",
+      "img": {
+        "04-03b-hint-free-bg": "42:989"
+      }
+    },
+    "02-06-level-01": {
+      "id": "48:995",
+      "status": "built",
+      "clonedFrom": "02-01-game",
+      "note": "screen-add: Bölüm 01 (kolay→zor)"
+    },
+    "02-07-level-02": {
+      "id": "48:1212",
+      "status": "built",
+      "clonedFrom": "02-01-game",
+      "note": "screen-add: Bölüm 02 (kolay→zor)"
+    },
+    "02-08-level-03": {
+      "id": "48:1467",
+      "status": "built",
+      "clonedFrom": "02-01-game",
+      "note": "screen-add: Bölüm 03 (kolay→zor)"
+    },
+    "02-09-level-04": {
+      "id": "48:1755",
+      "status": "built",
+      "clonedFrom": "02-01-game",
+      "note": "screen-add: Bölüm 04 (kolay→zor)"
+    },
+    "02-10-level-05": {
+      "id": "48:2087",
+      "status": "built",
+      "clonedFrom": "02-01-game",
+      "note": "screen-add: Bölüm 05 (kolay→zor)"
+    },
+    "02-11-level-50": {
+      "id": "65:2438",
+      "status": "built",
+      "clonedFrom": "02-10-level-05",
+      "note": "screen-edit: Bölüm 50, 5×6 tahta, karo 68"
+    },
+    "02-12-level-100": {
+      "id": "65:2841",
+      "status": "built",
+      "clonedFrom": "02-10-level-05",
+      "note": "screen-edit: Bölüm 100, 6×7 tahta, karo 56"
+    },
+    "02-13-level-150": {
+      "id": "65:3316",
+      "status": "built",
+      "clonedFrom": "02-10-level-05",
+      "note": "screen-edit: Bölüm 150, 7×8 tahta, karo 48"
+    },
+    "02-14-level-200": {
+      "id": "65:3876",
+      "status": "built",
+      "clonedFrom": "02-10-level-05",
+      "note": "screen-edit: Bölüm 200, 7×9 tahta, karo 48"
+    },
+    "03-05-home": {
+      "id": "67:2438",
+      "status": "built",
+      "clonedFrom": "03-01-town",
+      "note": "screen-add: ana ekran (ref attach-1793626041821-gely.jpg) · screen-edit: kesilmeler düzeltildi (clip kapatıldı, Body gap 16, Home sekmesi alta uzandı) · screen-edit: ref attach-1793627450814-3cpu — krem sekme çubuğu, 2 kısayol (Renovate/Help), beyaz ayar düğmesi, oynat üçgenli büyük Play",
+      "img": {
+        "03-05-home-bg": "67:2439",
+        "03-05-milo": "67:2538"
+      }
+    },
+    "03-06-building-complete": {
+      "id": "90:2479",
+      "status": "built",
+      "clonedFrom": "03-02-renovate",
+      "note": "screen-add: bina tamamlandı (5/5 parça, 15★), mevcut 03-02-market-after görseli kullanıldı",
+      "img": {
+        "03-06-building-complete-bg": "90:2480",
+        "03-06-market-complete": "90:2496",
+        "03-06-milo": "90:2523"
+      }
+    },
+    "06-01-paywall": {
+      "id": "99:2513",
+      "status": "built",
+      "clonedFrom": "05-01-settings",
+      "note": "screen-edit: paywall/mağaza (ref attach-1793686852959-msc7) — Shop Header, 3 Offer Card, More Offers, Legal · screen-edit: iç frame clip kapatıldı (buton gölgeleri kesilmiyor), coin ikonları görsel (bakiye pilinde Currency/Coin override image fill)",
+      "img": {
+        "06-01-paywall-bg": "99:2514",
+        "06-01-pass-chest": "99:2573",
+        "06-01-travel-deal": "99:2632",
+        "06-01-coin": "102:2560",
+        "06-01-coins-2000": "102:2561",
+        "06-01-coins-5000": "102:2562"
+      }
+    }
+  },
+  "imageHashes": {
+    "03-01-town-bg": "8e8a1639328fa5e3513fed64bc09527bef93007f",
+    "03-02-market-before": "72a7d6cd52c4b477eb1dc24f8e34f9f881c2d133",
+    "03-02-market-after": "7f0cc81ff40d869a8a77c6ebad1c5f4c5a37a86f",
+    "02-05-milo": "7923ecff15620a064e396d51bdf0243f1fad1391",
+    "03-05-home-bg": "a7b6bbe2fb34f1615b4861b0701ffe543677bbc7",
+    "03-02-market-step1": "cc73cc0ccf5f89d28f0aa1274c925a4804d8e055",
+    "06-01-pass-chest": "e5235baefa174755c4cfaa2a1d363e05567d7651",
+    "06-01-travel-deal": "ace203f3028ac38232d527f7f7b811bdb46adfb2",
+    "06-01-coin": "e562a7a39db53fe5b39b0d554eecdc0c09e39b18",
+    "06-01-coins-2000": "b3b768dd2103760c82ce59e7c76404d7b8930771",
+    "06-01-coins-5000": "98cfe98277e1b7de92f8c411c98e83a12d45345c",
+    "store-coin-3d": "e0413b88042d12997db47c4e709894433fe5cc3a",
+    "store-firetruck-3d": "f64f368dde4258ed8133563bc6451cd10b3dac61",
+    "store-hand-grip": "8e8b697c0483caa3c70f940d48158a421eb62cca",
+    "store-milo-3d": "b4f3ab7247bcf37c66e97bc16a282d1bdbb848df",
+    "store-road-tile-3d": "f5d3bf2c574db0d52a0abd863ae33951f56121f6",
+    "store-star-3d": "98c803a738454bc066431757213a5e0a893421d3",
+    "store-tools-3d": "afce8fb36277843192b8dd87a1aabfbadf58eabc"
+  },
+  "store": {
+    "sections": {
+      "ios": "114:2601",
+      "play": "114:2602"
+    },
+    "templates": "114:2548",
+    "bgStrip": "115:2552",
+    "components": {
+      "Phone Frame": {
+        "set": "114:2559",
+        "Straight": "114:2549",
+        "Tilted": "114:2552",
+        "Hand": "114:2555"
+      },
+      "Headline": "114:2560",
+      "Rating Badge": "114:2563",
+      "Sticker": "114:2592",
+      "Bg Blob": {
+        "set": "114:2600",
+        "Yellow": "114:2594",
+        "Cream": "114:2596",
+        "White": "114:2598"
+      }
+    },
+    "frames": {
+      "ios-01": "115:2599",
+      "ios-02": "115:2746",
+      "ios-03": "115:2840"
+    },
+    "layout": "Kareler Section içinde x = 80 + i*(W+40), y = 80. Telefon: Phone sarmalayıcı (896×1872) içinde Screen 840×1816 köşe 92 + ekran klonu rescale 840/430, üstte Phone Frame instance. Bg Strip klonu x = -i*W. Bulut opaklığı node düzeyinde (bağlı boyada kaybolur)."
+  }
+}

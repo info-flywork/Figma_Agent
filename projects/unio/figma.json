@@ -1,0 +1,317 @@
+{
+  "fileKey": "3G4UcMYQnJpYTatxjBB3QC",
+  "screens": {
+    "launch-01-splash": {
+      "id": "1:22",
+      "status": "built"
+    },
+    "launch-02-welcome": {
+      "id": "1:26",
+      "status": "built"
+    },
+    "auth-01-sign-in": {
+      "id": "2:50",
+      "status": "built"
+    },
+    "onboarding-01-university-selection": {
+      "id": "11:299",
+      "status": "built"
+    },
+    "onboarding-02-university-email": {
+      "id": "19:663",
+      "status": "built"
+    },
+    "onboarding-03-email-verification": {
+      "id": "19:781",
+      "status": "built"
+    },
+    "onboarding-04-verification-success": {
+      "id": "24:102",
+      "status": "built"
+    },
+    "onboarding-05-first-name": {
+      "id": "25:217",
+      "status": "built"
+    },
+    "onboarding-06-date-of-birth": {
+      "id": "25:343",
+      "status": "built"
+    },
+    "onboarding-07-gender-identity": {
+      "id": "25:432",
+      "status": "built"
+    },
+    "onboarding-08-department-selection": {
+      "id": "26:840",
+      "status": "built"
+    },
+    "onboarding-09-connection-intent": {
+      "id": "31:1005",
+      "status": "built"
+    },
+    "onboarding-09-connection-intent-2": {
+      "id": "31:1123",
+      "status": "built"
+    },
+    "onboarding-09-connection-intent-3": {
+      "id": "31:1231",
+      "status": "built"
+    },
+    "onboarding-09-connection-intent-4": {
+      "id": "31:1531",
+      "status": "built"
+    },
+    "onboarding-09-connection-intent-5": {
+      "id": "39:1718",
+      "status": "built"
+    },
+    "discover-01-dating": {
+      "id": "131:877",
+      "status": "built"
+    },
+    "discover-02-friends": {
+      "id": "132:1112",
+      "status": "built"
+    },
+    "discover-03-hangout": {
+      "id": "132:1224",
+      "status": "built"
+    },
+    "discover-04-study": {
+      "id": "132:1334",
+      "status": "built"
+    },
+    "discover-05-say-hi": {
+      "id": "139:1356",
+      "status": "built"
+    },
+    "discover-06-match": {
+      "id": "144:1391",
+      "status": "built"
+    },
+    "discover-07-profile-detail": {
+      "id": "146:1422",
+      "status": "built"
+    },
+    "discover-08-filters": {
+      "id": "149:1463",
+      "status": "built"
+    },
+    "discover-09-no-more-profiles": {
+      "id": "150:1543",
+      "status": "built"
+    },
+    "discover-10-undo": {
+      "id": "151:1619",
+      "status": "built"
+    },
+    "campus-flow-01-04-happening-now": {
+      "id": "156:1629",
+      "status": "built"
+    },
+    "campus-flow-02-05-activity-detail": {
+      "id": "157:1733",
+      "status": "built"
+    },
+    "campus-flow-03-06-create-activity": {
+      "id": "159:1818",
+      "status": "built"
+    },
+    "campus-flow-04-07-daily-question": {
+      "id": "179:1893",
+      "status": "built"
+    },
+    "campus-flow-05-08-question-results": {
+      "id": "180:1940",
+      "status": "built"
+    },
+    "campus-flow-06-09-campus-feed": {
+      "id": "181:2000",
+      "status": "built"
+    },
+    "campus-flow-07-10-post-detail": {
+      "id": "204:2121",
+      "status": "built"
+    },
+    "campus-flow-08-11-new-confession": {
+      "id": "205:2165",
+      "status": "built"
+    },
+    "campus-flow-09-12-event-detail": {
+      "id": "206:2221",
+      "status": "built"
+    },
+    "campus-flow-10-01-campus-home": {
+      "id": "210:2295",
+      "status": "built"
+    },
+    "campus-flow-11-02-story-viewer": {
+      "id": "213:2407",
+      "status": "built"
+    },
+    "campus-flow-12-03-create-story": {
+      "id": "214:2635",
+      "status": "built"
+    },
+    "create-flow-01-01-create-menu": {
+      "id": "243:2523",
+      "status": "built"
+    },
+    "create-flow-02-02-new-post": {
+      "id": "246:2603",
+      "status": "built"
+    },
+    "create-flow-03-03-post-preview": {
+      "id": "248:2690",
+      "status": "built"
+    },
+    "create-flow-04-04-new-story": {
+      "id": "250:2756",
+      "status": "built"
+    },
+    "create-flow-05-05-story-preview": {
+      "id": "254:2836",
+      "status": "built"
+    },
+    "create-flow-06-06-new-poll": {
+      "id": "256:2961",
+      "status": "built"
+    },
+    "create-flow-07-07-poll-preview": {
+      "id": "258:2992",
+      "status": "built"
+    },
+    "create-flow-08-08-new-activity": {
+      "id": "262:3193",
+      "status": "built"
+    },
+    "create-flow-09-09-activity-preview": {
+      "id": "264:3139",
+      "status": "built"
+    },
+    "create-flow-10-10-its-live": {
+      "id": "266:3212",
+      "status": "built"
+    },
+    "chat-flow-01-01-chats": {
+      "id": "280:3250",
+      "status": "built"
+    },
+    "chat-flow-02-02-its-a-match": {
+      "id": "282:3363",
+      "status": "built"
+    },
+    "chat-flow-03-03-empty-chats": {
+      "id": "283:3413",
+      "status": "built"
+    },
+    "chat-flow-04-04-direct-chat": {
+      "id": "287:3478",
+      "status": "built"
+    },
+    "chat-flow-05-05-activity-chat": {
+      "id": "290:3572",
+      "status": "built"
+    },
+    "chat-flow-06-06-story-reply": {
+      "id": "291:3632",
+      "status": "built"
+    },
+    "chat-flow-07-07-new-message": {
+      "id": "293:3685",
+      "status": "built"
+    },
+    "chat-flow-08-08-break-the-ice": {
+      "id": "296:3828",
+      "status": "built"
+    },
+    "chat-flow-09-09-group-chat": {
+      "id": "299:3886",
+      "status": "built"
+    },
+    "chat-flow-10-10-profile": {
+      "id": "300:3999",
+      "status": "built"
+    },
+    "chat-flow-11-11-chat-options": {
+      "id": "304:4059",
+      "status": "built"
+    },
+    "chat-flow-12-12-report": {
+      "id": "307:4132",
+      "status": "built"
+    },
+    "profile-01-01-profile": {
+      "id": "323:4195",
+      "status": "built"
+    },
+    "profile-02-02-edit-photos": {
+      "id": "327:4340",
+      "status": "built"
+    },
+    "profile-03-03-edit-about": {
+      "id": "329:4428",
+      "status": "built"
+    },
+    "profile-04-04-preview-profile": {
+      "id": "331:4495",
+      "status": "built"
+    },
+    "profile-05-05-my-posts": {
+      "id": "332:4564",
+      "status": "built"
+    },
+    "profile-06-06-my-stories": {
+      "id": "334:4636",
+      "status": "built"
+    },
+    "profile-07-07-my-activities": {
+      "id": "336:4713",
+      "status": "built"
+    },
+    "profile-08-08-saved": {
+      "id": "340:4827",
+      "status": "built"
+    },
+    "profile-09-09-connections": {
+      "id": "343:5094",
+      "status": "built"
+    },
+    "profile-10-10-settings": {
+      "id": "344:5053",
+      "status": "built"
+    },
+    "profile-11-11-account": {
+      "id": "347:5179",
+      "status": "built"
+    },
+    "profile-12-12-notifications": {
+      "id": "348:5427",
+      "status": "built"
+    },
+    "profile-13-13-privacy": {
+      "id": "350:5418",
+      "status": "built"
+    },
+    "profile-14-14-discovery-preferences": {
+      "id": "353:5567",
+      "status": "built"
+    },
+    "profile-15-15-safety-support": {
+      "id": "355:5665",
+      "status": "built"
+    },
+    "profile-16-16-university-verification": {
+      "id": "357:5757",
+      "status": "built"
+    },
+    "profile-17-17-log-out": {
+      "id": "358:5815",
+      "status": "built"
+    },
+    "profile-18-18-delete-account": {
+      "id": "359:5916",
+      "status": "built"
+    }
+  }
+}

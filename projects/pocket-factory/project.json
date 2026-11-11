@@ -1,0 +1,108 @@
+{
+  "name": "Pocket Factory",
+  "slug": "pocket-factory",
+  "figjamUrl": "https://www.figma.com/board/63Y2EiIMk3sUMljdur6eqE/Pocket-Factory-%E2%80%94-Mini-Fabrika?node-id=0-1&t=QH8QNE3KbbD8QmXR-1",
+  "figmaUrl": "https://www.figma.com/design/zAEEjnpwJmgF6VEFCrlg5K/Pocket-Factory?node-id=0-1&t=6XULZp7JNYwMEYve-1",
+  "figjamKey": "63Y2EiIMk3sUMljdur6eqE",
+  "figmaKey": "zAEEjnpwJmgF6VEFCrlg5K",
+  "referenceIds": [
+    "splash",
+    "b1-uretim",
+    "fabrika-ana",
+    "bolum-tamam",
+    "duraklat"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "splash": "approved",
+    "b1-uretim": "approved",
+    "fabrika-ana": "approved",
+    "bolum-tamam": "approved",
+    "duraklat": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-add",
+    "requestedAt": "2026-11-06T13:37:43.287Z",
+    "updatedAt": "2026-11-06T13:48:25.170Z",
+    "steps": [
+      {
+        "label": "flow.md’ye ekleniyor",
+        "status": "done",
+        "startedAt": "2026-11-06T13:37:50.171Z",
+        "doneAt": "2026-11-06T13:37:59.682Z",
+        "note": "flow.md 04-hazirlik sonuna bolum-10/25/50/100/200 eklendi"
+      },
+      {
+        "label": "Figma’da kuruluyor",
+        "status": "done",
+        "startedAt": "2026-11-06T13:37:59.705Z",
+        "note": "bolum-10/25/50/100/200 kuruldu; logo sırada",
+        "doneAt": "2026-11-06T13:46:36.587Z"
+      },
+      {
+        "label": "Görsel ve önizleme",
+        "status": "done",
+        "startedAt": "2026-11-06T13:46:51.059Z",
+        "note": "3D logo (şeffaf, dama temizlendi) Logo/PocketFactory component'i; splash + ana-menu'de değiştirildi; 7 önizleme yenilendi",
+        "doneAt": "2026-11-06T13:48:25.170Z"
+      }
+    ],
+    "section": "04-hazirlik",
+    "after": "sabit-parca",
+    "note": "İki iş, yalnızca \"Ekranlar v2\" sayfasında:\n\nA) YENİ ZORLAŞAN BULMACA BÖLÜMLERİ: 04-hazirlik bölümündeki `kavsak-dondur` oyun ekranını (yeni v2.1 oyun şablonu: 3D fabrika sahnesi, çerçeveli tahta, krem kart) şablon al, ona dokunma. flow.md'de 04-hazirlik sonuna ekle ve Figma'da 04 Section'ında son ekranın sağına 20 px arayla diz: `bolum-10` (Bölüm 10), `bolum-25`, `bolum-50`, `bolum-100`, `bolum-200`. Sağa doğru zorlaşsın ve YOL UZASIN: tahta ızgarası büyür, kareler küçülür; giriş→çıkış bandı daha uzun, daha çok dönüşlü olur; dönen kavşak (yönlendirici) sayısı artar; sabit parça ve makine (Şekillendir/Boya/Paketle, sonraki bölümlerde Ayırıcı/Birleştirici) sayısı artar; sipariş/hedef ürün sayısı 1→2→3 artar. Önerilen: B10 6×7, 2 kavşak, 1 ürün; B25 7×8, 3 kavşak, 2 ürün; B50 7×9, 4 kavşak + ayırıcı, 2 ürün; B100 8×10, 5 kavşak + ayırıcı + birleştirici, 3 ürün; B200 8×11, 6 kavşak, 3 ürün, en uzun yol. Tahta parçalarını şablondaki mevcut bant/kavşak/makine görselleri ve component'lerinden kur (aynı imageHash), kopuk bant ucu kalmasın, yol girişten çıkışa okunur olsun. Kart: 'HEDEF' rozeti, Bölüm N, ürün çipleri, turuncu 'Üretimi Başlat'. \n\nB) LOGO: ekli görseldeki düz mavi 'POCKET FACTORY / Mini Fabrika' logo kutusunu daha güzel, oyun kalitesinde bir 3D logo ile değiştir: OpenAI (quality high) ile şeffaf PNG wordmark üret — kalın, yuvarlak, parlak 3D harfler, 'POCKET' krem/beyaz, 'FACTORY' turuncu-altın degrade, lacivert kalın dış kontur ve yumuşak gölge, küçük dişli/çark ve bant detayı, altında 'Mini Fabrika' lacivert hap. Türkçe karakter yok ama metin birebir doğru yazılsın; sahte dama deseni çıkarsa temizle. Logonun geçtiği tüm ekranlarda (splash, ana-menu ve varsa diğerleri) eski kutuyu kaldırıp yeni logoyu koy, bileşen yap. \n\nBitince yeni bölüm ekranlarını ve logolu ekranları ekran görüntüsüyle kontrol et, önizlemeleri yenile; figma.json'a yeni ekranları status built yaz.",
+    "images": [
+      "references/attach-1793972263230-da1c.png"
+    ],
+    "runner": {
+      "pid": 64955,
+      "startedAt": "2026-11-06T13:37:43.291Z",
+      "log": "projects/pocket-factory/runs/2026-11-06T13-37-43-289Z-screen-add.log"
+    },
+    "finishedAt": "2026-11-06T13:48:25.192Z",
+    "summary": "İki iş de bitti ve panelde kapandı. Tüm değişiklikler yalnızca \"Ekranlar v2\" sayfasında; `kavsak-dondur` şablonuna dokunulmadı.\n\n**A) Yeni bölüm ekranları (04-hazirlik)**\n- `flow.md`'de 04-hazirlik sonuna 04-07…04-11 olarak eklendi. Figma'da 04 Section'ında `sabit-parca`'nın sağına 20 px arayla dizildi; Section genişletildi.\n- `figma.json`'da hepsi `built` olarak kayıtlı.\n\n| Ekran | Tahta | Kare | Kavşak | Makine | Sabit parça | Ürün |\n|---|---|---|---|---|---|---|\n| bolum-10 | 6×7 | 51 | 2 | 2 | 1 | Araba ×3 |\n| bolum-25 | 7×8 | 46 | 3 | 3 | 2 | Araba ×3, Ayıcık ×2 |\n| bolum-50 | 7×9 | 41 | 4 | 5 (ayırıcı dahil) | 3 | Mavi araba ×4, Robot ×2 (2 çıkış) |\n| bolum-100 | 8×10 | 37 | 5 | 7 (ayırıcı + birleştirici dahil) | 4 | Araba ×4, Robot ×3, Uçak ×2 |\n| bolum-200 | 8×11 | 34 | 6 | 6 | 6 | Mavi araba ×5, Ayıcık ×4, Uçak ×3 (en uzun yılan yol) |\n\n- **Tahta nasıl kuruldu:** Şablonun tahtası tek parça bir görseldi, ayrı bant/kavşak/makine parçası yoktu. Bu yüzden aynı görselden (aynı imageHash) kırparak 11 parça component'i kurdum (`Board/*`). Düz ve köşe bant, kavşak, Şekillendir, Boya, giriş, çıkış ve sabit parça kilit rozeti bu kırpmalardan geliyor.\n- Ayırıcı mevcut `machine-splitter` görseli. Birleştirici için ayrı görsel olmadığından aynı görselin aynası kullanıldı.\n- Kopuk bant ucu yok; yol her ekranda girişten çıkışa okunuyor (beş ekranın hepsini ekran görüntüsüyle kontrol ettim).\n- **Kart:** \"HEDEF\" rozeti, \"Bölüm N siparişi\" (sayı turuncu), ürün çipleri, turuncu \"Üretimi Başlat\". Üst çubuktaki alt başlıkları ve hamle sayılarını (8 → 28) ben yazdım.\n- Robot, ayıcık, uçak ve mavi araba görselleri daha önce üretilmişti ama Figma'da yoktu; çipler için bir kez yükledim.\n\n**B) Logo**\n- OpenAI ile (gpt-image-2, quality high) 3D wordmark üretildi; \"POCKET / FACTORY / Mini Fabrika\" yazımı birebir doğru.\n- PNG'de sahte dama deseni gömülüydü; temizleyip şeffaf yaptım.\n- `Logo/PocketFactory` component'i oldu. Eski mavi kutu splash ve ana-menu'den kaldırıldı, yerine bu component kondu. Logo başka ekranda geçmiyordu. İki ekranı da ekran görüntüsüyle kontrol ettim.\n- Manifest'te `placed`. Temiz dosya `logo-3d-clean.png`; ham dosya `logo-3d.png` olarak duruyor, çünkü yeniden adlandırma komutu reddedildi.\n\n**Ek değişiklik:** `fill-images.mjs` her prompt'a \"metin yok\" ekliyordu, bu da logo üretimini bozardı. Öğeye özel `allowText` bayrağı ekledim; diğer görsellerin davranışı aynı.\n\nÖnizlemeler yenilendi: 5 bölüm ekranı, `splash`, `ana-menu`.\n\n**Kalan farklar ve karar gerektirenler**\n1. Ürün çiplerinde yalnızca ikon ve \"×N\" var; üç ürünlü bölümlerde ürün adı sığmıyordu. \"3 Araba\" gibi yazılı çip istersen çip boyunu küçültmek gerekir.\n2. Boya makinesi şablon görselinde köşe parçası (çıkışı aşağı bakıyor). Düz bant üzerinde de aynı görselle duruyor.\n3. Birleştirici, ayırıcının aynası; ayrı bir makine görseli istersen OpenAI ile üretilebilir."
+  },
+  "costs": [
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 4.222,
+      "steps": 2,
+      "turns": 84,
+      "at": "2026-11-06T12:25:35.218Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 5.547,
+      "steps": 2,
+      "turns": 144,
+      "at": "2026-11-06T12:55:09.519Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.79,
+      "steps": 4,
+      "turns": 48,
+      "at": "2026-11-06T13:02:14.972Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 6.021,
+      "steps": 37,
+      "turns": 111,
+      "at": "2026-11-06T13:27:22.189Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-opus-5-5",
+      "usd": 3.969,
+      "steps": 3,
+      "turns": 80,
+      "at": "2026-11-06T13:48:44.736Z"
+    }
+  ],
+  "restApproved": true
+}

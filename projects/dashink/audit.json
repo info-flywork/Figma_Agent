@@ -1,0 +1,82 @@
+{
+  "updatedAt": "2026-11-05T12:00:00.000Z",
+  "items": [
+    {
+      "id": "a-001",
+      "section": "03-oyun-dongusu",
+      "screen": "oyun",
+      "severity": "high",
+      "title": "“oyun” ekranı Figma’da yok",
+      "detail": "figma.json oyun → 10:257 diyor ama bu node dosyada bulunmuyor (silinmiş ya da yeniden adlandırılmış). Akışın ana ekranı eksik; 03 bölümünde yalnızca oyun-bitti, top-dustu, rekor-rozeti, oyuncu-secimi, klip-paylas var. Dev-notes işi de bu yüzden durmuştu.",
+      "fix": "Oyun ekranını referans 5:124’e göre yeniden kur, 03 Section’ına ekle, figma.json id’sini güncelle ve önizlemeyi yenile.",
+      "rule": "flow.md (eksik ekran)",
+      "status": "open"
+    },
+    {
+      "id": "a-002",
+      "section": "03-oyun-dongusu",
+      "screen": "reklam-izle",
+      "severity": "high",
+      "title": "“reklam-izle” ekranı Figma’da yok",
+      "detail": "figma.json reklam-izle → 18:438 diyor ama node dosyada yok. oyun-bitti ve oyuncu-secimi’ndeki “Reklam izle” akışının hedef ekranı eksik.",
+      "fix": "Reklam izle ekranını (video alanı, geri sayım, kapat/atla yolu) en yakın onaylı ekranı klonlayarak yeniden kur; figma.json ve önizlemeyi güncelle.",
+      "rule": "flow.md (eksik ekran)",
+      "status": "open"
+    },
+    {
+      "id": "a-003",
+      "section": "01-acilis",
+      "screen": null,
+      "severity": "low",
+      "title": "flow.md’de olmayan “01-01-splash (typewriter)” frame’i",
+      "detail": "01 Açılış Section’ında 33:986 frame’i var (yalnızca “flywork” metni, 0 instance, düz zemin). flow.md ve figma.json’da kaydı yok; DESIGN.md component’leri kullanılmamış.",
+      "fix": "Kullanıcı eklediyse flow.md ve figma.json’a kaydet (screens.splash); değilse sil.",
+      "rule": "flow.md ile Figma tutarlılığı",
+      "status": "open"
+    },
+    {
+      "id": "a-004",
+      "section": "04-ana-ekran-dallari",
+      "screen": "satin-al-kusan",
+      "severity": "medium",
+      "title": "Satın al ve kuşan ekranı mağaza ekranıyla aynı metin setine sahip",
+      "detail": "Metin dökümü magaza ile birebir aynı (KUŞANILDI, 200/500/800, Premium…). Onay/satın alma diyaloğu ya da sonuç durumu ayırt edilemiyor; ekran farkı yalnızca görsel katmanda olabilir.",
+      "fix": "Satın alma onay sheet’inin (fiyat, Satın al/İptal) ve kuşanma sonucunun görünür olduğunu doğrula; yoksa ekle.",
+      "rule": "flow.md 04-05, web-interface-guidelines (onay/iptal)",
+      "status": "open"
+    },
+    {
+      "id": "a-005",
+      "section": "04-ana-ekran-dallari",
+      "screen": "altin-yetersiz",
+      "severity": "medium",
+      "title": "Altın yetersiz uyarısı: ekranda uyarı/“Görev yap” metni görünmüyor",
+      "detail": "Metin dökümünde yalnızca mağaza içeriği ve 240 altın var; uyarı başlığı ve “Görev yap” aksiyonu ilk 14 metin içinde yok. Uyarı katmanı yoksa ekran mağazadan ayırt edilemez.",
+      "fix": "Uyarı sheet’inde başlık, açıklama, “Görev yap → Görevler” ve kapat/iptal yolunun bulunduğunu kontrol et; eksikse ekle.",
+      "rule": "flow.md 04-06, web-interface-guidelines (hata durumları)",
+      "status": "open"
+    },
+    {
+      "id": "a-006",
+      "section": "04-ana-ekran-dallari",
+      "screen": "magaza",
+      "severity": "low",
+      "title": "Mağazada 18×18 ikonlar dokunma alanı kuralının altında olabilir",
+      "detail": "Mağaza/satın-al/altın-yetersiz ekranlarında 18×18 ikon instance’ları var. Bunlar bir butonun içindeki glif ise sorun yok; bağımsız dokunma hedefiyse 44 px altında kalır.",
+      "fix": "Üst butonun/satırın hit alanının ≥44×44 olduğunu doğrula; değilse padding ekle.",
+      "rule": "web-interface-guidelines (dokunma alanı ≥44)",
+      "status": "open"
+    },
+    {
+      "id": "a-007",
+      "section": "03-oyun-dongusu",
+      "screen": "top-dustu",
+      "severity": "low",
+      "title": "Top düştü ekranında geri/duraklat yolu görünmüyor",
+      "detail": "Yalnızca 3 metin ve 6 instance var (9:41, 128, 14); duraklat ikonu 26×26. Oyun-içi ekran olduğundan kabul edilebilir ama kapat/duraklat dokunma alanı küçük.",
+      "fix": "Duraklat butonunun dokunma alanını 44×44’e çıkar.",
+      "rule": "web-interface-guidelines (dokunma alanı)",
+      "status": "open"
+    }
+  ]
+}

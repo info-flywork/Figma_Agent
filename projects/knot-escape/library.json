@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "lib-mw4ms0mcb60",
+      "name": "arcon-ai-gorsel-20261106-100104",
+      "kind": "asset",
+      "note": "",
+      "file": "assets/library/lib-mw4ms0mcb60.png",
+      "addedAt": "2026-11-06T07:06:08.296Z"
+    },
+    {
+      "id": "lib-mw4ms0mov8o",
+      "name": "arcon-ai-gorsel-20261106-100121",
+      "kind": "asset",
+      "note": "",
+      "file": "assets/library/lib-mw4ms0mov8o.png",
+      "addedAt": "2026-11-06T07:06:08.305Z"
+    },
+    {
+      "id": "lib-mw4ms0mt3az",
+      "name": "arcon-ai-gorsel-20261106-100136",
+      "kind": "asset",
+      "note": "",
+      "file": "assets/library/lib-mw4ms0mt3az.png",
+      "addedAt": "2026-11-06T07:06:08.311Z"
+    },
+    {
+      "id": "lib-mw4ms0n3hk3",
+      "name": "arcon-ai-gorsel-20261106-100152",
+      "kind": "asset",
+      "note": "",
+      "file": "assets/library/lib-mw4ms0n3hk3.png",
+      "addedAt": "2026-11-06T07:06:08.320Z"
+    },
+    {
+      "id": "lib-mw4ms0n9qny",
+      "name": "arcon-ai-gorsel-20261106-100207",
+      "kind": "asset",
+      "note": "",
+      "file": "assets/library/lib-mw4ms0n9qny.png",
+      "addedAt": "2026-11-06T07:06:08.326Z"
+    }
+  ]
+}

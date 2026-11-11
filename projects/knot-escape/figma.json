@@ -1,0 +1,589 @@
+{
+  "fileKey": "M6NTanzWSZWyueXdDSIir1",
+  "pages": {
+    "screens": "0:1",
+    "components": "4:2"
+  },
+  "collections": {
+    "color": "VariableCollectionId:4:3",
+    "size": "VariableCollectionId:4:32"
+  },
+  "variables": {
+    "navy/900": "VariableID:4:4",
+    "navy/700": "VariableID:4:5",
+    "navy/500": "VariableID:4:6",
+    "blue/500": "VariableID:4:7",
+    "blue/700": "VariableID:4:8",
+    "green/500": "VariableID:4:9",
+    "green/700": "VariableID:4:10",
+    "orange/500": "VariableID:4:11",
+    "orange/700": "VariableID:4:12",
+    "gold/400": "VariableID:4:13",
+    "gold/600": "VariableID:4:14",
+    "purple/500": "VariableID:4:15",
+    "purple/700": "VariableID:4:16",
+    "red/500": "VariableID:4:17",
+    "cream/50": "VariableID:4:18",
+    "cream/200": "VariableID:4:19",
+    "cream/400": "VariableID:4:20",
+    "wood/300": "VariableID:4:21",
+    "wood/500": "VariableID:4:22",
+    "wood/700": "VariableID:4:23",
+    "ink/900": "VariableID:4:24",
+    "ink/600": "VariableID:4:25",
+    "white": "VariableID:4:26",
+    "rope/red": "VariableID:4:27",
+    "rope/yellow": "VariableID:4:28",
+    "rope/blue": "VariableID:4:29",
+    "rope/green": "VariableID:4:30",
+    "rope/purple": "VariableID:4:31",
+    "radius/button": "VariableID:4:33",
+    "radius/icon": "VariableID:4:34",
+    "radius/tile": "VariableID:4:35",
+    "radius/card": "VariableID:4:36",
+    "radius/popup": "VariableID:4:37",
+    "radius/full": "VariableID:4:38",
+    "space/4": "VariableID:4:39",
+    "space/8": "VariableID:4:40",
+    "space/12": "VariableID:4:41",
+    "space/16": "VariableID:4:42",
+    "space/24": "VariableID:4:43",
+    "red/700": "VariableID:32:2368"
+  },
+  "textStyles": {
+    "display": "S:83bbc3401b00f429455cdebc928cb09d7c3b9f49,",
+    "title": "S:43d18c2506942c7b8d49d71e6a68ee0c0a24bffb,",
+    "button-l": "S:54f2c7b1ffdda8167f3fcca79af9d58e329878b3,",
+    "button-m": "S:c29c25f74cb366b1d81772cb7d83ead304e5cb8a,",
+    "number": "S:2dde4c3db5f087b2c281792b93e063716d7156a0,",
+    "body": "S:b43688ae019467e26411376476fa72e630d3401c,",
+    "body-bold": "S:c7ed7cc31577ab65a22e1e9c342f3635ef57dcf2,",
+    "caption": "S:9afeab11a3f031787a3aa2384189c825329e26d0,"
+  },
+  "effectStyles": {
+    "base/green": "S:c2f4b5656138c412bd6ffc5310c19366ca83fe68,",
+    "base/blue": "S:72abd1a366b5fe5cb28df55ecdeb2f4ab837ef1c,",
+    "base/navy": "S:382fdbfe541d9bc521368eaf5c7e49f9d9eaf60c,",
+    "base/orange": "S:87c81ee817a9871ddfbb65270bdc8799b8aba46e,",
+    "base/purple": "S:fe2c73efeb19e9fc91ad002537f69e51323a0b97,",
+    "card/cream": "S:5e9e1c9fb6134963318d2a30e20db0231bb1853b,",
+    "popup": "S:d47535021eeb4ab917fea764fd2950ed9a456056,",
+    "text/shadow": "S:d48a0cbe6eeee6e794ef412580b0a2828654b49e,"
+  },
+  "components": {
+    "icons": {
+      "settings": "5:5",
+      "pause": "5:9",
+      "close": "5:13",
+      "back": "5:16",
+      "undo": "5:20",
+      "restart": "5:24",
+      "hint": "5:29",
+      "freeze": "5:37",
+      "unlock": "5:41",
+      "home": "5:45",
+      "check": "5:48",
+      "plus": "5:52",
+      "play": "5:55",
+      "moves": "5:63"
+    },
+    "Coin": "6:2",
+    "Gem": "6:6",
+    "Button": {
+      "set": "6:44",
+      "props": {
+        "Label": "Label#6:0",
+        "Show icon": "Show icon#6:9"
+      },
+      "variants": "Type=Primary|Secondary|Price|Orange, Size=L|M"
+    },
+    "IconButton": {
+      "set": "6:61",
+      "props": {
+        "Icon": "Icon#6:18"
+      },
+      "variants": "Color=Blue|Orange|Navy|Green"
+    },
+    "CurrencyPill": {
+      "set": "6:81",
+      "props": {
+        "Value": "Value#6:23",
+        "Show add": "Show add#6:26"
+      },
+      "variants": "Kind=Coin|Gem"
+    },
+    "LevelPill": {
+      "id": "6:84",
+      "props": {
+        "Label": "Label#6:29"
+      }
+    },
+    "MoveCounter": {
+      "id": "6:86",
+      "props": {
+        "Value": "Value#6:30",
+        "Caption": "Caption#6:31"
+      }
+    },
+    "BoosterButton": {
+      "set": "6:105",
+      "props": {
+        "Icon": "Icon#6:32",
+        "Count": "Count#6:35"
+      },
+      "variants": "State=Ready|Empty"
+    },
+    "Pin": {
+      "set": "6:134",
+      "variants": "Color=Red|Yellow|Blue|Green|Purple|Hole"
+    },
+    "StatusBar": {
+      "id": "6:135",
+      "props": {
+        "Time": "Time#6:38"
+      }
+    },
+    "Star": {
+      "set": "6:151",
+      "variants": "State=On|Off",
+      "note": "On 6:147 / Off 6:149; img/star (14:572 / 14:573) FIT görsel, Shape vektörü gizli"
+    },
+    "Ribbon": {
+      "id": "6:152",
+      "props": {
+        "Label": "Label#6:39"
+      }
+    },
+    "PopupHeader": {
+      "id": "8:29",
+      "props": {
+        "Title": "Title#8:0",
+        "Show close": "Show close#8:1"
+      }
+    },
+    "ProgressBar": {
+      "id": "8:36",
+      "props": {
+        "Label": "Label#8:2"
+      },
+      "note": "auto layout; Fill genişliği = oran × çubuk (FIXED), tam ise FILL"
+    },
+    "BoosterRow": {
+      "id": "8:39",
+      "props": {
+        "Title": "Title#8:3",
+        "Description": "Description#8:4",
+        "Owned": "Owned#8:5",
+        "Icon": "Icon#8:6"
+      },
+      "exposed": "Price (Button)"
+    },
+    "TaskCard": {
+      "set": "8:97",
+      "props": {
+        "Title": "Title#8:7",
+        "Reward": "Reward#8:11"
+      },
+      "variants": "State=Progress|Claimable|Claimed",
+      "exposed": "Progress (ProgressBar)"
+    },
+    "RewardCard": {
+      "id": "8:98",
+      "props": {
+        "Coin amount": "Coin amount#8:15",
+        "Gem amount": "Gem amount#8:16"
+      }
+    },
+    "icons2": {
+      "lock": "19:578",
+      "music": "19:583",
+      "sound": "19:588",
+      "vibration": "19:593",
+      "language": "19:598",
+      "privacy": "19:601",
+      "support": "19:606",
+      "about": "19:611",
+      "chevron-right": "19:614"
+    },
+    "Toggle": {
+      "set": "19:619",
+      "variants": "State=On 19:615 | Off 19:617"
+    },
+    "SettingsRow": {
+      "set": "19:637",
+      "props": {
+        "Label": "Label#19:5",
+        "Icon": "Icon#19:6",
+        "Value": "Value#19:7"
+      },
+      "variants": "Kind=Toggle 19:620 | Link 19:628",
+      "exposed": "Toggle"
+    },
+    "LevelTile": {
+      "set": "19:667",
+      "props": {
+        "Number": "Number#19:12"
+      },
+      "variants": "State=Done 19:638 | Current 19:650 | Locked 19:662",
+      "note": "yıldız sayısı: iç Star instance State=On/Off"
+    },
+    "WorldCard": {
+      "set": "19:688",
+      "props": {
+        "Title": "Title#19:17",
+        "Status": "Status#19:18"
+      },
+      "variants": "State=Open 19:668 | Locked 19:679",
+      "note": "img/world dolgusu instance başına"
+    },
+    "MenuTile": {
+      "id": "19:689",
+      "props": {
+        "Label": "Label#19:19",
+        "Show badge": "Show badge#19:20"
+      },
+      "note": "img/menu dolgusu instance başına"
+    },
+    "ShopCard": {
+      "set": "19:730",
+      "props": {
+        "Icon": "Icon#19:25",
+        "Title": "Title#19:26"
+      },
+      "variants": "Kind=Booster 19:694 | Coin 19:706 | Gem 19:719",
+      "exposed": "Price (Button)"
+    }
+  },
+  "sections": {
+    "01-giris-menu": "10:2",
+    "02-oyun-dongusu": "10:3",
+    "03-guclendirici-ekonomi": "10:4"
+  },
+  "screens": {
+    "splash": {
+      "node": "10:5",
+      "section": "01-giris-menu",
+      "status": "built",
+      "reference": true,
+      "pattern": "tam ekran görsel + logo (Logo 10:20) + yükleme",
+      "devNote": "89:3628"
+    },
+    "daily-tasks": {
+      "node": "10:628",
+      "section": "01-giris-menu",
+      "status": "built",
+      "reference": true,
+      "pattern": "img/home-bg + scrim + görsel karo + popup liste (TaskCard)",
+      "devNote": "89:3688"
+    },
+    "game-board": {
+      "node": "10:31",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "reference": true,
+      "pattern": "oyun ekranı: TopBar, MovesRow, Board (Ropes vektör + Pins), Boosters",
+      "devNote": "90:3628"
+    },
+    "level-complete": {
+      "node": "10:334",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "reference": true,
+      "pattern": "game-board klonu + Scrim + Result (yıldız, Ribbon, RewardCard, butonlar) absolute",
+      "devNote": "90:3668"
+    },
+    "booster-select": {
+      "node": "10:197",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "reference": true,
+      "pattern": "game-board klonu + Scrim + Popup (PopupHeader + BoosterRow) absolute",
+      "devNote": "90:3778"
+    },
+    "continue-game": {
+      "node": "20:562",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "daily-tasks klonu + popup, Board 0.5 ölçekli önizleme",
+      "devNote": "90:3708"
+    },
+    "tutorial": {
+      "node": "20:643",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "game-board klonu + koç kartı (Coach) + hedef halka + img/hand-pointer",
+      "devNote": "89:3638"
+    },
+    "home": {
+      "node": "20:769",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "img/home-bg + TopBar + Logo + Oyna + MenuTile ×3",
+      "devNote": "89:3648"
+    },
+    "world-select": {
+      "node": "21:795",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "home-bg + Scrim 0.45 + TopBar (geri/başlık/elmas) + WorldCard ×5",
+      "devNote": "89:3658"
+    },
+    "world-locked": {
+      "node": "21:895",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "world-select klonu + Scrim + Popup (görsel, koşul + ProgressBar)",
+      "devNote": "89:3668"
+    },
+    "level-select": {
+      "node": "21:940",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "img/area-bg-1 (Alan 1) + Scrim 0.45 + banner img/world-1 + LevelTile 4×5",
+      "devNote": "89:3678"
+    },
+    "reward-claimed": {
+      "node": "23:1138",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "daily-tasks klonu (ilk kart Claimed) + Scrim + Result (sandık, Ribbon, RewardCard)",
+      "devNote": "89:3698"
+    },
+    "shop": {
+      "node": "23:1285",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "home-bg + Scrim 0.45 + sekmeler (Eşyalar aktif) + panel (ShopCard Booster ×5: Geri Al, İpucu, Dondur, Pin Aç, +5 Hamle)",
+      "devNote": "89:3708"
+    },
+    "settings": {
+      "node": "23:1496",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "daily-tasks klonu + Popup (SettingsRow Toggle ×3 + Link ×4)",
+      "devNote": "89:3758"
+    },
+    "rope-drag": {
+      "node": "24:1462",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu + kalkmış pin + iz + hedef halka + el + HintChip",
+      "devNote": "90:3638"
+    },
+    "pause": {
+      "node": "24:1584",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "booster-select klonu (Popup silindi) + Popup 4 buton",
+      "devNote": "90:3648"
+    },
+    "restart-confirm": {
+      "node": "24:1679",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "booster-select klonu + onay popup (Vazgeç/Başlat)",
+      "devNote": "90:3658"
+    },
+    "world-complete": {
+      "node": "25:1814",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "home-bg + Scrim + sonuç kalıbı (img/chest, Ribbon, RewardCard, WorldCard)",
+      "devNote": "90:3678"
+    },
+    "all-complete": {
+      "node": "25:1876",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "home-bg + Scrim + sonuç kalıbı (img/trophy, istatistik, RewardCard)",
+      "devNote": "90:3688"
+    },
+    "out-of-moves": {
+      "node": "25:1940",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "booster-select klonu + Result (img/sad-knot, kırmızı Ribbon, Price/Primary/Secondary)",
+      "devNote": "90:3698"
+    },
+    "booster-hint": {
+      "node": "26:2002",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "pattern": "game-board klonu, diğer ipler 0.3; HintGlow + hedef halka + HintToast",
+      "devNote": "90:3788"
+    },
+    "purchase-popup": {
+      "node": "26:2138",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "pattern": "booster-select klonu + Popup (+5 Hamle, Price L)",
+      "devNote": "90:3798"
+    },
+    "insufficient-gems": {
+      "node": "26:2251",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "pattern": "booster-select klonu + Popup (gerekli/sende/eksik, Mağazaya Git/İptal)",
+      "devNote": "90:3828"
+    },
+    "splash-error": {
+      "node": "35:3126",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "splash klonu + Scrim + Popup (restart ikon, Tekrar Dene Primary L, kapatma yok)"
+    },
+    "shop-packs": {
+      "node": "35:2366",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "shop klonu, Paketler sekmesi aktif, Jeton + Elmas Paketi satırları",
+      "devNote": "89:3718"
+    },
+    "purchase-processing": {
+      "node": "35:2540",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "shop-packs klonu + Scrim + Popup (Gem, Ödeme işleniyor…, ProgressBar)",
+      "devNote": "89:3728"
+    },
+    "purchase-success": {
+      "node": "35:2605",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "shop-packs klonu + Scrim + Result (Gem 160, Ribbon, bakiye, Tamam)",
+      "devNote": "89:3738"
+    },
+    "purchase-failed": {
+      "node": "35:2674",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "shop-packs klonu + Scrim + Result (sad-knot, kırmızı Ribbon, Tekrar Dene/Kapat)",
+      "devNote": "89:3748"
+    },
+    "language-select": {
+      "node": "35:3187",
+      "section": "01-giris-menu",
+      "status": "built",
+      "pattern": "settings klonu, Popup Dil: SettingsRow Link ×6, seçili satırda check",
+      "devNote": "89:3768"
+    },
+    "purchase-popup-unlock": {
+      "node": "35:3340",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "pattern": "purchase-popup klonu, Pin Aç içeriği (şablon örneği)",
+      "devNote": "90:3808"
+    },
+    "puzzle-1": {
+      "node": "68:2968",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu, img/area-bg-1 arka plan, Bölüm 1 (Alan 1 puzzle)",
+      "devNote": "90:3718"
+    },
+    "puzzle-2": {
+      "node": "68:3032",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu, img/area-bg-2 arka plan, Bölüm 21 (Alan 2 puzzle)",
+      "devNote": "90:3728"
+    },
+    "puzzle-3": {
+      "node": "68:3096",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu, img/area-bg-3 arka plan, Bölüm 41 (Alan 3 puzzle)",
+      "devNote": "90:3738"
+    },
+    "puzzle-4": {
+      "node": "68:3160",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu, img/area-bg-4 arka plan, Bölüm 61 (Alan 4 puzzle)",
+      "devNote": "90:3748"
+    },
+    "puzzle-5": {
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "game-board klonu, img/area-bg-5 arka plan, Bölüm 81 (Alan 5 puzzle)",
+      "devNote": "90:3758",
+      "id": "106:5852"
+    },
+    "puzzle-30": {
+      "node": "111:3886",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "106:5852 (puzzle-5 yeni hali) klonu, area-bg-2, Bölüm 30, 14 hamle, 13 ip (6 renk, turuncu dahil), 26 vida, 2 delik"
+    },
+    "puzzle-50": {
+      "node": "111:4319",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "106:5852 klonu, area-bg-3, Bölüm 50, 12 hamle, 15 ip (6 renk), 30 vida, 2 delik"
+    },
+    "puzzle-100": {
+      "node": "112:4238",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "106:5852 klonu, area-bg-5, Bölüm 100, 10 hamle, 17 ip (7 renk, turuncu+pembe), 34 vida, 1 delik"
+    },
+    "puzzle-150": {
+      "node": "112:4596",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "106:5852 klonu, area-bg-3, Bölüm 150, 8 hamle, 19 ip (7 renk), 38 vida, 1 delik"
+    },
+    "continue-offer": {
+      "node": "72:3488",
+      "section": "02-oyun-dongusu",
+      "status": "built",
+      "pattern": "out-of-moves klonu (TopBar jeton pill) + Result: Popup (PopupHeader + krem gövde, +5 Hamle chip, Price L jetonlu buton) + FailOffer kartı (Coin, 3 ikon karo, Primary M ₺ fiyat) + ipucu metni",
+      "devNote": "90:3768"
+    },
+    "booster-added": {
+      "node": "35:3514",
+      "section": "03-guclendirici-ekonomi",
+      "status": "built",
+      "pattern": "game-board klonu + AddedToast (HintToast kalıbı, butonsuz)",
+      "devNote": "90:3818"
+    }
+  },
+  "images": {
+    "splash-bg": "499d77177fcf16d5cd30be0eca780e5f01942833",
+    "board-bg": "b1f2c7871c148efd18e444907047b21a2290de9b",
+    "home-bg": "c885338c0b7c02c97e97e4b1160e767fdee05811",
+    "task-clipboard": "37ee17ee53054d6df68a4628a6322f4cb086f574",
+    "coin": "15fe8b8debf063ca685db27db85cdfb4ddacdbe3",
+    "gem": "be21c02e520f3276bbbc842fab466dc24d9c09bb",
+    "star-on": "02c7add0edee462687b1d48fb314bd1bd0e3ea48",
+    "star-off": "f17e021ff7645374409b716be6b6aadec0756f06",
+    "world-1": "0616c3d5ff44dfb3a98ffba22f57a2a813508e8b",
+    "world-2": "bc9a2d2ae87a134b487e9db31b54341e164817e8",
+    "world-3": "99844223b99421292a39561b536c20e2e9ec4c76",
+    "world-4": "871ce80d0c9ffe0645ede54d22b821fad901bca7",
+    "world-5": "f058e3df4900c8fbabcc3f7c2e3986496af97469",
+    "shop-stall": "a822a78fb8be921cffcbfd414208a99845d246b2",
+    "chest": "8a26cd98bc2279697d6293f4fc591a0dd05ed026",
+    "trophy": "9b05a143a51b7370fb7b6132bb681a7037f294cf",
+    "sad-knot": "6c2387684117e65a2ebbe9d1806699ca3010702b",
+    "hand-pointer": "33c08b31b4bdbce2bbbfd3a17371a597720de75f",
+    "ropes": "a8b269b72e651ef431e842929e9c2e582ff828e3",
+    "ropes-yellow": "5f16c9b7b1cafd70dab711a7cd728d81623d33b1",
+    "area-bg-1": "809e2056d8334c808aaaa13d150b3d3d06ac1002",
+    "area-bg-2": "fa3b9ca6aad3e57ff8ddf831ac849fd67fc8f116",
+    "area-bg-3": "ee47becde2e0c54f659a11458cfd1c84215714dd",
+    "area-bg-4": "2c9f4a88a925dd1e72d2299654cf464f20a7a4e4",
+    "area-bg-5": "43e8957abd450f12a7d7ea877bdeb009f44642fe"
+  },
+  "buildNotes": [
+    "Ekran kökü: 430 genişlik, VERTICAL auto layout, minHeight 930, HUG; img/* ve Scrim absolute (STRETCH).",
+    "Overlay ekranlar (popup/sonuç) game-board klonu üzerine Scrim (node opacity 0.72) + absolute içerik, x=16 dikey ortalı.",
+    "ProgressBar Fill: auto layout çocuğu; kısmi oran için FIXED + resize, tamamsa FILL. Auto layout olmayan instance çocuğu resize edilmiyor.",
+    "Section'lar dikey (yükseklik + 110) aralıklı; ekranlar section içinde x=80, y=80'den 450 adımla, flow.md sırasıyla. Section genişliği = 140 + 450 × ekran sayısı.",
+    "Button ikon değişimi: iç 'Icon' instance'ına swapComponent + vektör dolgularını yeni ana component'ten kopyala (resetOverrides takası geri alır).",
+    "Coin/Gem/Star: component içinde img/coin|img/gem|img/star dikdörtgeni (SCALE, FIT görsel); eski vektörler gizli. Şeffaf görsel = chroma (magenta/yeşil) zemin + python anahtarlama.",
+    "Section sırası flow.md ile aynı: 01 = 17 ekran, 02 = 8, 03 = 6 (2026-11-03 audit-fix). use_figma clone() yeni düğümü sayfa köküne koyar — section.appendChild ile taşı.",
+    "Button Primary/Orange/Price etiketi: 2 px navy/900 OUTSIDE kontur (a-001). CurrencyPill dolgu 6 → 44 px yükseklik.",
+    "İpler (2026-11-03 screen-edit): Board > Ropes frame'inin ilk çocuğu img/ropes (398×540 gerçekçi ip görseli, ahşap zemin dahil); Rope/* vektörleri gizli (yol referansı). Ropes frame'leri: 20:656, 10:84, 10:347, 24:1475, 24:1597, 24:1692, 25:1953, 20:602 (0.5 ölçek), 10:210, 26:2015, 26:2151, 26:2264, 35:3353, 35:3527. Tek ipi vurgulama: img/ropes + Dim (wood/300, opacity 0.7) + o ipin kesiği."
+  ]
+}

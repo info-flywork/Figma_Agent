@@ -1,0 +1,321 @@
+{
+  "name": "Traffic Tangle",
+  "slug": "traffic-tangle",
+  "figjamUrl": "https://www.figma.com/board/baXhzLRItYC7Iir8xRWqsK/Traffic-Tangle?node-id=0-1&t=NSen0qaABvLsppGS-1",
+  "figmaUrl": "https://www.figma.com/design/Q34mUGz95bmtk4plIw2h7C/Traffic-Tangle?node-id=0-1&t=67ktgJktxshKGMZr-1",
+  "figjamKey": "baXhzLRItYC7Iir8xRWqsK",
+  "figmaKey": "Q34mUGz95bmtk4plIw2h7C",
+  "referenceIds": [
+    "building-next",
+    "paused",
+    "hint-none",
+    "tutorial",
+    "level-complete"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "building-next": "approved",
+    "paused": "approved",
+    "hint-none": "approved",
+    "tutorial": "approved",
+    "level-complete": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-edit",
+    "ids": [
+      "frozen-blockers"
+    ],
+    "requestedAt": "2026-11-06T06:13:09.639Z",
+    "updatedAt": "2026-11-06T06:15:47.893Z",
+    "steps": [
+      {
+        "label": "Düzenleniyor: Donmuş araç engelleri (sabit engeller; renkleri gizli, ilerledikçe/sonlara doğru açılır)",
+        "status": "done",
+        "startedAt": "2026-11-06T06:13:16.640Z",
+        "doneAt": "2026-11-06T06:15:40.989Z"
+      },
+      {
+        "label": "Önizlemeler güncelleniyor",
+        "status": "done",
+        "startedAt": "2026-11-06T06:15:41.013Z",
+        "doneAt": "2026-11-06T06:15:47.893Z"
+      }
+    ],
+    "note": "Bu sayfada donuk araba görsellerini değiştirelim arabalar gri renkte olsun ve buzla kaplı olsun bu araç görseli openai ile üret sonra tasarıma ekle",
+    "runner": {
+      "pid": 52592,
+      "startedAt": "2026-11-06T06:13:09.647Z",
+      "log": "projects/traffic-tangle/runs/2026-11-06T06-13-09-641Z-screen-edit.log"
+    },
+    "finishedAt": "2026-11-06T06:15:47.915Z",
+    "summary": "`frozen-blockers` ekranındaki dört donmuş araç artık gri renkte ve buzla kaplı. İş `finish` ile kapandı.\n\n- **Görsel:** Aracı OpenAI (gpt-image-2, kalite high) ile ürettim. Tepeden görünen gri bir pikap, kalın şeffaf buz tabakası, kırağı, buz sarkıtları ve uykulu gözler. Zemini şeffaflaştırdım ve Figma'ya yükledim.\n- **Figma:** Eski gri-mavi düz kaplamaları ve kar tanesi ikonlarını sildim. Yerlerine aynı konum ve dönüşle dört buzlu araç görseli koydum: Blue 2 V, Green 2, Red 2 V ve Green 3. Altındaki renkli araç instance'larını silmedim, gizledim. Böylece gerçek renkler görünmüyor.\n- **Önizleme:** `previews/frozen-blockers.png` yenilendi. Dördü de ızgarada gri ve buzlu görünüyor.\n- **Kayıtlar:** `assets/manifest.json` içine `car-frozen-2` kaydı eklendi, durumu `placed`. Görsel `assets/cutout/car-frozen-2.png` dosyasında.\n\nKalan fark: Green 3 aracı ızgarada 2 hücre uzunluğunda görünüyor (80×38). Önceki kurulumda da böyleydi, ona dokunmadım. Dört araç aynı görseli kullanıyor. Dikey olanlar 90° döndürülmüş hâli."
+  },
+  "restApproved": true,
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.26,
+      "steps": 1,
+      "turns": 9,
+      "at": "2026-11-03T12-00-55-424Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 4.759,
+      "steps": 1,
+      "turns": 106,
+      "at": "2026-11-03T12-11-04-195Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 1.824,
+      "steps": 1,
+      "turns": 57,
+      "at": "2026-11-03T12-31-26-815Z"
+    },
+    {
+      "type": "design-rest",
+      "model": "claude-opus-5-5",
+      "usd": 3.327,
+      "steps": 1,
+      "turns": 88,
+      "at": "2026-11-03T12-36-17-564Z"
+    },
+    {
+      "type": "audit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.327,
+      "steps": 1,
+      "turns": 14,
+      "at": "2026-11-03T12-54-36-076Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.16,
+      "steps": 1,
+      "turns": 4,
+      "at": "2026-11-04T06-38-36-430Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.125,
+      "steps": 1,
+      "turns": 4,
+      "at": "2026-11-04T07-05-00-409Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.173,
+      "steps": 1,
+      "turns": 6,
+      "at": "2026-11-04T07-07-11-612Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.359,
+      "steps": 1,
+      "turns": 22,
+      "at": "2026-11-04T07-09-13-633Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.338,
+      "steps": 1,
+      "turns": 18,
+      "at": "2026-11-04T07-11-46-237Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.427,
+      "steps": 1,
+      "turns": 23,
+      "at": "2026-11-04T08-44-24-441Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.524,
+      "steps": 1,
+      "turns": 26,
+      "at": "2026-11-04T08-46-16-155Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.597,
+      "steps": 1,
+      "turns": 47,
+      "at": "2026-11-04T09-17-51-036Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.897,
+      "steps": 1,
+      "turns": 51,
+      "at": "2026-11-04T10-48-45-854Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.692,
+      "steps": 1,
+      "turns": 33,
+      "at": "2026-11-04T12-53-57-138Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.312,
+      "steps": 1,
+      "turns": 15,
+      "at": "2026-11-04T13-10-31-326Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.524,
+      "steps": 1,
+      "turns": 29,
+      "at": "2026-11-04T13-17-15-420Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.302,
+      "steps": 1,
+      "turns": 14,
+      "at": "2026-11-04T13-42-21-496Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.377,
+      "steps": 1,
+      "turns": 23,
+      "at": "2026-11-04T13-51-28-013Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.607,
+      "steps": 1,
+      "turns": 35,
+      "at": "2026-11-04T13-57-21-224Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.466,
+      "steps": 1,
+      "turns": 36,
+      "at": "2026-11-04T14-17-34-028Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.853,
+      "steps": 1,
+      "turns": 58,
+      "at": "2026-11-05T05-09-40-287Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.502,
+      "steps": 1,
+      "turns": 41,
+      "at": "2026-11-05T05-20-11-415Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.578,
+      "steps": 1,
+      "turns": 30,
+      "at": "2026-11-05T05-26-18-509Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 3.368,
+      "steps": 1,
+      "turns": 77,
+      "at": "2026-11-05T05-35-30-319Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.516,
+      "steps": 1,
+      "turns": 24,
+      "at": "2026-11-05T07-17-22-792Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.302,
+      "steps": 1,
+      "turns": 15,
+      "at": "2026-11-05T07-20-48-779Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.234,
+      "steps": 1,
+      "turns": 12,
+      "at": "2026-11-05T07-29-53-396Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.627,
+      "steps": 1,
+      "turns": 27,
+      "at": "2026-11-05T07-35-36-079Z"
+    },
+    {
+      "type": "audit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.395,
+      "steps": 1,
+      "turns": 17,
+      "at": "2026-11-05T07-38-13-962Z"
+    },
+    {
+      "type": "audit-fix",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.556,
+      "steps": 1,
+      "turns": 44,
+      "at": "2026-11-05T08-05-16-619Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.573,
+      "steps": 3,
+      "turns": 26,
+      "at": "2026-11-06T05:47:22.477Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.592,
+      "steps": 2,
+      "turns": 33,
+      "at": "2026-11-06T06:15:56.227Z"
+    }
+  ]
+}

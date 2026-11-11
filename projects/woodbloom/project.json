@@ -1,0 +1,164 @@
+{
+  "name": "Woodbloom",
+  "slug": "woodbloom",
+  "figjamUrl": "https://www.figma.com/board/mikmBoynyftwWuELlmdU1A/Woodbloom?node-id=0-1&t=2B0DmyvYfZxpvbBo-1",
+  "figmaUrl": "https://www.figma.com/design/8VeyPlgFxZP6YWOOCxpp2b/Woodbloom?node-id=0-1&t=P6rq0Zj4tiKMz8TU-1",
+  "figjamKey": "mikmBoynyftwWuELlmdU1A",
+  "figmaKey": "8VeyPlgFxZP6YWOOCxpp2b",
+  "referenceIds": [
+    "yeniden-basla-onay",
+    "duello-sonuc",
+    "bahce-buyume",
+    "egitim",
+    "oyun-patlama"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "yeniden-basla-onay": "approved",
+    "duello-sonuc": "approved",
+    "bahce-buyume": "approved",
+    "egitim": "approved",
+    "oyun-patlama": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "dev-notes",
+    "requestedAt": "2026-11-10T06:26:23.069Z",
+    "updatedAt": "2026-11-10T06:28:26.294Z",
+    "steps": [
+      {
+        "label": "Notlar yazılıyor: 01-baslangic",
+        "status": "done",
+        "startedAt": "2026-11-10T06:26:32.493Z",
+        "doneAt": "2026-11-10T06:28:26.115Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 02-oyun",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.138Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 03-oyunsonu",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.158Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 04-cep",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.177Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 05-duraklatma",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.196Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 06-ayarlar",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.215Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 07-bahce",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.235Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 08-duello",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.255Z"
+      },
+      {
+        "label": "Notlar yazılıyor: 09-magaza",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.275Z"
+      },
+      {
+        "label": "figma.json güncelleniyor",
+        "status": "done",
+        "doneAt": "2026-11-10T06:28:26.294Z"
+      }
+    ],
+    "note": "Para birimi yaprak (coin); reklam yok. Devam teklifi 100 yaprak, yetersiz bakiye → magaza. ana-sayfa + butonu → magaza. odullu-reklam ekranı Figma'da yok, onu atla ve flow.md/figma.json'dan kaldır.",
+    "runner": {
+      "pid": 3472,
+      "startedAt": "2026-11-10T06:26:23.072Z",
+      "log": "projects/woodbloom/runs/2026-11-10T06-26-23-071Z-dev-notes.log"
+    },
+    "finishedAt": "2026-11-10T06:28:26.314Z",
+    "summary": "Woodbloom'un 27 ekranının her birinin altına dev-notu kartı ekledim. İş panelde `finish` ile kapandı.\n\nKontrol olarak yalnızca `ana-sayfa` kartının ekran görüntüsüne baktım (430×394, taşma yok). Diğer 26 kartı görsel olarak kontrol etmedim.\n\n- **Kartlar:** Her kart ekranın 40 px altında, sol kenarı ekranla hizalı. Adı `Dev Note / <ekran id>`, açık sarı zemin, Inter 14/20, 430 px genişlikte. İçinde Amaç, Giriş, Etkileşimler, Durumlar, Dinamik veri, Asset'ler, Animasyon ve Uç durumlar var. Kaynak `flow.md`, Figma'daki buton/metin adları ve `assets/manifest.json`. Bilinmeyenleri \"Belirsiz: …\" diye işaretledim. Dokuz Section da notları kapsayacak şekilde uzatıldı, ekranlara dokunmadım.\n- **Notunuzdaki kurallar:**\n  - Para birimi yaprak, reklam yok.\n  - Devam teklifi 100 yaprak. Bakiye yetersizse mağazaya gidiyor.\n  - Ana sayfadaki + butonu mağazaya gidiyor.\n- **`odullu-reklam`:** Figma'da bu ekran yoktu, `15:219` düğümü bulunamadı. `flow.md`'den ve `figma.json`'dan çıkardım. `devam-teklifi` satırındaki \"reklam izle\" ifadesini de güncelledim ve `oyun-sonu`'nu 03-02 olarak yeniden numaralandırdım.\n- **`figma.json`:** 27 ekranın `screens[id].devNote` alanına kart id'sini yazdım.\n\n`ana-sayfa` ve `duello-bildirim`, Figma'da `flow.md`'nin yazdığından farklı Section'larda duruyor. Kartları ekranın bulunduğu Section'a koydum. `ana-sayfa` 02-oyun'da, `duello-bildirim` ise 08-duello'da. İkisi de Figma'daki hâliyle kaldı.\n\nBazı akışları metinlerden ve ekran adlarından çıkardım, `flow.md`'de açık değildi. Örneğin `devam-teklifi` kapat (X) → `oyun-sonu`, `duraklatma` Ana sayfa → kayıtlı oyun ve `egitim` yanlış bırakmada parçanın geri dönmesi. Bunları \"varsayım\" ya da \"onay gerekli\" diye notlarda belirttim. Yazılımcıya vermeden önce bir göz atmanız iyi olur."
+  },
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.292,
+      "steps": 3,
+      "turns": 9,
+      "at": "2026-11-09T13:22:04.872Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 4.461,
+      "steps": 8,
+      "turns": 67,
+      "at": "2026-11-09T13:37:18.283Z"
+    },
+    {
+      "type": "design-rest",
+      "model": "claude-opus-5-5",
+      "usd": 5.174,
+      "steps": 21,
+      "turns": 105,
+      "at": "2026-11-09T13:53:40.001Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-opus-5-5",
+      "usd": 1.346,
+      "steps": 3,
+      "turns": 25,
+      "at": "2026-11-10T05:28:46.327Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.556,
+      "steps": 2,
+      "turns": 23,
+      "at": "2026-11-10T05:32:49.165Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 1.164,
+      "steps": 3,
+      "turns": 60,
+      "at": "2026-11-10T05:39:19.843Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.462,
+      "steps": 2,
+      "turns": 48,
+      "at": "2026-11-10T06:02:23.933Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.294,
+      "steps": 2,
+      "turns": 46,
+      "at": "2026-11-10T06:23:21.196Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.627,
+      "steps": 10,
+      "turns": 21,
+      "at": "2026-11-10T06:28:37.474Z"
+    }
+  ]
+}

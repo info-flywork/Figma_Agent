@@ -1,0 +1,82 @@
+{
+  "project": "woodbloom",
+  "updatedAt": "2026-11-09T13:38:07.588Z",
+  "items": [
+    {
+      "id": "ana-sayfa",
+      "note": ""
+    },
+    {
+      "id": "oyun-tahta",
+      "note": ""
+    },
+    {
+      "id": "oyun-surukle",
+      "note": ""
+    },
+    {
+      "id": "devam-teklifi",
+      "note": ""
+    },
+    {
+      "id": "odullu-reklam",
+      "note": ""
+    },
+    {
+      "id": "oyun-sonu",
+      "note": ""
+    },
+    {
+      "id": "cep-dolu",
+      "note": ""
+    },
+    {
+      "id": "cep-yerlestir",
+      "note": ""
+    },
+    {
+      "id": "duraklatma",
+      "note": ""
+    },
+    {
+      "id": "ayarlar",
+      "note": ""
+    },
+    {
+      "id": "dil-secimi",
+      "note": ""
+    },
+    {
+      "id": "bahce",
+      "note": ""
+    },
+    {
+      "id": "bahce-yetersiz",
+      "note": ""
+    },
+    {
+      "id": "tohum-sec",
+      "note": ""
+    },
+    {
+      "id": "bahce-yeni-alan",
+      "note": ""
+    },
+    {
+      "id": "duello-internet-yok",
+      "note": ""
+    },
+    {
+      "id": "duello-paylas",
+      "note": ""
+    },
+    {
+      "id": "duello-ekrani",
+      "note": ""
+    },
+    {
+      "id": "duello-bildirim",
+      "note": ""
+    }
+  ]
+}

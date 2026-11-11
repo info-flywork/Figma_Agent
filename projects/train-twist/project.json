@@ -1,0 +1,347 @@
+{
+  "name": "Train Twist",
+  "slug": "train-twist",
+  "figjamUrl": "https://www.figma.com/board/zbSwFvgjfyqO6KQ1MduLWi/Train-Twist?node-id=0-1&t=6Tib4YbzPDFPGvjD-1",
+  "figmaUrl": "https://www.figma.com/design/HKSdN7sWphgFX1VPJogGdo/Train-Twist?node-id=0-1&t=iDUdCMvMMCjxSZ3K-1",
+  "figjamKey": "zbSwFvgjfyqO6KQ1MduLWi",
+  "figmaKey": "HKSdN7sWphgFX1VPJogGdo",
+  "referenceIds": [
+    "home",
+    "game",
+    "level-complete",
+    "paused",
+    "town"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "home": "approved",
+    "game": "approved",
+    "level-complete": "approved",
+    "paused": "approved",
+    "town": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-add",
+    "requestedAt": "2026-11-06T11:56:28.981Z",
+    "updatedAt": "2026-11-06T12:07:52.988Z",
+    "steps": [
+      {
+        "label": "flow.md’ye ekleniyor",
+        "status": "done",
+        "startedAt": "2026-11-06T11:56:35.894Z",
+        "note": "4 ekran eklendi",
+        "doneAt": "2026-11-06T11:56:45.487Z"
+      },
+      {
+        "label": "Figma’da kuruluyor",
+        "status": "done",
+        "startedAt": "2026-11-06T11:56:45.509Z",
+        "note": "4 ekran kuruldu (121:1363, 121:1565, 121:1785, 121:2020)",
+        "doneAt": "2026-11-06T12:05:42.099Z"
+      },
+      {
+        "label": "Görsel ve önizleme",
+        "status": "done",
+        "startedAt": "2026-11-06T12:05:42.122Z",
+        "note": "4 önizleme yazıldı",
+        "doneAt": "2026-11-06T12:07:52.988Z"
+      }
+    ],
+    "section": "03-game",
+    "after": "train-shop",
+    "note": "game-level-50 ekranını (şu an 'Bölüm 100' yazıyor, ekli görsel) şablon al ve 4 YENİ zorlaşan bölüm ekranı ekle; game-level-50'ye dokunma. Yeni ekranlar flow.md'de 03-game bölümünde game-level-50'nin hemen ardından sırayla: game-level-150 (Bölüm 150), game-level-250 (Bölüm 250), game-level-500 (Bölüm 500), game-level-1000 (Bölüm 1000); Figma'da game-level-50'nin hemen SAĞINA 20 px arayla sırayla diz (gerekirse Section'ı genişlet). Her biri game-level-50'nin duplicate'i (üst çubuk, süre, Teslimat Hedefleri kartı, istasyon, alt panel, TRENİ BAŞLAT aynı). Zorluk sağa doğru artsın: tahta ızgarası büyüsün, kareler küçülsün, raylar/makaslar ve kıvrımlar artsın, hedef sayısı artsın: 150 → 6×9 ızgara, 5 hedef, süre 02:15; 250 → 7×10, 5 hedef, 02:00; 500 → 7×11, 6 hedef, 01:45; 1000 → 8×12, 6 hedef, 01:30. Tahta karelerini YALNIZCA kütüphane/mevcut kare görsellerinden kur (düz, kavisli, boş çimen; game-level-50'deki imageHash'ler), döndürerek yerleştir; raylar istasyondan hedeflere giden okunur yollar oluştursun, kopuk uç kalmasın. Yeni tren/hedef rengi gerekiyorsa mevcut tren ve hedef görsellerinden renk filtresiyle türet (yeşil, turuncu, mor…), istasyondaki tren sayısı hedef sayısına eşit olsun; Teslimat Hedefleri kartı hedef sayısına göre satır/sütun genişlesin, kart taşmasın. Bitince her ekranı ekran görüntüsüyle kontrol et; figma.json'a status built, previews/<id>.png yaz.",
+    "images": [
+      "references/attach-1793966188914-f20d.webp"
+    ],
+    "runner": {
+      "pid": 61755,
+      "startedAt": "2026-11-06T11:56:28.987Z",
+      "log": "projects/train-twist/runs/2026-11-06T11-56-28-985Z-screen-add.log"
+    },
+    "finishedAt": "2026-11-06T12:07:53.009Z",
+    "summary": "Dört yeni zor bölüm ekranı kuruldu ve iş `finish` ile kapandı. Her ekranın görüntüsüne baktım; kopuk ray ucu yok, kartlar taşmıyor.\n\n**Şablon:** Figma'da `game-level-50` adını taşıyan dört ekran var. Notunuza göre \"Bölüm 100\" yazanı (101:1524) şablon aldım. `figma.json`'daki asıl `game-level-50` (89:1453, \"Bölüm 50\") ile 99:1233 ve 100:1381'deki diğer iki kopyaya dokunmadım.\n\n**flow.md:** Dört ekran 03-game bölümünde `game-level-50`'nin hemen ardına eklendi (03-08…03-11). Bu yüzden `train-shop`'un sıra numarası 03-12 oldu.\n\n**Figma:** Ekranlar 101:1524'ün sağına 20 px arayla dizildi, Section 6802 px'e genişletildi.\n\n| Ekran | Node | Izgara | Hedef | Süre | Makas |\n|---|---|---|---|---|---|\n| game-level-150 | 121:1363 | 6×9 | 5 | 02:15 | 2 |\n| game-level-250 | 121:1565 | 7×10 | 5 | 02:00 | 3 |\n| game-level-500 | 121:1785 | 7×11 | 6 | 01:45 | 3 |\n| game-level-1000 | 121:2020 | 8×12 | 6 | 01:30 | 3 |\n\n- **Tahta:** Yalnızca şablondaki üç kare görseli kullanıldı (düz, kavisli, boş çimen), döndürülerek yerleştirildi. Kare boyutu 36 px'ten 26 px'e iniyor. Her tren istasyondan kendi rengindeki hedefe kesintisiz bir yolla gidiyor. Makaslar, şablondaki gibi aynı kareye düz ve kavisli karonun üst üste konmasıyla yapıldı.\n- **İstasyon:** Mevcut istasyon görselinin raf bandı tekrarlanarak 5 ya da 6 rafa uzatıldı (yeni görsel üretilmedi). İstasyondaki tren sayısı hedef sayısına eşit.\n- **Yeni renkler:** Mor ve sarı tren, kırmızı tren görselinden renk filtresiyle türetildi. Mor ve sarı su kulesi de mavi kuleden aynı yolla türetildi. OpenAI kullanılmadı. Dördü `assets/generated/`'da ve `manifest.json`'da `placed` olarak kayıtlı.\n- **Teslimat Hedefleri:** Kart 5 hedefte 3+2, 6 hedefte 3+3 satıra çıktı; Bölüm ve süre yazıları güncellendi.\n- **Kayıtlar:** `figma.json`'a dört ekran `status: built` olarak yazıldı, `previews/game-level-*.png` dosyaları oluşturuldu.\n\n**Kalan farklar:**\n- Başta istasyonda bir raf eksik çıktı ve son tren tabanda kaldı. Bunu düzelttim, son ekran görüntülerinde trenler raflarda duruyor.\n- 1000. bölümde ızgaranın üst sırası çoğunlukla boş çimen.\n- 500 ve 1000'de ızgara panelin içinde biraz sola kayık duruyor.\n- Hedef kartında renk eşleşmesi şablondaki dört satır gibi bırakıldı. Ancak oradaki tren–hedef çiftleri tahtadakilerle birebir aynı olmayabilir (örneğin birinci satırın hedef görseli farklı).\n- Yeni ekranlar için yazılımcı notu kartı açılmadı. Bu işin adımlarında yoktu, gerekirse `dev-notes` ile eklenebilir."
+  },
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.27,
+      "steps": 1,
+      "turns": 12,
+      "at": "2026-11-03T11-19-29-090Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 3.618,
+      "steps": 1,
+      "turns": 84,
+      "at": "2026-11-03T11-29-10-523Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.371,
+      "steps": 1,
+      "turns": 70,
+      "at": "2026-11-03T11-46-41-665Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.152,
+      "steps": 1,
+      "turns": 1,
+      "at": "2026-11-03T11-58-35-937Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 1.674,
+      "steps": 1,
+      "turns": 48,
+      "at": "2026-11-03T12-13-35-875Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.143,
+      "steps": 1,
+      "turns": 70,
+      "at": "2026-11-03T12-32-14-178Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.67,
+      "steps": 1,
+      "turns": 84,
+      "at": "2026-11-03T12-55-15-403Z"
+    },
+    {
+      "type": "design-rest",
+      "model": "claude-opus-5-5",
+      "usd": 4.657,
+      "steps": 1,
+      "turns": 95,
+      "at": "2026-11-03T13-06-19-208Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.579,
+      "steps": 1,
+      "turns": 28,
+      "at": "2026-11-03T13-29-20-844Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.635,
+      "steps": 1,
+      "turns": 32,
+      "at": "2026-11-04T04-41-18-852Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.49,
+      "steps": 1,
+      "turns": 33,
+      "at": "2026-11-04T04-55-42-820Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.515,
+      "steps": 1,
+      "turns": 35,
+      "at": "2026-11-04T05-13-10-330Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.701,
+      "steps": 1,
+      "turns": 43,
+      "at": "2026-11-04T10-05-50-281Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.338,
+      "steps": 1,
+      "turns": 19,
+      "at": "2026-11-04T10-18-24-662Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.435,
+      "steps": 1,
+      "turns": 27,
+      "at": "2026-11-04T10-19-59-058Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.925,
+      "steps": 1,
+      "turns": 78,
+      "at": "2026-11-04T10-25-20-592Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.467,
+      "steps": 1,
+      "turns": 28,
+      "at": "2026-11-04T10-30-20-206Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.377,
+      "steps": 1,
+      "turns": 25,
+      "at": "2026-11-04T10-35-20-754Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.657,
+      "steps": 1,
+      "turns": 55,
+      "at": "2026-11-04T10-39-09-987Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.356,
+      "steps": 1,
+      "turns": 21,
+      "at": "2026-11-04T10-42-36-466Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.365,
+      "steps": 1,
+      "turns": 16,
+      "at": "2026-11-04T10-45-08-451Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.505,
+      "steps": 1,
+      "turns": 29,
+      "at": "2026-11-04T10-47-39-360Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.977,
+      "steps": 1,
+      "turns": 70,
+      "at": "2026-11-04T11-38-33-798Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.542,
+      "steps": 1,
+      "turns": 33,
+      "at": "2026-11-05T07-04-52-968Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.666,
+      "steps": 1,
+      "turns": 53,
+      "at": "2026-11-05T07-09-38-858Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.789,
+      "steps": 1,
+      "turns": 79,
+      "at": "2026-11-05T07-41-40-421Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.407,
+      "steps": 1,
+      "turns": 19,
+      "at": "2026-11-05T07-49-43-733Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.728,
+      "steps": 1,
+      "turns": 49,
+      "at": "2026-11-05T10-18-07-196Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.587,
+      "steps": 1,
+      "turns": 45,
+      "at": "2026-11-05T10-48-28-233Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.797,
+      "steps": 1,
+      "turns": 41,
+      "at": "2026-11-05T11-22-28-392Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.685,
+      "steps": 8,
+      "turns": 26,
+      "at": "2026-11-05T11:33:51.910Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 2.705,
+      "steps": 3,
+      "turns": 55,
+      "at": "2026-11-06T11:23:56.246Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 2.516,
+      "steps": 2,
+      "turns": 54,
+      "at": "2026-11-06T11:35:07.270Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.231,
+      "steps": 2,
+      "turns": 32,
+      "at": "2026-11-06T11:39:58.610Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-opus-5-5",
+      "usd": 3.638,
+      "steps": 3,
+      "turns": 73,
+      "at": "2026-11-06T12:08:11.305Z"
+    }
+  ]
+}

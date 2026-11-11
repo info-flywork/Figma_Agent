@@ -1,0 +1,50 @@
+{
+  "project": "tiny-shift",
+  "updatedAt": "2026-11-02T07:25:30.782Z",
+  "items": [
+    {
+      "id": "01-02-tutorial",
+      "note": ""
+    },
+    {
+      "id": "02-01-game",
+      "note": ""
+    },
+    {
+      "id": "02-02-route-check",
+      "note": ""
+    },
+    {
+      "id": "02-04-level-complete",
+      "note": ""
+    },
+    {
+      "id": "02-05-out-of-moves",
+      "note": ""
+    },
+    {
+      "id": "03-01-town",
+      "note": ""
+    },
+    {
+      "id": "03-02-renovate",
+      "note": ""
+    },
+    {
+      "id": "03-03-level-select",
+      "note": ""
+    },
+    {
+      "id": "04-02-restart-confirm",
+      "note": ""
+    },
+    {
+      "id": "04-03-hint",
+      "note": ""
+    },
+    {
+      "id": "04-04-not-enough-coins",
+      "note": ""
+    }
+  ]
+}

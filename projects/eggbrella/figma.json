@@ -1,0 +1,307 @@
+{
+  "fileKey": "WRKvOcvsBOzx3djzG8qK5R",
+  "pages": {
+    "screens": "0:1",
+    "components": "8:25"
+  },
+  "variableCollection": "VariableCollectionId:8:2",
+  "variables": {
+    "color/navy": "VariableID:8:3",
+    "color/navy-soft": "VariableID:8:4",
+    "color/cream": "VariableID:8:5",
+    "color/cream-line": "VariableID:8:6",
+    "color/white": "VariableID:8:7",
+    "color/green": "VariableID:8:8",
+    "color/green-dark": "VariableID:8:9",
+    "color/yellow": "VariableID:8:10",
+    "color/yellow-dark": "VariableID:8:11",
+    "color/red": "VariableID:8:12",
+    "color/sky": "VariableID:8:13",
+    "color/scrim": "VariableID:8:14",
+    "space/4": "VariableID:8:15",
+    "space/8": "VariableID:8:16",
+    "space/12": "VariableID:8:17",
+    "space/16": "VariableID:8:18",
+    "space/20": "VariableID:8:19",
+    "space/24": "VariableID:8:20",
+    "space/32": "VariableID:8:21",
+    "radius/pill": "VariableID:8:22",
+    "radius/card": "VariableID:8:23",
+    "radius/md": "VariableID:8:24"
+  },
+  "components": {
+    "Button/Primary": {
+      "id": "10:102",
+      "props": {
+        "Label": "Label#10:0",
+        "Show icon": "Show icon#10:1",
+        "Icon": "Icon#10:2"
+      }
+    },
+    "Button/Secondary": {
+      "id": "10:106",
+      "props": {
+        "Label": "Label#10:3",
+        "Show icon": "Show icon#10:4",
+        "Icon": "Icon#10:5"
+      }
+    },
+    "Button/Text": {
+      "id": "10:110",
+      "props": {
+        "Label": "Label#10:6"
+      }
+    },
+    "IconButton/Round": {
+      "id": "10:112",
+      "props": {
+        "Icon": "Icon#10:7"
+      }
+    },
+    "HUD/Floor": {
+      "id": "10:116",
+      "props": {
+        "Floor": "Floor#10:8"
+      }
+    },
+    "Label/Banner": {
+      "id": "10:118",
+      "props": {
+        "Title": "Title#10:9"
+      }
+    },
+    "Toggle": {
+      "id": "10:124",
+      "variants": "State=On|Off"
+    },
+    "Row/Toggle": {
+      "id": "10:125",
+      "props": {
+        "Icon": "Icon#10:10",
+        "Label": "Label#10:11"
+      }
+    },
+    "Row/Select": {
+      "id": "10:133",
+      "props": {
+        "Icon": "Icon#10:12",
+        "Label": "Label#10:13",
+        "Value": "Value#10:14"
+      }
+    },
+    "Card/Modal": {
+      "id": null,
+      "note": "Component değil: ekranlardaki 'Card/Modal' frame'ini klonla (krem, radius/card, Label/Banner üst kenarda absolute)"
+    }
+  },
+  "icons": {
+    "pause": "10:5",
+    "settings": "10:9",
+    "x": "10:13",
+    "house": "10:17",
+    "play": "10:20",
+    "volume-2": "10:25",
+    "music": "10:30",
+    "vibrate": "10:35",
+    "globe": "10:40",
+    "hand": "10:46",
+    "shield-check": "10:50",
+    "rotate-ccw": "10:54",
+    "chevron-right": "10:57",
+    "message-circle": "10:60",
+    "mail": "10:64",
+    "link": "10:68",
+    "download": "10:73",
+    "copy": "10:77",
+    "ellipsis": "10:82",
+    "share": "10:87",
+    "trophy": "10:95",
+    "clapperboard": "10:101"
+  },
+  "imageHashes": {
+    "bg-oyun-baslangic": "6f6b267f4e029a3c7d52f046cbd8fb1a726e8f4b",
+    "bg-oyun-acik": "6ebd281e455c5a3ac7272398d328c441fb658eb3",
+    "yumi-calm": "4b9e195ca11a46a29fe387c4e40946782bc644bc",
+    "yumi-happy": "7487f3f6301c6b9edbd686e4dff4133e708a7088",
+    "yumi-sleep": "7b318dee7d1919dcfeef97a8916a770b3ab6d64b",
+    "lib-mw90zatcwyc": "c1b382922769da6281f048d5e3a309bc7198fba6",
+    "bg-kirilma": "83e8407e055bbd11fdf5fe952ab813a6c00627c5",
+    "yumi-shield": "95a8c646d674e1057d5f82ee46964140ebda0638",
+    "hint-hold": "e6ec72ec997361de2427c2e4d6115f2260011e01",
+    "hint-release": "33e72f763132b46876a20fb6aa7fdc435baad6ec",
+    "lib-mw90zasvj98": "545195a1380ae0de16b084865bb72c7adb5a6120",
+    "lib-mw90zatzxkd": "cac7c56133f301efaa81d2c2d7ea4bdbad083abb",
+    "lib-mw90zaqqlhg": "0ec56a05a274675ca7a9536101bceb1f15dd804e",
+    "lib-mw90zaqw7qf": "08a855a604632ac62dc89bb6978c07a137c778d4",
+    "lib-mw90zar166v": "0d4b7c675ff10e3260205b946097294a48135b56",
+    "lib-mw90zaroy28": "f73828fa01d7aca12a8309f11dc74ac20fd0d241",
+    "lib-mw90zas30zf": "744045c75fc04a1c733b8db95ac1c5d951e00e8c",
+    "lib-mw90zatht7h": "18fd128ba48fd662092234ec37ac2b53042d230d",
+    "lib-mw90zasg7di": "980e9f1150c74c42c56efc7f106a88cbc71fc217",
+    "lib-mw90zar9wrf": "2abb86d2f4e253ee445a8fdf44d6018ddcb9fc65",
+    "lib-mw90zaua3an": "73eedda26c765ff4be4ac10e7e1b2abb08cdd311",
+    "lib-mw90zauee9f": "e407ccbf949e231aa71c5cdf7a3c977d960fb99c",
+    "lib-mw90zar59m9": "01e1afa201ab364f8895de4e4ec661ceeacb40d0"
+  },
+  "imageCrops": {
+    "_note": "Şeffaf kenarlı kütüphane PNG'leri CROP imageTransform [[w,0,x],[0,h,y]] ile kırpılmadan sığdırılır (oran: x,y,w,h)",
+    "lib-mw90zatzxkd": [
+      0.0098,
+      0.2354,
+      0.9831,
+      0.4209
+    ],
+    "lib-mw90zaqqlhg": [
+      0.2373,
+      0.0469,
+      0.5254,
+      0.8838
+    ],
+    "lib-mw90zaqw7qf": [
+      0.0576,
+      0.1201,
+      0.8877,
+      0.7344
+    ],
+    "lib-mw90zar166v": [
+      0.2188,
+      0.0127,
+      0.7188,
+      0.9326
+    ],
+    "lib-mw90zaroy28": [
+      0.0674,
+      0.2363,
+      0.8047,
+      0.6025
+    ],
+    "lib-mw90zas30zf": [
+      0,
+      0.2686,
+      1,
+      0.4297
+    ],
+    "lib-mw90zar9wrf": [
+      0.0273,
+      0.3213,
+      0.9518,
+      0.3604
+    ],
+    "lib-mw90zaua3an": [
+      0.0306,
+      0.165,
+      0.944,
+      0.6309
+    ],
+    "lib-mw90zauee9f": [
+      0.0781,
+      0.0713,
+      0.8428,
+      0.8428
+    ]
+  },
+  "sections": {
+    "01-baslangic": "15:2",
+    "02-oyun": "15:3",
+    "03-oyun-sonu": "15:4",
+    "04-duraklatma": "15:5",
+    "05-ayarlar": "15:6"
+  },
+  "screens": {
+    "oyun-baslangic": {
+      "id": "15:7",
+      "status": "built",
+      "reference": true,
+      "devNote": "25:246"
+    },
+    "oyun-acik": {
+      "id": "15:25",
+      "status": "built",
+      "reference": true,
+      "devNote": "25:266"
+    },
+    "paylasim": {
+      "id": "16:147",
+      "status": "built",
+      "reference": true,
+      "devNote": "25:376"
+    },
+    "duraklatma": {
+      "id": "16:12",
+      "status": "built",
+      "reference": true,
+      "devNote": "25:386"
+    },
+    "ayarlar": {
+      "id": "16:51",
+      "status": "built",
+      "reference": true,
+      "devNote": "25:406"
+    },
+    "acilis": {
+      "id": "20:101",
+      "status": "built",
+      "devNote": "25:226"
+    },
+    "ana-sayfa": {
+      "id": "20:119",
+      "status": "built",
+      "devNote": "25:236"
+    },
+    "ipucu": {
+      "id": "20:154",
+      "status": "built",
+      "devNote": "25:256"
+    },
+    "oyun-kapali": {
+      "id": "21:116",
+      "status": "built",
+      "devNote": "25:276"
+    },
+    "kirilma": {
+      "id": "21:132",
+      "status": "built",
+      "devNote": "25:286"
+    },
+    "devam-teklifi": {
+      "id": "21:144",
+      "status": "built",
+      "devNote": "25:296"
+    },
+    "sayac": {
+      "id": "21:213",
+      "status": "built",
+      "devNote": "25:316"
+    },
+    "oyun-sonu": {
+      "id": "22:139",
+      "status": "built",
+      "devNote": "25:326"
+    },
+    "yeni-rekor": {
+      "id": "22:212",
+      "status": "built",
+      "devNote": "25:336"
+    },
+    "klip-hazirlaniyor": {
+      "id": "22:304",
+      "status": "built",
+      "devNote": "25:356"
+    },
+    "klip-hata": {
+      "id": "22:351",
+      "status": "built",
+      "devNote": "25:366"
+    },
+    "cikis-onayi": {
+      "id": "22:403",
+      "status": "built",
+      "devNote": "25:396"
+    }
+  },
+  "layout": "Section genişliği ekran sayısına göre ayrıldı; her ekran x = 40 + sıra×450, y = 40 (flow.md sırası). odullu-reklam kaldırıldı (2026-11-09); sayac 5. sıraya kaydı. ara-reklam kaldırıldı (2026-11-09); 03-oyun-sonu'nda sonraki ekranlar sola kaydı.",
+  "userComponents": {
+    "Coin": "27:222",
+    "HUD/Coins": "27:226"
+  }
+}

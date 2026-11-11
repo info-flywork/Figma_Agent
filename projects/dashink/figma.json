@@ -1,0 +1,210 @@
+{
+  "fileKey": "v0EqS820RVzmPhzGeBQn4m",
+  "pages": {
+    "ekranlar": "0:1",
+    "components": "4:25"
+  },
+  "variables": {
+    "collection": "VariableCollectionId:4:2",
+    "color/paper": "VariableID:4:3",
+    "color/paper-card": "VariableID:4:4",
+    "color/paper-line": "VariableID:4:5",
+    "color/ink": "VariableID:4:6",
+    "color/ink-soft": "VariableID:4:7",
+    "color/tomato": "VariableID:4:8",
+    "color/tomato-dark": "VariableID:4:9",
+    "color/tomato-tint": "VariableID:4:10",
+    "color/mint": "VariableID:4:11",
+    "color/gold": "VariableID:4:12",
+    "color/white": "VariableID:4:13",
+    "space/4": "VariableID:4:14",
+    "space/8": "VariableID:4:15",
+    "space/12": "VariableID:4:16",
+    "space/16": "VariableID:4:17",
+    "space/20": "VariableID:4:18",
+    "space/24": "VariableID:4:19",
+    "space/32": "VariableID:4:20",
+    "radius/sm": "VariableID:4:21",
+    "radius/md": "VariableID:4:22",
+    "radius/lg": "VariableID:4:23",
+    "radius/full": "VariableID:4:24"
+  },
+  "components": {
+    "icons": {
+      "play": "28:753",
+      "shopping-bag": "28:758",
+      "list-checks": "28:765",
+      "settings": "28:769",
+      "crown": "39:773",
+      "hand": "39:779",
+      "calendar": "39:785",
+      "trophy": "39:793",
+      "rotate-ccw": "39:797",
+      "share-2": "39:804",
+      "house": "39:808",
+      "lock": "39:812",
+      "pause": "39:816",
+      "x": "39:820",
+      "image": "39:825"
+    },
+    "ImageArea": "5:64",
+    "StatusBar": "5:69",
+    "CoinPill": "5:81",
+    "PageDots": "5:88",
+    "Button": "7:27",
+    "IconButton": "7:28",
+    "TabBar": "7:132",
+    "Segmented": "7:154",
+    "ShopCard": "7:197"
+  },
+  "sections": {
+    "01-acilis": "8:2",
+    "02-ana-ekran": "8:3",
+    "03-oyun-dongusu": "8:4",
+    "04-ana-ekran-dallari": "8:5"
+  },
+  "screens": {
+    "egitim": {
+      "id": "10:209",
+      "section": "01-acilis",
+      "status": "built",
+      "devNote": "37:780"
+    },
+    "ana-ekran": {
+      "id": "8:6",
+      "section": "02-ana-ekran",
+      "status": "built",
+      "devNote": "37:790"
+    },
+    "oyun": {
+      "id": "10:257",
+      "section": "03-oyun-dongusu",
+      "status": "built"
+    },
+    "oyun-bitti": {
+      "id": "10:296",
+      "section": "03-oyun-dongusu",
+      "status": "built",
+      "devNote": "37:810"
+    },
+    "magaza": {
+      "id": "8:103",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:880"
+    },
+    "top-dustu": {
+      "id": "17:256",
+      "section": "03-oyun-dongusu",
+      "status": "built",
+      "ref": "5:125",
+      "devNote": "37:800"
+    },
+    "rekor-rozeti": {
+      "id": "18:273",
+      "section": "03-oyun-dongusu",
+      "status": "built",
+      "devNote": "37:820"
+    },
+    "oyuncu-secimi": {
+      "id": "18:359",
+      "section": "03-oyun-dongusu",
+      "status": "built",
+      "devNote": "37:830"
+    },
+    "klip-paylas": {
+      "id": "18:496",
+      "section": "03-oyun-dongusu",
+      "status": "built",
+      "devNote": "37:840"
+    },
+    "siralama": {
+      "id": "19:370",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:850"
+    },
+    "gunluk-meydan-okuma": {
+      "id": "19:527",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:860"
+    },
+    "ayarlar": {
+      "id": "19:678",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:870"
+    },
+    "satin-al-kusan": {
+      "id": "21:513",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:890"
+    },
+    "altin-yetersiz": {
+      "id": "21:615",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:900"
+    },
+    "gorevler": {
+      "id": "21:714",
+      "section": "04-ana-ekran-dallari",
+      "status": "built",
+      "devNote": "37:910"
+    },
+    "splash": {
+      "id": "33:986",
+      "section": "01-acilis",
+      "status": "built",
+      "devNote": "37:770",
+      "note": "flow.md kaydı yok"
+    }
+  },
+  "oyunReferans": {
+    "note": "2026-11-06 screen-edit: referans görsele (references/attach-1793961091332-8ili.png) göre ayrı sayfada 10 ekran; ana akış ekranlarına dokunulmadı",
+    "page": "73:800",
+    "section": "73:895",
+    "componentsFrame": "73:801",
+    "components": {
+      "Logo": "73:875",
+      "Back": "73:879",
+      "CoinPill": "73:882",
+      "YellowButton": "73:889",
+      "Toggle": "73:893"
+    },
+    "icons": {"settings":"73:805","chevron-left":"73:808","chevron-right":"73:811","chevron-down":"73:814","play":"73:817","lock":"73:821","map":"73:826","circle-check":"73:830","badge":"73:833","music":"73:838","volume-2":"73:843","vibrate":"73:848","globe":"73:853","circle-help":"73:858","message-square-more":"73:864","shield":"73:867","plus":"73:871","check":"73:874"},
+    "screens": {
+      "g-splash": { "id": "74:804", "status": "built" },
+      "g-egitim-1": { "id": "74:821", "status": "built" },
+      "g-egitim-2": { "id": "74:841", "status": "built" },
+      "g-egitim-3": { "id": "74:861", "status": "built" },
+      "g-ana-ekran": { "id": "75:816", "status": "built" },
+      "g-bolumler": { "id": "75:858", "status": "built" },
+      "g-gorevler": { "id": "75:964", "status": "built" },
+      "g-toplar": { "id": "77:844", "status": "built" },
+      "g-temalar": { "id": "77:897", "status": "built" },
+      "g-ayarlar": { "id": "77:938", "status": "built" }
+    }
+  },
+  "images": {
+    "zemin": "1a90b1728e417d7055af561d29fe4f6ab4279792",
+    "egitim-sahne": "6239f94aa97f81349d972e408e125a93a0564a9d",
+    "oyun-sahne": "40dc2615202cf80def934d9ed6ec100252c404a9",
+    "oyun-bitti-sahne": "df771976d9aad2395ca6978eaeef1748582248ee",
+    "ana-hero": "0fd9a110772abf4aa8aad08809c4b8f5ee4a1e1e",
+    "coin": "86e37ff7c19a3010d11243de42c34b5d70f790c4",
+    "top-klasik": "c1996bd0fd82f659c36685edbe9d346795883320",
+    "top-karpuz": "e901a081986da2ed480194852ced5cbee90a459a",
+    "top-gezegen": "f73e44ce0e1075345b0e1e30697eea67ce6e364b",
+    "top-goz": "129f22adfafc80100ec3214702aefdbdb9dbff09",
+    "top-disko": "60ab5cc8242f8d1ed671f60cc876dbe1cc7f46c1",
+    "top-yildiz": "6e9cc0ddc20a22cf7bafbea08ce4c119f43820dd",
+    "top-dustu-sahne": "ec247da0cdff99a95b911c3412473abb0bad712f",
+    "top-dustu-damla": "0acfaccf50b9811c8edcf191907af6ce26a49c9f",
+    "top-dustu-coin": "b337e589e80574ca12d49e3f965b98604477959e",
+    "rekor-rozet": "c5859441aa00e93d90e2b0cf5b4550018f696957",
+    "gunluk-parkur": "19be2c924449f8977cf74647f12f977ec4342f80"
+  }
+}

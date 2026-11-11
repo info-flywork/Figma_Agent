@@ -1,0 +1,50 @@
+{
+  "frames": [
+    {
+      "id": "01",
+      "lang": "English",
+      "screen": "03-04-town-complete",
+      "files": {
+        "ios": "store/English/ios-01.png",
+        "play": "store/English/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "English",
+      "screen": "05-01-settings",
+      "files": {
+        "ios": "store/English/ios-02.png",
+        "play": "store/English/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "English",
+      "screen": "02-03-vehicle-move",
+      "files": {
+        "ios": "store/English/ios-03.png",
+        "play": "store/English/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "English",
+      "screen": "04-01-pause",
+      "files": {
+        "ios": "store/English/ios-04.png",
+        "play": "store/English/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "English",
+      "screen": "01-01-splash",
+      "files": {
+        "ios": "store/English/ios-05.png",
+        "play": "store/English/play-05.png"
+      }
+    }
+  ],
+  "placed": false
+}

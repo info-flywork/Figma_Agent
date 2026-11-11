@@ -1,0 +1,245 @@
+{
+  "fileKey": "Q34mUGz95bmtk4plIw2h7C",
+  "pages": {
+    "screens": "0:1",
+    "components": "6:2"
+  },
+  "variables": {
+    "collection": "VariableCollectionId:6:3",
+    "color/surface": "VariableID:6:4",
+    "color/surface-inset": "VariableID:6:5",
+    "color/border": "VariableID:6:6",
+    "color/text": "VariableID:6:7",
+    "color/text-muted": "VariableID:6:8",
+    "color/on-color": "VariableID:6:9",
+    "color/primary": "VariableID:6:10",
+    "color/primary-edge": "VariableID:6:11",
+    "color/secondary": "VariableID:6:12",
+    "color/secondary-edge": "VariableID:6:13",
+    "color/danger": "VariableID:6:14",
+    "color/danger-edge": "VariableID:6:15",
+    "color/locked": "VariableID:6:16",
+    "color/locked-edge": "VariableID:6:17",
+    "color/star": "VariableID:6:18",
+    "color/scrim": "VariableID:6:19",
+    "color/board": "VariableID:6:20",
+    "color/board-cell": "VariableID:6:21",
+    "color/car-red": "VariableID:6:22",
+    "color/car-blue": "VariableID:6:23",
+    "color/car-yellow": "VariableID:6:24",
+    "color/car-green": "VariableID:6:25",
+    "radius/sm": "VariableID:6:26",
+    "radius/md": "VariableID:6:27",
+    "radius/lg": "VariableID:6:28",
+    "radius/full": "VariableID:6:29",
+    "space/4": "VariableID:6:30",
+    "space/8": "VariableID:6:31",
+    "space/12": "VariableID:6:32",
+    "space/16": "VariableID:6:33",
+    "space/24": "VariableID:6:34",
+    "space/32": "VariableID:6:35"
+  },
+  "textStyles": [
+    "Display",
+    "Title",
+    "Heading",
+    "Body",
+    "Label",
+    "Caption",
+    "Button-L",
+    "Button-M"
+  ],
+  "components": {
+    "Icon/back": "7:13",
+    "Icon/pause": "7:17",
+    "Icon/gear": "7:21",
+    "Icon/play": "7:24",
+    "Icon/grid": "7:30",
+    "Icon/home": "7:33",
+    "Icon/undo": "7:37",
+    "Icon/bulb": "7:42",
+    "Icon/restart": "7:46",
+    "Icon/lock": "7:50",
+    "Icon/close": "7:54",
+    "Icon/check": "7:57",
+    "Icon/arrow-right": "7:61",
+    "Button": "8:42",
+    "Star": "8:43",
+    "Coin": "8:45",
+    "HandPointer": "8:47",
+    "Car": "8:65",
+    "IconButton": "9:12",
+    "CounterPill": "9:24",
+    "TitlePill": "9:25",
+    "ProgressBar": "9:27",
+    "GoalChip": "9:83",
+    "ToolButton": "9:84",
+    "Gate": "9:121",
+    "Board": "9:122",
+    "ModalHeader": "9:159",
+    "LevelTile": "23:1266",
+    "Toggle": "23:1271",
+    "GameToolBar": "81:2023"
+  },
+  "sections": {
+    "01-giris": "11:2",
+    "02-sehir": "11:3",
+    "03-oyun": "11:4",
+    "04-sonuc": "11:5",
+    "05-ipucu": "11:6",
+    "06-duraklatma": "11:7"
+  },
+  "notes": "Ekran: kök VERTICAL auto layout, img/bg-* ABSOLUTE en altta; oyun ekranı TopBar → GoalPanel → BoardArea(396², Board instance 20,20; araç/kapı ABSOLUTE, hücre (c,r) = 32+56c, 32+56r; dikey araç rotation -90) → Spacer(grow) → ToolBar. Modal: Scrim (opacity 0.75) + Modal kartı ABSOLUTE ortada. Button/ToolButton ikonu = instance children[0] (swap sonrası adı değişir).",
+  "screens": {
+    "tutorial": {
+      "id": "11:8",
+      "section": "01-giris",
+      "status": "built",
+      "reference": true
+    },
+    "building-next": {
+      "id": "13:345",
+      "section": "02-sehir",
+      "status": "built",
+      "reference": true
+    },
+    "level-complete": {
+      "id": "13:391",
+      "section": "04-sonuc",
+      "status": "built",
+      "reference": true
+    },
+    "hint-none": {
+      "id": "11:352",
+      "section": "05-ipucu",
+      "status": "built",
+      "reference": true
+    },
+    "paused": {
+      "id": "11:155",
+      "section": "06-duraklatma",
+      "status": "built",
+      "reference": true
+    },
+    "splash": {
+      "id": "47:2144",
+      "section": "01-giris",
+      "status": "built"
+    },
+    "resume-board": {
+      "id": "21:424",
+      "section": "01-giris",
+      "status": "built"
+    },
+    "city-home": {
+      "id": "24:1250",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "section-select": {
+      "id": "94:2057",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "shop": {
+      "id": "94:2171",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "section-locked": {
+      "id": "24:1453",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "building-renewed": {
+      "id": "24:1595",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "stars-missing": {
+      "id": "24:1640",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "settings": {
+      "id": "24:1707",
+      "section": "02-sehir",
+      "status": "built"
+    },
+    "game-board": {
+      "id": "21:595",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "wrong-color": {
+      "id": "21:744",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "door-locked": {
+      "id": "21:893",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "level-intro": {
+      "id": "34:1505",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "low-moves": {
+      "id": "34:1665",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "gate-opened": {
+      "id": "34:1829",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "puzzle-alt": {
+      "id": "38:1831",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "out-of-moves": {
+      "id": "22:841",
+      "section": "04-sonuc",
+      "status": "built"
+    },
+    "world-complete": {
+      "id": "22:888",
+      "section": "04-sonuc",
+      "status": "built"
+    },
+    "final-200": {
+      "id": "22:932",
+      "section": "04-sonuc",
+      "status": "built"
+    },
+    "hint-highlight": {
+      "id": "22:982",
+      "section": "05-ipucu",
+      "status": "built"
+    },
+    "hint-no-coin": {
+      "id": "22:1118",
+      "section": "05-ipucu",
+      "status": "built"
+    },
+    "reset-confirm": {
+      "id": "22:1288",
+      "section": "06-duraklatma",
+      "status": "built"
+    },
+    "puzzle-50": {
+      "id": "40:2165",
+      "section": "03-oyun",
+      "status": "built"
+    },
+    "frozen-blockers": {
+      "id": "109:2181",
+      "section": "03-oyun",
+      "status": "built"
+    }
+  }
+}

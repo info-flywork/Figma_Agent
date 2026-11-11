@@ -1,0 +1,305 @@
+{
+  "name": "Pocket Factory v2",
+  "slug": "pocket-factory-v2",
+  "figjamUrl": "https://www.figma.com/board/63Y2EiIMk3sUMljdur6eqE/Pocket-Factory-%E2%80%94-Mini-Fabrika?node-id=0-1&t=iV2zJ8foYn7rlVkY-1",
+  "figmaUrl": "https://www.figma.com/design/zAEEjnpwJmgF6VEFCrlg5K/Pocket-Factory?node-id=0-1&t=jUr4N58IkBKx1TzK-1",
+  "figjamKey": "63Y2EiIMk3sUMljdur6eqE",
+  "figmaKey": "zAEEjnpwJmgF6VEFCrlg5K",
+  "referenceIds": [
+    "splash",
+    "bolum-tamam-2",
+    "duraklat",
+    "siparis-recete",
+    "bolum-tamam"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "splash": "approved",
+    "bolum-tamam-2": "approved",
+    "duraklat": "approved",
+    "siparis-recete": "approved",
+    "bolum-tamam": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "design-rest",
+    "ids": [
+      "intro-1",
+      "intro-2",
+      "intro-3",
+      "b001-ogretici",
+      "ana-menu",
+      "b1-gorev",
+      "b1-kavsak",
+      "b1-baslat",
+      "b1-uretim",
+      "b1-basari",
+      "b1-tekrar-vurgu",
+      "fabrika-ana",
+      "dunya-sec",
+      "bolum-sec",
+      "hazirliga-gec",
+      "kilit-kosulu",
+      "kilitli-bolum",
+      "kavsak-dondur",
+      "uretimi-baslat",
+      "uretim-simulasyon",
+      "sonuc-denetle",
+      "sabit-parca",
+      "odul",
+      "sonraki-bolum",
+      "uretim-hatasi",
+      "tekrar-ipucu",
+      "ipucu-butonu",
+      "dogru-kavsak-vurgu",
+      "coin-denetimi",
+      "devam-yeniden",
+      "onay-ayarlar",
+      "yeni-dunya",
+      "yeni-makine",
+      "final-200",
+      "sonraki-bolum-2"
+    ],
+    "requestedAt": "2026-11-06T09:52:03.307Z",
+    "updatedAt": "2026-11-06T10:09:53.604Z",
+    "steps": [
+      {
+        "label": "Figma’da kuruluyor: Intro 1: Mini fabrika · ref: 52:1143 (02. Tanıtım 1)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:52:51.748Z",
+        "note": "Görsel kırpıntıları hazırlanıyor",
+        "doneAt": "2026-11-06T10:02:26.407Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Intro 2: Bandı döndür · ref: 52:1143 (03. Tanıtım 2)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:58:27.186Z",
+        "doneAt": "2026-11-06T10:02:26.476Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Intro 3: Üretimi başlat · ref: 52:1143 (04. Tanıtım 3)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:58:27.206Z",
+        "doneAt": "2026-11-06T10:02:26.516Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: B001 öğretici · ref: 52:1143 (05. Tutorial Bölüm 1)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:58:27.227Z",
+        "doneAt": "2026-11-06T10:02:26.540Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Ana Menü (ilk giriş değilse) · ref: 52:1143 (07. Ana Menü)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:58:27.248Z",
+        "doneAt": "2026-11-06T10:02:26.562Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: 1 kırmızı oyuncak araba",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.584Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Kavşağa dokun",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.607Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Başlat",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.628Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Şekil → Boya → Paketle",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.651Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Başarı: +1★ +50 coin",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.673Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Tekrar vurgula",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.694Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Fabrika Ana Sayfa",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.716Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Dünya seç · ref: 52:1143 (08. Dünya Seçimi)",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.738Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Bölüm seç · ref: 52:1143 (09. Bölüm Seçimi)",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.759Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hazırlığa geç",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.780Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Kilit koşulu",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.801Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Kilitli bölüm",
+        "status": "done",
+        "doneAt": "2026-11-06T10:02:26.825Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: 90° kavşağı döndür",
+        "status": "done",
+        "startedAt": "2026-11-06T10:02:26.869Z",
+        "doneAt": "2026-11-06T10:05:38.365Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: BAŞLAT",
+        "status": "done",
+        "startedAt": "2026-11-06T10:02:26.892Z",
+        "doneAt": "2026-11-06T10:05:38.389Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Üretim simülasyonu",
+        "status": "done",
+        "startedAt": "2026-11-06T10:02:26.916Z",
+        "doneAt": "2026-11-06T10:05:38.409Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Sonucu denetle",
+        "status": "done",
+        "startedAt": "2026-11-06T10:02:26.941Z",
+        "doneAt": "2026-11-06T10:05:38.429Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Sabit parça",
+        "status": "done",
+        "startedAt": "2026-11-06T10:02:26.964Z",
+        "doneAt": "2026-11-06T10:05:38.449Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: +1★ +50 coin",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.470Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Sonraki bölüm",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.490Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Üretim hatası · ref: 52:1143 (11. Başarısızlık Ekranı)",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.510Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Tekrar dene / İpucu",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.530Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: İpucu butonu · ref: 52:1143 (10. İpucu Ekranı)",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.551Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Doğru kavşak vurgusu",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.571Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → 100 coin denetimi",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.593Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Devam / Yeniden Başlat",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.614Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Onay / Ayarlar",
+        "status": "done",
+        "doneAt": "2026-11-06T10:05:38.634Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Yeni dünya açıldı",
+        "status": "done",
+        "startedAt": "2026-11-06T10:05:38.674Z",
+        "doneAt": "2026-11-06T10:09:53.491Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Yeni makine tanıtımı",
+        "status": "done",
+        "startedAt": "2026-11-06T10:05:38.694Z",
+        "doneAt": "2026-11-06T10:09:53.514Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: 200 bölüm finali",
+        "status": "done",
+        "startedAt": "2026-11-06T10:05:38.714Z",
+        "doneAt": "2026-11-06T10:09:53.536Z"
+      },
+      {
+        "label": "Figma’da kuruluyor: Hayır → Sonraki bölüm",
+        "status": "done",
+        "startedAt": "2026-11-06T10:05:38.734Z",
+        "doneAt": "2026-11-06T10:09:53.559Z"
+      },
+      {
+        "label": "Ekran görselleri üretiliyor (gpt-image-2)",
+        "status": "done",
+        "startedAt": "2026-11-06T09:53:40.974Z",
+        "note": "17 görsel üretildi (gpt-image-2), şeffaf kesildi, Figma'ya yüklendi",
+        "doneAt": "2026-11-06T09:58:27.163Z"
+      },
+      {
+        "label": "Görseller Figma’ya yerleştiriliyor",
+        "status": "done",
+        "startedAt": "2026-11-06T10:09:53.583Z",
+        "doneAt": "2026-11-06T10:09:53.604Z",
+        "note": "17 yeni görsel + mevcut 13 görsel hash'i yeniden kullanıldı; 35 önizleme kaydedildi"
+      }
+    ],
+    "runner": {
+      "pid": 57440,
+      "startedAt": "2026-11-06T09:52:03.311Z",
+      "log": "projects/pocket-factory-v2/runs/2026-11-06T09-52-03-308Z-design-rest.log"
+    },
+    "finishedAt": "2026-11-06T10:09:53.624Z",
+    "summary": "Pocket Factory v2'de kalan 35 ekranın hepsi Figma'da kuruldu. Görseller yerleşti, önizlemeler kaydedildi ve iş panelde kapatıldı (`finish`). Panelden **Onayla ve denetle** dediğinizde denetim adımı başlar.\n\n**Kurulan ekranlar (7 bölüm):**\n- **01 Açılış (5 ekran):**\n  - **Intro 1–3:** referanstaki üç tanıtım ekranının mavi gradyanlı karşılığı.\n  - **B001 öğretici:** oyun tahtası ve işçi avatarlı ipucu balonu.\n  - **Ana Menü:** fabrika arka planı, logo, coin/yıldız, \"Oyna\" butonu ve alt menü.\n- **02 Bölüm 1 (6 ekran):** öğretici akışının adımları. Sipariş penceresi, kavşağa dokunma (vurgu + el), Başlat, üretim, başarı ve yanlış yönde tekrar vurgu.\n- **03 Fabrika (6 ekran):**\n  - **Dünya seçimi:** 4 dünya; ilki açık, diğerleri kilitli.\n  - **Bölüm seçimi:** 20 bölümlük ızgara.\n  - **Pencereli üç ekran:** hazırlık, dünya kilit koşulu ve kilitli bölüm.\n- **04 Hazırlık (5 ekran):** onaylı \"Sipariş ve reçete\" ekranından türetildi. Kavşağı döndürme, BAŞLAT, üretim simülasyonu, sonuç kontrolü ve sabit parça uyarısı.\n- **05 Sonuç (4 ekran):** ödül, sonraki bölüm penceresi, kırmızı \"Üretim Hatası!\" ekranı ve ipucu butonunun vurgulandığı tekrar deneme.\n- **06 İpucu/Duraklat (5 ekran):** ipucu penceresi, doğru kavşak vurgusu, 100 coin onayı, yeniden başlatma onayı ve Ayarlar (ses, müzik, titreşim, dil).\n- **07 Dünya/Final (4 ekran):** yeni dünya, yeni makine (Ayırıcı Bant), 200 bölüm finali ve sonraki bölüm.\n\n**Görseller:**\n- **Üretilen (17):** gpt-image-2 ile, referans panosundaki kırpıntılara göre çizildi. İşçi karakteri, avatarı, kavşak, ürün dizisi, iki oyun tahtası ve araba yüklü halleri, menü arka planı, 4 dünya binası, hatalı robot, ipucu karosu, ayırıcı makine, el ve kupa.\n- **Yeniden kullanılan:** onaylı ekranlardaki görseller tekrar yüklenmeden kullanıldı.\n- **Kütüphane:** hazır asset yoktu, kütüphaneden alınan öğe olmadı.\n- **İkonlar:** 12 yeni ikon Lucide'den alınıp component yapıldı.\n\n**Uydurduğum içerikler.** Referansta karşılığı olmayan yerleri ben yazdım, kontrol etmenizi isterim:\n- Bölüm 6–7 hedefleri\n- Ayarlar ekranındaki seçenekler\n- Hata ekranındaki \"Paket, boyadan önce geldi.\" açıklaması\n- Yeni dünya ve final ekranlarındaki metinler\n- Bölüm seçimindeki yıldız dağılımı\n\n**Kalan farklar:**\n- **Intro 3:** ürün dizisi görseli çok geniş çıktığı için ekranda küçük duruyor.\n- **Hayır → Tekrar vurgula (Bölüm 1):** ekran 932 px, diğerleri 930 px.\n- **Ana Menü:** referanstaki iki satırlı \"Oyna / Bölüm 2\" butonu tek satır oldu (\"Oyna · Bölüm 2\"), çünkü buton component'i tek etiketli.\n\nKayıtlar `projects/pocket-factory-v2/` altında: ekran id'leri `figma.json`'da, görseller `assets/manifest.json`'da, önizlemeler `previews/` klasöründe. Yeni ekran kalıplarını (vurgu, Toast, kilitli kart, hata ekranı, ayar anahtarı) `DESIGN.md`'ye ekledim."
+  },
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.408,
+      "steps": 3,
+      "turns": 14,
+      "at": "2026-11-06T09:17:50.691Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 3.372,
+      "steps": 8,
+      "turns": 69,
+      "at": "2026-11-06T09:44:45.750Z"
+    },
+    {
+      "type": "design-rest",
+      "model": "claude-opus-5-5",
+      "usd": 6.675,
+      "steps": 37,
+      "turns": 135,
+      "at": "2026-11-06T10:10:19.108Z"
+    }
+  ]
+}

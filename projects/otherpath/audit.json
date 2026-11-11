@@ -1,0 +1,236 @@
+{
+  "updatedAt": "2026-10-26T12:44:55.088898+00:00",
+  "items": [
+    {
+      "id": "a-001",
+      "section": "04-new-decision",
+      "screen": "04-06-happiness",
+      "severity": "high",
+      "title": "0–10 puan düğmeleri çok küçük",
+      "detail": "11 düğme tek satırda; her biri yaklaşık 29 px genişlikte. Parmakla yanlış puan seçmek kolay.",
+      "fix": "Ölçeği iki satıra böl (0–5, 6–10) ya da 44 px yüksekliğinde bir slider + büyük skor kullan.",
+      "rule": "Dokunma alanı ≥ 44 px (DESIGN.md)",
+      "status": "open"
+    },
+    {
+      "id": "a-002",
+      "section": "06-checkin",
+      "screen": "06-05-happiness",
+      "severity": "high",
+      "title": "0–10 puan düğmeleri çok küçük",
+      "detail": "04-06 ile aynı ölçek; düğmeler ~29 px genişlikte.",
+      "fix": "04-06 için seçilen çözümü burada da uygula.",
+      "rule": "Dokunma alanı ≥ 44 px (DESIGN.md)",
+      "status": "open"
+    },
+    {
+      "id": "a-003",
+      "section": null,
+      "screen": null,
+      "severity": "medium",
+      "title": "ink-3 metin renkli kartlarda yetersiz kontrastta",
+      "detail": "ink-3 (#6E6A7A) krem zeminde 4.78:1 ama lilac üstünde 4.34, sage üstünde 4.32, peach üstünde 4.25:1. Karakter sayaçları (89/500), tarih ve fiyat açıklamaları 4.5 sınırının altında kalıyor (03-08, 03-10, 04-01…04-05, 06-04, 07-05/06/07, 08-03, 08-15, 08-16, 08-20, 09-02, 09-03).",
+      "fix": "Renkli kartların içinde meta metni ink-2 yap ya da ink-3'ü #625E6E'ye koyulaştır (lilac üstünde ≈5.2:1). DESIGN.md'deki kontrast notunu güncelle.",
+      "rule": "Kontrast 4.5:1 (WCAG AA)",
+      "status": "open"
+    },
+    {
+      "id": "a-004",
+      "section": "04-new-decision",
+      "screen": "04-11-story-card",
+      "severity": "medium",
+      "title": "Kart rengi seçicileri küçük ve etiketsiz",
+      "detail": "4 renk dairesi ~30 px; seçili olan yalnızca ince halkayla ayrılıyor, renk adları yok.",
+      "fix": "Daireleri 44 px dokunma alanına al, seçili olana ✓ ekle, erişilebilir ad ver (Lila, Şeftali, Adaçayı, Beyaz).",
+      "rule": "Dokunma alanı + renk tek başına anlam taşımaz",
+      "status": "open"
+    },
+    {
+      "id": "a-005",
+      "section": "08-profile",
+      "screen": "08-05-quiet-hours",
+      "severity": "medium",
+      "title": "Gün seçicileri 44 px'in altında",
+      "detail": "Pt…Pz daireleri ~32 px.",
+      "fix": "Günleri 44 px yüksekliğinde chip'lere çevir ya da daireleri 44 px yap.",
+      "rule": "Dokunma alanı ≥ 44 px (DESIGN.md)",
+      "status": "open"
+    },
+    {
+      "id": "a-006",
+      "section": "04-new-decision",
+      "screen": "04-02-write",
+      "severity": "medium",
+      "title": "Adım göstergesi etiketleri içerikle uyuşmuyor",
+      "detail": "Stepper '1. Karar · 2. Alternatif · 3. Nedenler' diyor; ama 2. adım 'Biraz bağlam ekle' (04-05), 3. adım 'Mutluluk tahmini' (04-06).",
+      "fix": "Etiketleri 'Karar · Bağlam · Tahmin' yap; 04-02, 04-03, 04-04, 04-05, 04-06'da güncelle.",
+      "rule": "Tutarlılık",
+      "status": "open"
+    },
+    {
+      "id": "a-007",
+      "section": "07-insights",
+      "screen": "07-02-tendency",
+      "severity": "medium",
+      "title": "Eğilim detayında başlık yanlış",
+      "detail": "Nav başlığı 'Eğitim' (bir kategori), içerik 'Yakınlığı seçiyorsun' eğilimi.",
+      "fix": "Nav başlığını 'Eğilim' ya da 'Yakınlık' yap; üstteki 'Eğitim' etiketini kaldır.",
+      "rule": "İçerik doğruluğu",
+      "status": "open"
+    },
+    {
+      "id": "a-008",
+      "section": "01-opening",
+      "screen": "01-05-sign-in",
+      "severity": "medium",
+      "title": "Giriş hatası durumu yok",
+      "detail": "Yanlış şifre / bulunamayan hesap için ekran ya da alan hatası tasarlanmamış. Text Field'ın Error varyantı var ama kullanılmamış.",
+      "fix": "01-05'e hata varyantı ekle: şifre alanı Error + 'E-posta ya da şifre hatalı. Şifreni sıfırlayabilirsin.' + Şifremi unuttum bağlantısı.",
+      "rule": "Hata durumları; hata mesajı çözüm önerir",
+      "status": "open"
+    },
+    {
+      "id": "a-009",
+      "section": "01-opening",
+      "screen": "01-05-sign-in",
+      "severity": "medium",
+      "title": "Şifre alanlarında göster/gizle yok",
+      "detail": "01-05, 01-06 ve 01-08'de şifre maskeli; kullanıcı yazdığını kontrol edemiyor.",
+      "fix": "Text Field'a sağda göz ikonlu (44 px) göster/gizle düğmesi ekle.",
+      "rule": "Formlar",
+      "status": "open"
+    },
+    {
+      "id": "a-010",
+      "section": "04-new-decision",
+      "screen": "04-07-writing",
+      "severity": "medium",
+      "title": "Öykü üretimi başarısız olursa ne olacağı tasarlanmamış",
+      "detail": "Yükleme ekranı var; zaman aşımı, bağlantı hatası ya da içerik reddi için durum yok. Hakkın düşüp düşmediği belirsiz.",
+      "fix": "Hata ekranı ekle: kısa açıklama + 'Tekrar dene' + 'Hakkın düşmedi' notu + Taslağa dön.",
+      "rule": "Yükleme / hata durumları",
+      "status": "open"
+    },
+    {
+      "id": "a-011",
+      "section": "09-premium",
+      "screen": "09-03-payment",
+      "severity": "medium",
+      "title": "Ödeme iptal / başarısız durumu yok",
+      "detail": "App Store sayfası iptal edilirse ya da ödeme başarısız olursa kullanıcının nereye döndüğü yok.",
+      "fix": "09-02'de üstte kapatılabilir uyarı (toast) ile iptal ve hata durumunu göster.",
+      "rule": "Hata durumları",
+      "status": "open"
+    },
+    {
+      "id": "a-012",
+      "section": "03-decisions",
+      "screen": "03-02-search",
+      "severity": "medium",
+      "title": "Aramada 'sonuç yok' durumu yok",
+      "detail": "Filtre + arama sonucu boşsa ne görüneceği tasarlanmamış (03-03 yalnızca hiç kararı olmayan kullanıcı için).",
+      "fix": "'Berlin' için sonuç yok + 'Filtreleri temizle' düğmesi olan küçük bir boş durum ekle.",
+      "rule": "Boş durumlar",
+      "status": "open"
+    },
+    {
+      "id": "a-013",
+      "section": "08-profile",
+      "screen": "08-14-share-manage",
+      "severity": "medium",
+      "title": "'Tüm paylaşımları durdur' onaysız",
+      "detail": "Yıkıcı ve geniş etkili bir işlem doğrudan metin düğmesinde; onay penceresi yok.",
+      "fix": "03-09 diyalog kalıbıyla onay ekle: 'Elif Kaya ve Dr. Can Arslan artık kararlarını göremeyecek.'",
+      "rule": "Yıkıcı işlemler onay ister",
+      "status": "open"
+    },
+    {
+      "id": "a-014",
+      "section": "08-profile",
+      "screen": "08-17-gift-code",
+      "severity": "low",
+      "title": "Geçersiz kod durumu yok",
+      "detail": "Yanlış ya da kullanılmış kod için hata tasarlanmamış.",
+      "fix": "Alanın Error varyantı: 'Bu kod geçersiz ya da kullanılmış.'",
+      "rule": "Hata durumları",
+      "status": "open"
+    },
+    {
+      "id": "a-015",
+      "section": "08-profile",
+      "screen": "08-20-contact",
+      "severity": "low",
+      "title": "Mesaj gönderildi onayı yok",
+      "detail": "'Gönder'den sonra kullanıcıya geri bildirim yok.",
+      "fix": "Durum ekranı kalıbıyla kısa bir 'Mesajın bize ulaştı' ekranı ya da toast ekle.",
+      "rule": "Geri bildirim",
+      "status": "open"
+    },
+    {
+      "id": "a-016",
+      "section": "01-opening",
+      "screen": "01-03-onboarding-compare",
+      "severity": "low",
+      "title": "Onboarding'de geri dönüş yolu yok",
+      "detail": "01-03 ve 01-04'te geri düğmesi yok; yalnızca 'Atla' var. Kaydırma tek yol.",
+      "fix": "Sol üstte geri ikonu ya da sayfa noktalarını dokunulabilir yap.",
+      "rule": "Hareket tek yol olmamalı",
+      "status": "open"
+    },
+    {
+      "id": "a-017",
+      "section": "03-decisions",
+      "screen": "03-08-edit",
+      "severity": "low",
+      "title": "Kaydet işlemi iki kez var",
+      "detail": "Nav'da 'Kaydet' ve altta 'Değişiklikleri kaydet' aynı işi yapıyor (08-02'de de aynı).",
+      "fix": "Nav'daki 'Kaydet'i kaldır; tek dolu buton kalsın.",
+      "rule": "Tek birincil aksiyon",
+      "status": "open"
+    },
+    {
+      "id": "a-018",
+      "section": "07-insights",
+      "screen": "07-05-map",
+      "severity": "low",
+      "title": "Takvim noktaları yalnızca renkle ayrılıyor",
+      "detail": "Karar (mor) ve yoklama (şeftali) noktaları sadece renk farkıyla okunuyor.",
+      "fix": "Yoklama noktasını içi boş daire yap ya da ay kutusuna sayı ekle (2 karar · 1 yoklama).",
+      "rule": "Renk tek başına anlam taşımaz",
+      "status": "open"
+    },
+    {
+      "id": "a-019",
+      "section": "06-checkin",
+      "screen": "06-06-compare",
+      "severity": "low",
+      "title": "Yoklama akışında son adım göstergesi kayboluyor",
+      "detail": "06-04 ve 06-05'te 3 adımlı gösterge ve 'Kapat' var; 06-06'da (3. adım) ikisi de yok.",
+      "fix": "06-06'ya aynı stepper'ı (3. adım aktif) ve 'Kapat'ı ekle.",
+      "rule": "Tutarlılık",
+      "status": "open"
+    },
+    {
+      "id": "a-020",
+      "section": "01-opening",
+      "screen": "01-06-sign-up",
+      "severity": "low",
+      "title": "Kayıtta Apple/Google seçeneği yok",
+      "detail": "Girişte Apple ve Google var, hesap oluşturmada yok.",
+      "fix": "01-06'ya 'ya da' ayırıcısı ve iki ikincil düğme ekle.",
+      "rule": "Tutarlılık",
+      "status": "open"
+    },
+    {
+      "id": "a-021",
+      "section": null,
+      "screen": null,
+      "severity": "low",
+      "title": "Bazı metinler text style'a bağlı değil",
+      "detail": "01-01…01-04, 03-01, 03-10, 04-11, 06-01, 06-02, 07-06, 07-07'de birer metin stilsiz (wordmark ve küçük etiketler).",
+      "fix": "Wordmark için 'brand/wordmark' stili oluştur; diğerlerini mevcut caption/meta stiline bağla.",
+      "rule": "DESIGN.md: yalnızca token",
+      "status": "open"
+    }
+  ]
+}

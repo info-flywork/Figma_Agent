@@ -1,0 +1,557 @@
+{
+ "fileKey": "M50KJ8EcQfpFr2Xe2IJci8",
+ "pages": {
+  "screens": "0:1",
+  "components": "3:2"
+ },
+ "variables": {
+  "bg/canvas": "VariableID:3:23",
+  "bg/surface": "VariableID:3:24",
+  "bg/sunk": "VariableID:3:25",
+  "bg/lilac": "VariableID:3:26",
+  "bg/lilac-strong": "VariableID:3:27",
+  "bg/peach": "VariableID:3:28",
+  "bg/sage": "VariableID:3:29",
+  "bg/scrim": "VariableID:3:30",
+  "border/default": "VariableID:3:31",
+  "text/primary": "VariableID:3:32",
+  "text/secondary": "VariableID:3:33",
+  "text/tertiary": "VariableID:3:34",
+  "text/on-primary": "VariableID:3:35",
+  "text/accent": "VariableID:3:36",
+  "text/negative": "VariableID:3:37",
+  "text/positive": "VariableID:3:38",
+  "icon/default": "VariableID:3:39",
+  "icon/muted": "VariableID:3:40",
+  "icon/on-primary": "VariableID:3:41",
+  "icon/accent": "VariableID:3:42",
+  "action/primary": "VariableID:3:43",
+  "action/primary-pressed": "VariableID:3:44",
+  "path/chosen": "VariableID:3:45",
+  "path/other": "VariableID:3:46",
+  "status/negative": "VariableID:3:47",
+  "status/negative-tint": "VariableID:3:48",
+  "spacing/1": "VariableID:3:50",
+  "spacing/2": "VariableID:3:51",
+  "spacing/3": "VariableID:3:52",
+  "spacing/4": "VariableID:3:53",
+  "spacing/5": "VariableID:3:54",
+  "spacing/6": "VariableID:3:55",
+  "spacing/8": "VariableID:3:56",
+  "spacing/10": "VariableID:3:57",
+  "radius/xs": "VariableID:3:59",
+  "radius/sm": "VariableID:3:60",
+  "radius/md": "VariableID:3:61",
+  "radius/lg": "VariableID:3:62",
+  "radius/full": "VariableID:3:63"
+ },
+ "textStyles": {
+  "Display": "S:1b106910c579838e075d1a890c2b544aebcd3a92,",
+  "Title XL": "S:b190a45f41aab655ec0025f088f1dddb8ac86630,",
+  "Title LG": "S:27178bad4c726ae455b78e0bdc33bce773f854c1,",
+  "Title MD": "S:59c2f0357d9032544c52ea8e18f7861e35a29ccf,",
+  "Body LG": "S:36d6822e3cb2575643ae52217c57fb9d9bc9f0ee,",
+  "Body": "S:e98c6ce59508726fbfdf59b6e5eafe842929326c,",
+  "Body Strong": "S:3563c4297f4542c6196d38761fb1160a403de07c,",
+  "Label": "S:1549188d4b3d1411e5ba84829c146b5bcf753bd9,",
+  "Meta": "S:6f4b4031219a0c2129a17bfb7c80aeb5710a7781,",
+  "Caption": "S:be9761c416b04540e6325da83e793579c66862fc,",
+  "Button": "S:d67afe0fed9a49e8d58f715adcbfd750b51e3d55,"
+ },
+ "effectStyles": {
+  "Float": "S:6be68661b6784f02ffe937a967382e291293beab,"
+ },
+ "components": {
+  "Status Bar": "5:3",
+  "Home Indicator": "5:23",
+  "Button": "5:70",
+  "Icon Button": "5:79",
+  "Nav Header": "5:80",
+  "Stepper": "5:122",
+  "Page Indicator": "5:141",
+  "Option Card": "5:156",
+  "Text Area": "5:157",
+  "Status Pill": "5:178",
+  "Note": "5:179",
+  "Image Slot": "6:34",
+  "Tag": "6:43",
+  "Segmented Control": "6:54",
+  "Decision Card": "6:55",
+  "Prompt Banner": "6:78",
+  "Score Card": "6:113",
+  "Insight Card": "6:114",
+  "Quote Card": "6:120",
+  "Timeline": "6:130",
+  "Mini Stat": "6:143",
+  "Path Card": "6:150",
+  "Other Path Row": "6:178",
+  "Tab Bar": "13:713",
+  "Text Field": "15:595",
+  "Search Field": "15:596",
+  "Toggle": "15:605",
+  "List Row": "15:641",
+  "Checkbox Row": "15:650",
+  "Plan Card": "15:670"
+ },
+ "icons": {
+  "chevron-left": "4:5",
+  "chevron-right": "4:8",
+  "arrow-left": "4:12",
+  "arrow-right": "4:16",
+  "check": "4:19",
+  "plus": "4:23",
+  "x": "4:27",
+  "briefcase": "4:31",
+  "house": "4:35",
+  "heart": "4:38",
+  "graduation-cap": "4:43",
+  "ellipsis": "4:48",
+  "mic": "4:53",
+  "info": "4:58",
+  "search": "4:62",
+  "sliders-horizontal": "4:73",
+  "calendar": "4:79",
+  "file-text": "4:86",
+  "chart-column": "4:92",
+  "user": "4:96",
+  "share": "4:101",
+  "bookmark": "4:104",
+  "headphones": "4:107",
+  "trending-up": "4:111",
+  "smile": "4:117",
+  "sparkles": "4:120",
+  "quote": "4:124",
+  "leaf": "4:128",
+  "clock": "4:132",
+  "image": "4:137",
+  "compass": "4:141",
+  "signal": "4:148",
+  "wifi": "4:154",
+  "battery-full": "4:161",
+  "lock": "16:595",
+  "bell": "16:599",
+  "mail": "16:603",
+  "eye": "16:607",
+  "shield": "16:610",
+  "download": "16:615",
+  "trash": "16:622",
+  "log-out": "16:627",
+  "gift": "16:633",
+  "circle-help": "16:638",
+  "credit-card": "16:642",
+  "crown": "16:646",
+  "moon": "16:649",
+  "users": "16:655",
+  "user-plus": "16:661",
+  "message-circle": "16:664",
+  "phone": "16:667",
+  "refresh-cw": "16:673",
+  "pencil": "16:677",
+  "scan-face": "16:686",
+  "smartphone": "16:690",
+  "cloud": "16:693",
+  "star": "16:696",
+  "send": "16:700",
+  "copy": "16:704",
+  "map": "16:709",
+  "circle-alert": "16:714",
+  "play": "16:717",
+  "ticket": "16:723",
+  "rotate-ccw": "16:727",
+  "external-link": "16:732"
+ },
+ "sections": {
+  "01-opening": "7:84",
+  "03-decisions": "7:298",
+  "04-new-decision": "7:440",
+  "06-checkin": "8:459",
+  "02-setup": "20:966",
+  "05-support": "21:2928",
+  "07-insights": "23:3572",
+  "08-profile": "24:4108",
+  "09-premium": "25:5723"
+ },
+ "screens": {
+  "01-02-onboarding-live": {
+   "id": "7:2",
+   "status": "built",
+   "reference": true,
+   "pattern": "wordmark+Atla, görsel 400, page indicator, serif başlık ortalı, açıklama, lila chip, spacer, primary+ok, giriş linki"
+  },
+  "03-01-decisions": {
+   "id": "7:85",
+   "status": "built",
+   "reference": true,
+   "pattern": "avatar+selam+wordmark, hero (serif başlık + görsel 130), prompt banner, liste başlığı + 2 icon button, Decision Card ×3, tab bar (1030 HUG)"
+  },
+  "04-02-write": {
+   "id": "7:299",
+   "status": "built",
+   "reference": true,
+   "pattern": "nav header (Taslak), stepper, hero + görsel, text area, kategori 2 sütun option card, note, primary (959 HUG)"
+  },
+  "06-06-compare": {
+   "id": "8:338",
+   "status": "built",
+   "reference": true,
+   "pattern": "nav header, hero + görsel, 2 score card, quote + insight card, note, timeline, primary"
+  },
+  "04-08-two-paths": {
+   "id": "8:460",
+   "status": "built",
+   "reference": true,
+   "pattern": "nav header, karar başlığı, segmented, path card, other path row, note, primary + secondary"
+  },
+  "01-01-splash": {
+   "id": "19:546",
+   "status": "built"
+  },
+  "01-03-onboarding-compare": {
+   "id": "19:570",
+   "status": "built"
+  },
+  "01-04-onboarding-tool": {
+   "id": "19:638",
+   "status": "built"
+  },
+  "01-05-sign-in": {
+   "id": "19:760",
+   "status": "built"
+  },
+  "01-06-sign-up": {
+   "id": "19:828",
+   "status": "built"
+  },
+  "01-07-forgot-password": {
+   "id": "19:885",
+   "status": "built"
+  },
+  "01-08-new-password": {
+   "id": "19:942",
+   "status": "built"
+  },
+  "01-09-terms": {
+   "id": "19:1034",
+   "status": "built"
+  },
+  "01-10-verify-email": {
+   "id": "19:1096",
+   "status": "built"
+  },
+  "02-01-life-stage": {
+   "id": "20:965",
+   "status": "built"
+  },
+  "02-02-age": {
+   "id": "20:1065",
+   "status": "built"
+  },
+  "02-03-data-home": {
+   "id": "20:1142",
+   "status": "built"
+  },
+  "02-04-notifications": {
+   "id": "20:1218",
+   "status": "built"
+  },
+  "02-05-system-permission": {
+   "id": "20:1242",
+   "status": "built"
+  },
+  "02-06-app-lock": {
+   "id": "20:1363",
+   "status": "built"
+  },
+  "02-07-ready": {
+   "id": "20:1414",
+   "status": "built"
+  },
+  "03-02-search": {
+   "id": "20:1538",
+   "status": "built"
+  },
+  "03-03-empty": {
+   "id": "20:1640",
+   "status": "built"
+  },
+  "03-04-detail": {
+   "id": "20:1812",
+   "status": "built"
+  },
+  "03-05-story-chosen": {
+   "id": "20:1901",
+   "status": "built"
+  },
+  "03-06-story-other": {
+   "id": "20:1989",
+   "status": "built"
+  },
+  "03-07-checkin-result": {
+   "id": "20:2092",
+   "status": "built"
+  },
+  "03-08-edit": {
+   "id": "20:2203",
+   "status": "built"
+  },
+  "03-09-delete": {
+   "id": "20:2227",
+   "status": "built"
+  },
+  "03-10-share-card": {
+   "id": "20:2282",
+   "status": "built"
+  },
+  "04-01-quota": {
+   "id": "21:2059",
+   "status": "built"
+  },
+  "04-03-voice": {
+   "id": "21:2166",
+   "status": "built"
+  },
+  "04-04-leave-draft": {
+   "id": "21:2190",
+   "status": "built"
+  },
+  "04-05-context": {
+   "id": "21:2310",
+   "status": "built"
+  },
+  "04-06-happiness": {
+   "id": "21:2400",
+   "status": "built"
+  },
+  "04-07-writing": {
+   "id": "21:2458",
+   "status": "built"
+  },
+  "04-09-rewrite": {
+   "id": "21:2482",
+   "status": "built"
+  },
+  "04-10-deep": {
+   "id": "21:2656",
+   "status": "built"
+  },
+  "04-11-story-card": {
+   "id": "21:2748",
+   "status": "built"
+  },
+  "04-12-saved": {
+   "id": "21:2809",
+   "status": "built"
+  },
+  "05-01-resources": {
+   "id": "21:2927",
+   "status": "built"
+  },
+  "05-02-talk": {
+   "id": "21:3025",
+   "status": "built"
+  },
+  "05-03-professional": {
+   "id": "21:3141",
+   "status": "built"
+  },
+  "06-01-notification": {
+   "id": "23:2837",
+   "status": "built"
+  },
+  "06-02-snooze": {
+   "id": "23:2861",
+   "status": "built"
+  },
+  "06-03-manual": {
+   "id": "23:3013",
+   "status": "built"
+  },
+  "06-04-what-happened": {
+   "id": "23:3101",
+   "status": "built"
+  },
+  "06-05-happiness": {
+   "id": "23:3188",
+   "status": "built"
+  },
+  "06-07-done": {
+   "id": "23:3249",
+   "status": "built"
+  },
+  "06-08-closed": {
+   "id": "23:3390",
+   "status": "built"
+  },
+  "07-01-profile": {
+   "id": "23:3571",
+   "status": "built"
+  },
+  "07-02-tendency": {
+   "id": "23:3745",
+   "status": "built"
+  },
+  "07-03-category": {
+   "id": "23:3894",
+   "status": "built"
+  },
+  "07-04-not-enough": {
+   "id": "23:3950",
+   "status": "built"
+  },
+  "07-05-map": {
+   "id": "23:4120",
+   "status": "built"
+  },
+  "07-06-slides": {
+   "id": "23:4179",
+   "status": "built"
+  },
+  "07-07-share": {
+   "id": "23:4203",
+   "status": "built"
+  },
+  "08-01-profile": {
+   "id": "24:4107",
+   "status": "built"
+  },
+  "08-02-edit": {
+   "id": "24:4251",
+   "status": "built"
+  },
+  "08-03-subscription": {
+   "id": "24:4330",
+   "status": "built"
+  },
+  "08-04-notifications": {
+   "id": "24:4448",
+   "status": "built"
+  },
+  "08-05-quiet-hours": {
+   "id": "24:4526",
+   "status": "built"
+  },
+  "08-06-checkin-prefs": {
+   "id": "24:4644",
+   "status": "built"
+  },
+  "08-07-privacy": {
+   "id": "24:4778",
+   "status": "built"
+  },
+  "08-08-app-lock": {
+   "id": "24:4890",
+   "status": "built"
+  },
+  "08-09-export": {
+   "id": "24:4985",
+   "status": "built"
+  },
+  "08-10-delete-account": {
+   "id": "24:5081",
+   "status": "built"
+  },
+  "08-11-coach": {
+   "id": "24:5163",
+   "status": "built"
+  },
+  "08-12-invite-coach": {
+   "id": "25:4843",
+   "status": "built"
+  },
+  "08-13-share-pick": {
+   "id": "25:4950",
+   "status": "built"
+  },
+  "08-14-share-manage": {
+   "id": "25:5055",
+   "status": "built"
+  },
+  "08-15-gift": {
+   "id": "25:5133",
+   "status": "built"
+  },
+  "08-16-gift-message": {
+   "id": "25:5229",
+   "status": "built"
+  },
+  "08-17-gift-code": {
+   "id": "25:5284",
+   "status": "built"
+  },
+  "08-18-faq": {
+   "id": "25:5411",
+   "status": "built"
+  },
+  "08-19-faq-detail": {
+   "id": "25:5499",
+   "status": "built"
+  },
+  "08-20-contact": {
+   "id": "25:5582",
+   "status": "built"
+  },
+  "08-21-sign-out": {
+   "id": "25:5606",
+   "status": "built"
+  },
+  "09-01-upgrade": {
+   "id": "25:5722",
+   "status": "built"
+  },
+  "09-02-plan": {
+   "id": "25:5810",
+   "status": "built"
+  },
+  "09-03-pay": {
+   "id": "25:5834",
+   "status": "built"
+  },
+  "09-04-success": {
+   "id": "25:5935",
+   "status": "built"
+  },
+  "09-05-restore": {
+   "id": "25:5998",
+   "status": "built"
+  }
+ },
+ "iconsFrame": "4:2",
+ "componentNotes": {
+  "Button": "Style=Primary|Secondary|Text, State=Default|Pressed|Disabled; props Label, Show Icon, Icon",
+  "Icon Button": "Style=Ghost|Surface; prop Icon",
+  "Nav Header": "props Title, Action, Show Action",
+  "Stepper": "Step=1|2|3",
+  "Page Indicator": "Active=1|2|3",
+  "Option Card": "State=Default|Selected; props Label, Icon, Show Icon (191 genişlik, 2 sütun)",
+  "Text Area": "props Value, Counter",
+  "Status Pill": "State=Ready|Waiting|Done; prop Label",
+  "Note": "prop Text",
+  "Tag": "Path=Chosen|Other; prop Label (instance'ta override et)",
+  "Segmented Control": "Selected=1|2",
+  "Decision Card": "props Title, Category, Date, Icon; iç Status Pill",
+  "Prompt Banner": "props Title, Meta, Action",
+  "Score Card": "Tone=Lilac|Sage; props Label, Value",
+  "Insight Card": "props Label, Body",
+  "Quote Card": "prop Body",
+  "Timeline": "1/3/6 ay, done/now/next",
+  "Mini Stat": "props Label, Value, Icon",
+  "Path Card": "props Title, Body; img/path-chosen",
+  "Other Path Row": "prop Title; img/path-other",
+  "Tab Bar": "Active=Ana sayfa|Kararlar|İçgörüler|Profil; 5 sekme (orta: Yeni karar +); 98 px. Instance genişliği FILL, yüksekliğe dokunma.",
+  "Text Field": "State=Default|Focused|Error; props Label#15:0, Value#15:4, Helper#15:8, Show Helper#15:12 (398 genişlik)",
+  "Search Field": "prop Value#15:16; 48 px pill",
+  "Toggle": "State=On|Off; 51×31",
+  "List Row": "Trailing=Chevron|Toggle|Value; props Label#15:17, Value#15:21, Icon#15:25 (swap), Show Icon#15:29, Divider#15:33, Show Value#15:37 (Chevron'da değer göstermek için)",
+  "Checkbox Row": "State=On|Off; prop Label#15:41",
+  "Plan Card": "State=Default|Selected; props Title#15:44, Meta#15:47, Price#15:50, Badge#15:53, Show Badge#15:56"
+ },
+ "buildNotes": [
+  "Ekran: 430 FIXED, HUG, minHeight 930, bg/canvas; Content padding 16/24, gap 24.",
+  "Kısa ekranda Content.layoutGrow=1 + Spacer; 930 aşarsa Spacer sil, Content HUG, kök HUG.",
+  "Section dolgusu #444444, sayfa zemini #1E1E1E; section'lar ad sırasıyla 120 px arayla.",
+  "Tag/Status Pill/Score Card metni instance'ta property ile override edilmeli (varsayılan tüm varyantlarda aynı).",
+  "Overlay ekranları (sheet/dialog/sistem): kaynak ekran klonlanır, 930'a sabitlenir; Scrim = bg/scrim + node opacity 0.4 (sistem 0.2). setBoundVariableForPaint boyadaki opacity'yi düşürür, opaklığı node'a ver.",
+  "Kısa ekran kontrolü: kök minHeight 930 olduğu için f.height hep ≥930 döner; StatusBar+Content+Alt bar toplamını ölç.",
+  "Klon ekranlardaki img/<id> alanları aynı imageHash ile doldurulur (ör. setup-notify 02-04/02-05, story-chosen 03-05/03-10)."
+ ]
+}

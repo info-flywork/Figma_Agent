@@ -1,0 +1,44 @@
+{
+  "fileKey": "h4fWEW54iHZftr0vmoQ3hn",
+  "pages": { "screens": "0:1", "components": "3:2" },
+  "collections": { "color": "VariableCollectionId:3:3", "space": "VariableCollectionId:3:23" },
+  "variables": {"color/bg/canvas":"VariableID:3:4","color/bg/surface":"VariableID:3:5","color/bg/sunken":"VariableID:3:6","color/text/primary":"VariableID:3:7","color/text/secondary":"VariableID:3:8","color/text/tertiary":"VariableID:3:9","color/text/on-primary":"VariableID:3:10","color/brand/primary":"VariableID:3:11","color/brand/primary-pressed":"VariableID:3:12","color/brand/primary-soft":"VariableID:3:13","color/phase/fertile":"VariableID:3:14","color/phase/fertile-soft":"VariableID:3:15","color/phase/ovulation":"VariableID:3:16","color/phase/ovulation-soft":"VariableID:3:17","color/line/field":"VariableID:3:18","color/state/error":"VariableID:3:19","color/state/error-soft":"VariableID:3:20","color/state/success":"VariableID:3:21","color/scrim":"VariableID:3:22","space/4":"VariableID:3:24","space/8":"VariableID:3:25","space/12":"VariableID:3:26","space/16":"VariableID:3:27","space/24":"VariableID:3:28","space/32":"VariableID:3:29","space/40":"VariableID:3:30","radius/sm":"VariableID:3:31","radius/md":"VariableID:3:32","radius/lg":"VariableID:3:33","radius/xl":"VariableID:3:34","radius/full":"VariableID:3:35"},
+  "textStyles": {"Display":"S:4b609c57c77884fb3c57c9349edec2018788c367,","Title 1":"S:0b716a7cc3a3bceb6d4fd1dce28611eff9c3fdae,","Title 2":"S:cf032a331bc0ed740618bf76136eda81d24163b7,","Stat":"S:267337e7edfb243641b06968e381059590832fcd,","Headline":"S:ae9a3591aa4d70bccc9b7bf06c20e92c0816ff66,","Body":"S:564e6095dce2a767dc00d827bd80a7aeabcfcad2,","Body Medium":"S:c5a2b1b5c4a209e8aafb4d87b9dd80d11294df41,","Callout":"S:890d6d81e41a402325f4f58e623fced3a5f50001,","Caption":"S:a5751a832c92712c5dd39240b4583b82c3d179b5,","Button":"S:6eb6bd1db85684a318fb9e7dc47685593a9ab3a4,"},
+  "effectStyles": { "Float": "S:4e95926042d9ac9e76534599ea3a6c1b03c44216,", "Glow": "S:70e0eb8b7299cbcbe80698119c47d7fb918fe441,", "Soft": "S:1dab19961e13ca1bd3ceac2840e3c0df3a04b9dc," },
+  "fonts": "Plus Jakarta Sans (Regular/Medium/SemiBold/Bold/ExtraBold) — 2026-10-30 revizyonu, Fraunces/Inter kaldırıldı",
+  "iconsFrame": "4:2",
+  "icons": {"chevron-left":"4:5","chevron-right":"4:8","x":"4:12","plus":"4:16","bell":"4:20","calendar":"4:26","clock":"4:30","user":"4:34","heart":"4:37","shield":"4:40","help":"4:45","mail":"4:49","star":"4:52","share":"4:57","log-out":"4:62","watch":"4:68","sun":"4:79","sliders":"4:90","stethoscope":"4:97","footprints":"4:103","trash":"4:108","image":"4:113","check":"4:116","repeat":"4:122","map-pin":"4:126","sparkles":"4:129","activity":"4:132","lock":"4:136","file-text":"4:143","droplet":"4:146","pencil":"4:149","baby":"4:155"},
+  "components": {
+    "StatusBar": "5:2",
+    "Logo": "16:542",
+    "HomeIndicator": "5:14",
+    "Button": { "set": "5:64", "variants": "Style=Primary|Secondary|Tertiary|Destructive × State=Default|Pressed|Disabled|Loading", "props": "Label" },
+    "IconButton": { "set": "5:71", "variants": "Style=Plain|Filled", "props": "Icon (swap)" },
+    "Toggle": { "set": "5:76", "variants": "On=true|false" },
+    "Chip": { "set": "5:81", "variants": "Selected=true|false", "props": "Label" },
+    "ListRow": { "set": "7:51", "variants": "Trailing=Chevron|Toggle|Value|None × Tone=Default (Destructive only with None)", "props": "Label, Subtitle, Show subtitle, Icon (swap), Show leading, Value, Show value" },
+    "TextField": { "set": "7:74", "variants": "State=Default|Focused|Error|Disabled", "props": "Label, Value, Helper, Show helper" },
+    "TabBar": { "set": "7:270", "variants": "Active=Today|Calendar|Log|Reminders|Profile", "note": "home indicator dahil, 104 yükseklik" },
+    "NavBar": { "set": "7:296", "variants": "Type=Back|Close|Progress", "props": "Title; Progress: Center (16:546) içinde Logo + Progress 160 genişlik, Value genişliği adımı gösterir (adım/11 × 160)" },
+    "WheelPicker": { "id": "7:297", "props": "Value 1..5 (3 = seçili)" },
+    "Dialog": { "id": "7:308", "props": "Title, Body, Icon (swap); Primary action = Destructive, Cancel = Secondary" }
+  },
+  "buildNotes": [
+    "Ekran kökü: VERTICAL auto layout, 430 FIXED genişlik, HUG yükseklik + minHeight 930, dolgu bg/canvas.",
+    "Scrim: rect fill scrim variable, opacity node üzerinde 0.4.",
+    "Liste grubu: VERTICAL frame, itemSpacing 1, dolgu bg/canvas, radius lg, clipsContent; içinde ListRow FILL.",
+    "Uzun ekranda Content'e layoutGrow verme: kök FIXED olur. Kısa ekranda (930'a sığan) Content layoutGrow=1 ile buton alta iter.",
+    "Instance metinleri setProperties ile (prop adları '#' öncesi eşlenir). ListRow Chevron'da değer için 'Show value' true.",
+    "Bölümler dikey sıralı (x=0, arada 120); ekranlar bölüm içinde x=40'tan 20 aralıkla, y=60.",
+    "Beyaz kart / liste grubu: effect style Soft. Köşesiz kapsayıcı frame'lerde clipsContent=false (yoksa Soft/Glow gölgesi kırpılır).",
+    "Soru ekranı: Header metinleri ortalı; Picker içinde img/<id> 398×150 (xl 28) + beyaz Card (lg 20, Soft) içinde kontrol; Actions: FILL buton + Caption ipucu."
+  ],
+  "sections": { "03-user-questions": "8:2", "07-reminders": "8:3", "08-profile": "8:4", "09-pregnancy-setup": "8:5", "10-pregnancy-mode": "8:6" },
+  "screens": {
+    "q-birth-year": { "node": "8:7", "section": "03-user-questions", "status": "reference", "pattern": "Soru ekranı", "images": ["img/q-birth-year-hero 17:463"] },
+    "profile": { "node": "9:34", "section": "08-profile", "status": "reference", "pattern": "Sekme / ayar listesi", "images": ["img/profile-plus 9:65"] },
+    "reminder-doctor": { "node": "10:219", "section": "07-reminders", "status": "reference", "pattern": "Form / detay" },
+    "pregnancy-off-confirm": { "node": "11:296", "section": "09-pregnancy-setup", "status": "reference", "pattern": "Yıkıcı onay diyaloğu (scrim 11:296 içinde absolute, Dialog 11:400)" },
+    "kick-history": { "node": "12:395", "section": "10-pregnancy-mode", "status": "reference", "pattern": "Geçmiş / istatistik listesi" }
+  }
+}

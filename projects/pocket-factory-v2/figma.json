@@ -1,0 +1,252 @@
+{
+  "fileKey": "zAEEjnpwJmgF6VEFCrlg5K",
+  "note": "v1 (pocket-factory) ile ortak dosya; v2 yalnızca bu sayfalarda",
+  "pages": {
+    "screens": "58:1065",
+    "components": "58:1064"
+  },
+  "variableCollection": "VariableCollectionId:58:1036",
+  "components": {
+    "Button": "58:1121",
+    "IconButton": "58:1122",
+    "CloseButton": "58:1126",
+    "MenuButton": "58:1130",
+    "RewardPill": "58:1135"
+  },
+  "icons": {
+    "play": "58:1068",
+    "rotate-ccw": "58:1072",
+    "settings": "58:1076",
+    "house": "58:1080",
+    "x": "58:1084",
+    "undo-2": "58:1088",
+    "redo-2": "58:1092",
+    "pause": "58:1096",
+    "chevron-right": "59:1038",
+    "arrow-right": "65:1061",
+    "arrow-left": "65:1065",
+    "globe": "65:1070",
+    "clipboard-list": "65:1078",
+    "store": "65:1083",
+    "lock": "65:1087",
+    "volume-2": "65:1092",
+    "music": "65:1097",
+    "vibrate": "65:1102",
+    "rotate-cw": "65:1106",
+    "circle-check": "65:1110",
+    "languages": "65:1118"
+  },
+  "sections": {
+    "01-acilis": "59:1039",
+    "02-bolum-1": "59:1040",
+    "03-fabrika": "59:1041",
+    "04-hazirlik": "59:1042",
+    "05-basari-basarisizlik": "59:1043",
+    "06-ipucu-duraklat": "59:1044",
+    "07-dunya-final": "59:1045"
+  },
+  "screens": {
+    "splash": {
+      "id": "59:1046",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "siparis-recete": {
+      "id": "59:1058",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "duraklat": {
+      "id": "59:1117",
+      "status": "built",
+      "section": "06-ipucu-duraklat",
+      "note": "siparis-recete klonu + scrim + PauseModal"
+    },
+    "bolum-tamam": {
+      "id": "59:1192",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "bolum-tamam-2": {
+      "id": "59:1218",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "intro-1": {
+      "id": "67:1105",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "intro-2": {
+      "id": "67:1118",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "intro-3": {
+      "id": "67:1129",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "b001-ogretici": {
+      "id": "67:1143",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "ana-menu": {
+      "id": "67:1192",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "b1-gorev": {
+      "id": "68:1147",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-kavsak": {
+      "id": "68:1192",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-baslat": {
+      "id": "68:1233",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-uretim": {
+      "id": "68:1277",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-basari": {
+      "id": "68:1323",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-tekrar-vurgu": {
+      "id": "68:1347",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "fabrika-ana": {
+      "id": "69:1196",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "dunya-sec": {
+      "id": "69:1255",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "bolum-sec": {
+      "id": "69:1299",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "hazirliga-gec": {
+      "id": "69:1416",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "kilit-kosulu": {
+      "id": "69:1526",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "kilitli-bolum": {
+      "id": "69:1571",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "kavsak-dondur": {
+      "id": "70:1334",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "uretimi-baslat": {
+      "id": "70:1383",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "uretim-simulasyon": {
+      "id": "70:1441",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "sonuc-denetle": {
+      "id": "70:1497",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "sabit-parca": {
+      "id": "70:1562",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "odul": {
+      "id": "71:1403",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "sonraki-bolum": {
+      "id": "71:1434",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "uretim-hatasi": {
+      "id": "71:1494",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "tekrar-ipucu": {
+      "id": "71:1512",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "ipucu-butonu": {
+      "id": "72:1445",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "dogru-kavsak-vurgu": {
+      "id": "72:1495",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "coin-denetimi": {
+      "id": "72:1548",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "devam-yeniden": {
+      "id": "72:1603",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "onay-ayarlar": {
+      "id": "72:1684",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "yeni-dunya": {
+      "id": "73:1547",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "yeni-makine": {
+      "id": "73:1573",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "final-200": {
+      "id": "73:1597",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "sonraki-bolum-2": {
+      "id": "73:1623",
+      "status": "built",
+      "section": "07-dunya-final"
+    }
+  },
+  "userComponents": {}
+}

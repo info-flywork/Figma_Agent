@@ -1,0 +1,72 @@
+{
+  "fileKey": "zAEEjnpwJmgF6VEFCrlg5K",
+  "flowFileKey": "63Y2EiIMk3sUMljdur6eqE",
+  "pages": { "screens": "0:1", "components": "4:2" },
+  "sections": {
+    "01-giris-fabrika": "6:2",
+    "02-hazirlik-uretim": "6:3",
+    "03-sonuc-ilerleme": "6:4",
+    "04-ipucu-duraklatma": "6:5"
+  },
+  "variables": {
+    "collection": "VariableCollectionId:4:3",
+    "green/500": "VariableID:4:4", "green/700": "VariableID:4:5", "blue/500": "VariableID:4:6", "blue/700": "VariableID:4:7",
+    "orange/500": "VariableID:4:8", "orange/700": "VariableID:4:9", "red/500": "VariableID:4:10", "red/700": "VariableID:4:11",
+    "purple/500": "VariableID:4:12", "purple/700": "VariableID:4:13", "gold/400": "VariableID:4:14", "gold/600": "VariableID:4:15",
+    "neutral/btn": "VariableID:4:16", "neutral/btn-lip": "VariableID:4:17", "panel/bg": "VariableID:4:18", "panel/inset": "VariableID:4:19",
+    "panel/stroke": "VariableID:4:20", "ink/900": "VariableID:4:21", "ink/600": "VariableID:4:22", "hud/bg": "VariableID:4:23",
+    "hud/stroke": "VariableID:4:24", "scrim": "VariableID:4:25", "white": "VariableID:4:26",
+    "space/4": "VariableID:4:27", "space/8": "VariableID:4:28", "space/12": "VariableID:4:29", "space/16": "VariableID:4:30",
+    "space/20": "VariableID:4:31", "space/24": "VariableID:4:32", "space/32": "VariableID:4:33",
+    "radius/btn": "VariableID:4:34", "radius/panel": "VariableID:4:35", "radius/inset": "VariableID:4:36", "radius/icon": "VariableID:4:37", "radius/full": "VariableID:4:38"
+  },
+  "components": {
+    "Button": "5:34",
+    "IconButton": "5:35",
+    "CurrencyPill": "5:38",
+    "RewardChip": "5:45",
+    "Ribbon": "5:87",
+    "StatusBar": "5:88",
+    "Icon/close": "4:42", "Icon/pause": "4:46", "Icon/back": "4:49", "Icon/settings": "4:53", "Icon/play": "4:56",
+    "Icon/video": "4:60", "Icon/restart": "4:64", "Icon/arrow-right": "4:67", "Icon/check": "4:70", "Icon/lock": "4:74",
+    "Icon/unlock": "4:78", "Icon/home": "4:82", "Icon/bolt": "4:85", "Icon/star": "4:89", "Icon/coin": "4:95", "Icon/bulb": "15:541"
+  },
+  "images": {
+    "bg-factory": "595c2ccfc20d9b272d83085fd788d488244dfd5b"
+  },
+  "notes": "Screen root: 430 wide, HUG + minHeight 930, padding 16/16/34, gap 12. Children: img/bg-factory (absolute) + Scrim (absolute, opacity 0.8) + StatusBar + HUD + Body (minHeight 777, centered). Modal = Ribbon + Panel, gap -30, itemReverseZIndex. Fonts: Lilita One (titles), Baloo 2 (body/buttons).",
+  "screens": {
+    "double-reward": { "id": "6:6", "section": "03-sonuc-ilerleme", "status": "reference" },
+    "world-complete": { "id": "7:212", "section": "03-sonuc-ilerleme", "status": "reference" },
+    "restart-confirm": { "id": "6:106", "section": "04-ipucu-duraklatma", "status": "reference" },
+    "production-queue": { "id": "6:177", "section": "02-hazirlik-uretim", "status": "reference" },
+    "upgrade-celebration": { "id": "7:126", "section": "01-giris-fabrika", "status": "reference" },
+    "splash": { "id": "12:206", "section": "01-giris-fabrika", "status": "built" },
+    "resume-prep": { "id": "12:286", "section": "01-giris-fabrika", "status": "built" },
+    "tutorial": { "id": "12:415", "section": "01-giris-fabrika", "status": "built" },
+    "factory-home": { "id": "12:503", "section": "01-giris-fabrika", "status": "built" },
+    "world-select": { "id": "13:319", "section": "01-giris-fabrika", "status": "built" },
+    "world-locked": { "id": "13:440", "section": "01-giris-fabrika", "status": "built" },
+    "level-select": { "id": "13:564", "section": "01-giris-fabrika", "status": "built" },
+    "level-locked": { "id": "13:705", "section": "01-giris-fabrika", "status": "built" },
+    "building-upgrade": { "id": "13:817", "section": "01-giris-fabrika", "status": "built" },
+    "settings": { "id": "13:963", "section": "01-giris-fabrika", "status": "built" },
+    "level-mission": { "id": "16:541", "section": "02-hazirlik-uretim", "status": "built" },
+    "new-machine": { "id": "16:703", "section": "02-hazirlik-uretim", "status": "built" },
+    "prep-board": { "id": "16:815", "section": "02-hazirlik-uretim", "status": "built" },
+    "fixed-part": { "id": "16:947", "section": "02-hazirlik-uretim", "status": "built" },
+    "out-of-moves": { "id": "16:1063", "section": "02-hazirlik-uretim", "status": "built" },
+    "production-run": { "id": "16:1201", "section": "02-hazirlik-uretim", "status": "built" },
+    "production-failed": { "id": "17:790", "section": "03-sonuc-ilerleme", "status": "built" },
+    "level-complete": { "id": "17:932", "section": "03-sonuc-ilerleme", "status": "built" },
+    "grand-final": { "id": "17:1099", "section": "03-sonuc-ilerleme", "status": "built" },
+    "hint": { "id": "17:1253", "section": "04-ipucu-duraklatma", "status": "built" },
+    "insufficient-coins": { "id": "17:1356", "section": "04-ipucu-duraklatma", "status": "built" },
+    "paused": { "id": "17:1476", "section": "04-ipucu-duraklatma", "status": "built" },
+    "intro-1": { "id": "82:1036", "section": "01-giris-fabrika", "status": "built" },
+    "intro-2": { "id": "82:1109", "section": "01-giris-fabrika", "status": "built" },
+    "intro-3": { "id": "82:1184", "section": "01-giris-fabrika", "status": "built" },
+    "tutorial-complete": { "id": "82:1273", "section": "01-giris-fabrika", "status": "built" },
+    "product-collection": { "id": "82:1377", "section": "01-giris-fabrika", "status": "built" }
+  }
+}

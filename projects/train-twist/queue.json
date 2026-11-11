@@ -1,0 +1,70 @@
+{
+  "project": "train-twist",
+  "updatedAt": "2026-11-03T13:06:19.202Z",
+  "items": [
+    {
+      "id": "splash",
+      "note": ""
+    },
+    {
+      "id": "onboarding",
+      "note": ""
+    },
+    {
+      "id": "tutorial",
+      "note": ""
+    },
+    {
+      "id": "level-select",
+      "note": ""
+    },
+    {
+      "id": "level-locked",
+      "note": ""
+    },
+    {
+      "id": "settings",
+      "note": ""
+    },
+    {
+      "id": "no-moves",
+      "note": ""
+    },
+    {
+      "id": "trains-running",
+      "note": ""
+    },
+    {
+      "id": "reward",
+      "note": ""
+    },
+    {
+      "id": "delivery-failed",
+      "note": ""
+    },
+    {
+      "id": "grand-finale",
+      "note": ""
+    },
+    {
+      "id": "hint-highlight",
+      "note": ""
+    },
+    {
+      "id": "hint-no-coins",
+      "note": ""
+    },
+    {
+      "id": "reset-confirm",
+      "note": ""
+    },
+    {
+      "id": "next-building",
+      "note": ""
+    },
+    {
+      "id": "build-complete",
+      "note": ""
+    }
+  ]
+}

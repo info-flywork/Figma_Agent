@@ -1,0 +1,255 @@
+{
+  "fileKey": "8VeyPlgFxZP6YWOOCxpp2b",
+  "pages": {
+    "components": "0:1",
+    "screens": "3:2"
+  },
+  "variableCollection": "VariableCollectionId:3:3",
+  "variables": {
+    "wood/900": "VariableID:3:4",
+    "wood/700": "VariableID:3:5",
+    "wood/500": "VariableID:3:6",
+    "maple/300": "VariableID:3:7",
+    "maple/100": "VariableID:3:8",
+    "cream/50": "VariableID:3:9",
+    "leaf/600": "VariableID:3:10",
+    "leaf/500": "VariableID:3:11",
+    "orange/500": "VariableID:3:12",
+    "orange/700": "VariableID:3:13",
+    "sun/400": "VariableID:3:14",
+    "sky/500": "VariableID:3:15",
+    "sky/700": "VariableID:3:16",
+    "petal/300": "VariableID:3:17",
+    "scrim": "VariableID:3:18",
+    "white": "VariableID:3:19",
+    "radius/sm": "VariableID:3:20",
+    "radius/md": "VariableID:3:21",
+    "radius/lg": "VariableID:3:22",
+    "radius/full": "VariableID:3:23",
+    "space/xs": "VariableID:3:24",
+    "space/sm": "VariableID:3:25",
+    "space/md": "VariableID:3:26",
+    "space/lg": "VariableID:3:27",
+    "space/xl": "VariableID:3:28",
+    "space/2xl": "VariableID:3:29"
+  },
+  "components": {
+    "Button": "5:81",
+    "IconButton": "5:82",
+    "Counter": "5:86",
+    "Hint": "5:93",
+    "Icon/droplets": "5:5",
+    "Icon/hand": "5:12",
+    "Icon/house": "5:16",
+    "Icon/pause": "5:20",
+    "Icon/play": "5:23",
+    "Icon/rotate-ccw": "5:27",
+    "Icon/settings": "5:31",
+    "Icon/share-2": "5:38",
+    "Icon/sprout": "5:43",
+    "Icon/star": "5:46",
+    "Icon/swords": "5:56",
+    "Icon/trophy": "5:64",
+    "Icon/x": "5:68",
+    "Icon/bell": "12:10",
+    "Icon/check": "12:13",
+    "Icon/chevron-right": "12:16",
+    "Icon/clock": "12:20",
+    "Icon/copy": "12:24",
+    "Icon/eye-off": "12:30",
+    "Icon/globe": "12:35",
+    "Icon/link": "12:39",
+    "Icon/lock": "12:43",
+    "Icon/message-circle": "12:46",
+    "Icon/message-square": "12:49",
+    "Icon/music": "12:54",
+    "Icon/refresh-cw": "12:60",
+    "Icon/shield-check": "12:64",
+    "Icon/sparkles": "12:70",
+    "Icon/tv": "12:74",
+    "Icon/vibrate": "12:79",
+    "Icon/volume-2": "12:84",
+    "Icon/wifi-off": "12:93"
+  },
+  "sections": {
+    "01-baslangic": "7:7",
+    "02-oyun": "7:8",
+    "03-oyunsonu": "7:9",
+    "04-cep": "7:10",
+    "05-duraklatma": "7:11",
+    "06-ayarlar": "7:12",
+    "07-bahce": "7:13",
+    "08-duello": "7:14",
+    "09-magaza": "31:499"
+  },
+  "screens": {
+    "oyun-patlama": {
+      "id": "7:15",
+      "status": "built",
+      "reference": true,
+      "devNote": "37:495"
+    },
+    "egitim": {
+      "id": "9:16",
+      "status": "built",
+      "reference": true,
+      "devNote": "37:483"
+    },
+    "yeniden-basla-onay": {
+      "id": "9:155",
+      "status": "built",
+      "reference": true,
+      "devNote": "37:507"
+    },
+    "duello-sonuc": {
+      "id": "10:43",
+      "status": "built",
+      "reference": true,
+      "devNote": "37:529"
+    },
+    "bahce-buyume": {
+      "id": "10:94",
+      "status": "built",
+      "reference": true,
+      "devNote": "37:519"
+    },
+    "splash": {
+      "id": "27:598",
+      "status": "built",
+      "devNote": "37:481"
+    },
+    "egitim-2": {
+      "id": "27:424",
+      "status": "built",
+      "devNote": "37:485"
+    },
+    "egitim-3": {
+      "id": "27:496",
+      "status": "built",
+      "devNote": "37:487"
+    },
+    "ana-sayfa": {
+      "id": "13:73",
+      "status": "built",
+      "devNote": "37:489"
+    },
+    "oyun-tahta": {
+      "id": "14:92",
+      "status": "built",
+      "devNote": "37:491"
+    },
+    "oyun-surukle": {
+      "id": "14:176",
+      "status": "built",
+      "devNote": "37:493"
+    },
+    "devam-teklifi": {
+      "id": "15:115",
+      "status": "built",
+      "devNote": "37:497"
+    },
+    "oyun-sonu": {
+      "id": "15:327",
+      "status": "built",
+      "devNote": "37:499"
+    },
+    "cep-dolu": {
+      "id": "16:174",
+      "status": "built",
+      "devNote": "37:501"
+    },
+    "cep-yerlestir": {
+      "id": "16:254",
+      "status": "built",
+      "devNote": "37:503"
+    },
+    "duraklatma": {
+      "id": "17:190",
+      "status": "built",
+      "devNote": "37:505"
+    },
+    "ayarlar": {
+      "id": "17:294",
+      "status": "built",
+      "devNote": "37:509"
+    },
+    "dil-secimi": {
+      "id": "17:436",
+      "status": "built",
+      "devNote": "37:511"
+    },
+    "bahce": {
+      "id": "18:251",
+      "status": "built",
+      "devNote": "37:513"
+    },
+    "bahce-yetersiz": {
+      "id": "20:262",
+      "status": "built",
+      "devNote": "37:515"
+    },
+    "tohum-sec": {
+      "id": "20:329",
+      "status": "built",
+      "devNote": "37:517"
+    },
+    "bahce-yeni-alan": {
+      "id": "20:399",
+      "status": "built",
+      "devNote": "37:521"
+    },
+    "duello-internet-yok": {
+      "id": "22:312",
+      "status": "built",
+      "devNote": "37:523"
+    },
+    "duello-paylas": {
+      "id": "22:364",
+      "status": "built",
+      "devNote": "37:525"
+    },
+    "duello-ekrani": {
+      "id": "22:444",
+      "status": "built",
+      "devNote": "37:527"
+    },
+    "duello-bildirim": {
+      "id": "22:540",
+      "status": "built",
+      "devNote": "37:531"
+    },
+    "magaza": {
+      "id": "31:500",
+      "status": "built",
+      "devNote": "37:533"
+    }
+  },
+  "componentProps": {
+    "Button": {
+      "Label": "Label#5:0",
+      "Style": "Primary|Secondary|Accent",
+      "Size": "L|M"
+    },
+    "IconButton": {
+      "Icon": "Icon#5:7"
+    },
+    "Counter": {
+      "Value": "Value#5:8"
+    },
+    "Hint": {
+      "Text": "Text#5:9"
+    }
+  },
+  "layout": "Ekran x = 40 + (bölümdeki sıra-1)*450, y = 100 (Section içinde). Oyun ekranları oyun-patlama (7:15) klonu; modal ekranlar yeniden-basla-onay (9:155) klonu.",
+  "boardGrid": {
+    "boardSize": 398,
+    "origin": 58.3,
+    "pitch": 35.9,
+    "block": 34
+  },
+  "imageHashes": {
+    "bahce-zemin": "966e5b8d01965de00166b4e220c670a568b011f6",
+    "tohum-lale": "a28b3b0ecda4a5e09cf3fdac96adabde182ce302",
+    "tohum-gul": "b654dbf148f218d2a78027d437a738781b0c7bb7"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "fileKey": "HKSdN7sWphgFX1VPJogGdo",
+  "flowFileKey": "zbSwFvgjfyqO6KQ1MduLWi",
+  "pages": {
+    "screens": "0:1",
+    "components": "3:2"
+  },
+  "variables": {
+    "collection": "VariableCollectionId:3:3",
+    "color": {
+      "primary": "VariableID:3:4",
+      "primary-dark": "VariableID:3:5",
+      "secondary": "VariableID:3:6",
+      "secondary-dark": "VariableID:3:7",
+      "surface": "VariableID:3:8",
+      "surface-edge": "VariableID:3:9",
+      "ink": "VariableID:3:10",
+      "ink-soft": "VariableID:3:11",
+      "on-color": "VariableID:3:12",
+      "wood": "VariableID:3:13",
+      "wood-dark": "VariableID:3:14",
+      "stone": "VariableID:3:15",
+      "stone-dark": "VariableID:3:16",
+      "star": "VariableID:3:17",
+      "coin": "VariableID:3:18",
+      "danger": "VariableID:3:19",
+      "scrim": "VariableID:3:20"
+    },
+    "space": {
+      "4": "VariableID:3:21",
+      "8": "VariableID:3:22",
+      "12": "VariableID:3:23",
+      "16": "VariableID:3:24",
+      "20": "VariableID:3:25",
+      "24": "VariableID:3:26",
+      "32": "VariableID:3:27"
+    },
+    "radius": {
+      "btn-l": "VariableID:3:28",
+      "btn-m": "VariableID:3:29",
+      "panel": "VariableID:3:30",
+      "tile": "VariableID:3:31",
+      "pill": "VariableID:3:32"
+    }
+  },
+  "textStyles": {
+    "Display/Title": "S:a63f67044ea2855547a19733b228b5978b59e205,",
+    "Display/Screen": "S:64c6a41ddeb8ba7bc161729639c291a4c92adde6,",
+    "Display/Button L": "S:778fcceee465c5fc3901e80e5437d09c7f1a1c2b,",
+    "Display/Button M": "S:50a4723db01398538b39a99aad62375f58c60fc7,",
+    "Body/Regular": "S:5a20dedc10433ef23f6623651ca62d4698de5ab8,",
+    "Body/Small": "S:8910287eb5899b432fadc7c843b325e1879a74e1,",
+    "Body/Number": "S:16e9273090095e252c376b56cab2101087bdd7da,"
+  },
+  "components": {
+    "Button": "5:30",
+    "IconButton": "5:31",
+    "StatPill": "5:35",
+    "ActionCircle": "5:40",
+    "PanelHeader": "5:50",
+    "LevelTile": "5:65",
+    "RewardItem": "5:66",
+    "Switch": "5:77",
+    "ImageArea": "5:78",
+    "TopBar": "5:81",
+    "RailTile": "15:228",
+    "icons": {
+      "play": "4:5",
+      "pause": "4:9",
+      "back": "4:12",
+      "home": "4:15",
+      "settings": "4:18",
+      "restart": "4:21",
+      "hint": "4:24",
+      "grid": "4:30",
+      "close": "4:33",
+      "lock": "4:36",
+      "train": "4:39",
+      "turn": "4:42",
+      "straight": "4:45",
+      "check": "4:48",
+      "image": "4:51",
+      "star": "4:55",
+      "coin": "4:59"
+    },
+    "iconImages": {
+      "img/icon-star": "10:183",
+      "img/icon-coin": "10:184"
+    },
+    "inkIcons": {
+      "back": "5:3",
+      "pause": "5:5",
+      "settings": "5:8",
+      "close": "5:10",
+      "home": "5:12"
+    },
+    "Toggle": "25:193",
+    "TimerPill": "50:1232"
+  },
+  "sections": {
+    "02-menu": "7:59",
+    "03-game": "7:156",
+    "04-result": "7:246",
+    "06-pause": "7:272",
+    "07-town": "7:200",
+    "01-opening": "26:173",
+    "05-hint": "26:174"
+  },
+  "screens": {
+    "home": {
+      "id": "7:2",
+      "section": "02-menu",
+      "status": "reference",
+      "devNote": "91:1281"
+    },
+    "game": {
+      "id": "7:60",
+      "section": "03-game",
+      "status": "reference",
+      "devNote": "91:1341"
+    },
+    "level-complete": {
+      "id": "7:201",
+      "section": "04-result",
+      "status": "reference",
+      "pattern": "modal (bg + scrim + Panel + PanelHeader)",
+      "devNote": "91:1421"
+    },
+    "paused": {
+      "id": "7:247",
+      "section": "06-pause",
+      "status": "reference",
+      "pattern": "game klonu + Scrim + absolute Modal",
+      "devNote": "91:1491"
+    },
+    "town": {
+      "id": "7:157",
+      "section": "07-town",
+      "status": "reference",
+      "devNote": "91:1521"
+    },
+    "splash": {
+      "id": "27:173",
+      "section": "01-opening",
+      "status": "built",
+      "devNote": "91:1231"
+    },
+    "onboarding": {
+      "id": "27:201",
+      "section": "01-opening",
+      "status": "built",
+      "devNote": "91:1241"
+    },
+    "tutorial": {
+      "id": "89:1945",
+      "section": "01-opening",
+      "status": "built",
+      "devNote": "91:1271"
+    },
+    "onboarding-2": {
+      "id": "49:1195",
+      "section": "01-opening",
+      "status": "built",
+      "devNote": "91:1251"
+    },
+    "onboarding-3": {
+      "id": "49:1207",
+      "section": "01-opening",
+      "status": "built",
+      "devNote": "91:1261"
+    },
+    "level-select": {
+      "id": "28:211",
+      "section": "02-menu",
+      "status": "built",
+      "devNote": "91:1291"
+    },
+    "level-locked": {
+      "id": "28:352",
+      "section": "02-menu",
+      "status": "built",
+      "devNote": "91:1301"
+    },
+    "settings": {
+      "id": "28:415",
+      "section": "02-menu",
+      "status": "built",
+      "devNote": "91:1311"
+    },
+    "no-moves": {
+      "id": "29:435",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1351"
+    },
+    "trains-running": {
+      "id": "89:1571",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1361"
+    },
+    "reward": {
+      "id": "29:561",
+      "section": "04-result",
+      "status": "built",
+      "devNote": "91:1431"
+    },
+    "delivery-failed": {
+      "id": "29:583",
+      "section": "04-result",
+      "status": "built",
+      "devNote": "91:1441"
+    },
+    "grand-finale": {
+      "id": "29:610",
+      "section": "04-result",
+      "status": "built",
+      "devNote": "91:1451"
+    },
+    "train-shop": {
+      "id": "62:1209",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1411"
+    },
+    "buy-moves": {
+      "id": "59:1199",
+      "section": "04-result",
+      "status": "built",
+      "devNote": "91:1461"
+    },
+    "hint-highlight": {
+      "id": "89:1661",
+      "section": "05-hint",
+      "status": "built",
+      "devNote": "91:1471"
+    },
+    "hint-no-coins": {
+      "id": "30:632",
+      "section": "05-hint",
+      "status": "built",
+      "devNote": "91:1481"
+    },
+    "reset-confirm": {
+      "id": "30:687",
+      "section": "06-pause",
+      "status": "built",
+      "devNote": "91:1501"
+    },
+    "next-building": {
+      "id": "30:767",
+      "section": "07-town",
+      "status": "built",
+      "devNote": "91:1531"
+    },
+    "build-complete": {
+      "id": "30:825",
+      "section": "07-town",
+      "status": "built",
+      "devNote": "91:1541"
+    },
+    "level-intro": {
+      "id": "34:900",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1371"
+    },
+    "game-level-10": {
+      "id": "89:1232",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1381"
+    },
+    "game-level-20": {
+      "id": "89:1340",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1391"
+    },
+    "game-level-50": {
+      "id": "89:1453",
+      "section": "03-game",
+      "status": "built",
+      "devNote": "91:1401"
+    },
+    "game-level-150": {
+      "id": "121:1363",
+      "section": "03-game",
+      "status": "built"
+    },
+    "game-level-250": {
+      "id": "121:1565",
+      "section": "03-game",
+      "status": "built"
+    },
+    "game-level-500": {
+      "id": "121:1785",
+      "section": "03-game",
+      "status": "built"
+    },
+    "game-level-1000": {
+      "id": "121:2020",
+      "section": "03-game",
+      "status": "built"
+    },
+    "how-to-play": {
+      "id": "34:970",
+      "section": "02-menu",
+      "status": "built",
+      "devNote": "91:1321"
+    },
+    "language": {
+      "id": "34:1040",
+      "section": "02-menu",
+      "status": "built",
+      "devNote": "91:1331"
+    },
+    "exit-confirm": {
+      "id": "34:1110",
+      "section": "06-pause",
+      "status": "built",
+      "devNote": "91:1511"
+    },
+    "building-detail": {
+      "id": "34:1180",
+      "section": "07-town",
+      "status": "built",
+      "devNote": "91:1551"
+    }
+  },
+  "ribbons": {
+    "level-complete": "21:175",
+    "paused": "21:177"
+  }
+}

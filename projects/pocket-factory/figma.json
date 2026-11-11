@@ -1,0 +1,342 @@
+{
+  "fileKey": "zAEEjnpwJmgF6VEFCrlg5K",
+  "flowFileKey": "63Y2EiIMk3sUMljdur6eqE",
+  "pages": {
+    "screens": "0:1",
+    "components": "4:2"
+  },
+  "sections": {
+    "01-giris-fabrika": "6:2",
+    "02-hazirlik-uretim": "6:3",
+    "03-sonuc-ilerleme": "6:4",
+    "04-ipucu-duraklatma": "6:5"
+  },
+  "variables": {
+    "collection": "VariableCollectionId:4:3",
+    "green/500": "VariableID:4:4",
+    "green/700": "VariableID:4:5",
+    "blue/500": "VariableID:4:6",
+    "blue/700": "VariableID:4:7",
+    "orange/500": "VariableID:4:8",
+    "orange/700": "VariableID:4:9",
+    "red/500": "VariableID:4:10",
+    "red/700": "VariableID:4:11",
+    "purple/500": "VariableID:4:12",
+    "purple/700": "VariableID:4:13",
+    "gold/400": "VariableID:4:14",
+    "gold/600": "VariableID:4:15",
+    "neutral/btn": "VariableID:4:16",
+    "neutral/btn-lip": "VariableID:4:17",
+    "panel/bg": "VariableID:4:18",
+    "panel/inset": "VariableID:4:19",
+    "panel/stroke": "VariableID:4:20",
+    "ink/900": "VariableID:4:21",
+    "ink/600": "VariableID:4:22",
+    "hud/bg": "VariableID:4:23",
+    "hud/stroke": "VariableID:4:24",
+    "scrim": "VariableID:4:25",
+    "white": "VariableID:4:26",
+    "space/4": "VariableID:4:27",
+    "space/8": "VariableID:4:28",
+    "space/12": "VariableID:4:29",
+    "space/16": "VariableID:4:30",
+    "space/20": "VariableID:4:31",
+    "space/24": "VariableID:4:32",
+    "space/32": "VariableID:4:33",
+    "radius/btn": "VariableID:4:34",
+    "radius/panel": "VariableID:4:35",
+    "radius/inset": "VariableID:4:36",
+    "radius/icon": "VariableID:4:37",
+    "radius/full": "VariableID:4:38"
+  },
+  "components": {
+    "Button": "5:34",
+    "IconButton": "5:35",
+    "CurrencyPill": "5:38",
+    "RewardChip": "5:45",
+    "Ribbon": "5:87",
+    "StatusBar": "5:88",
+    "Icon/close": "4:42",
+    "Icon/pause": "4:46",
+    "Icon/back": "4:49",
+    "Icon/settings": "4:53",
+    "Icon/play": "4:56",
+    "Icon/video": "4:60",
+    "Icon/restart": "4:64",
+    "Icon/arrow-right": "4:67",
+    "Icon/check": "4:70",
+    "Icon/lock": "4:74",
+    "Icon/unlock": "4:78",
+    "Icon/home": "4:82",
+    "Icon/bolt": "4:85",
+    "Icon/star": "4:89",
+    "Icon/coin": "4:95",
+    "Icon/bulb": "15:541"
+  },
+  "images": {
+    "bg-factory": "595c2ccfc20d9b272d83085fd788d488244dfd5b"
+  },
+  "notes": "Screen root: 430 wide, HUG + minHeight 930, padding 16/16/34, gap 12. Children: img/bg-factory (absolute) + Scrim (absolute, opacity 0.8) + StatusBar + HUD + Body (minHeight 777, centered). Modal = Ribbon + Panel, gap -30, itemReverseZIndex. Fonts: Lilita One (titles), Baloo 2 (body/buttons).",
+  "screensPage": "58:1065",
+  "componentsPage": "58:1064",
+  "screens": {
+    "splash": {
+      "id": "59:1046",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "intro-1": {
+      "id": "67:1105",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "intro-2": {
+      "id": "67:1118",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "intro-3": {
+      "id": "67:1129",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "b001-ogretici": {
+      "id": "67:1143",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "ana-menu": {
+      "id": "67:1192",
+      "status": "built",
+      "section": "01-acilis"
+    },
+    "b1-gorev": {
+      "id": "68:1147",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-kavsak": {
+      "id": "68:1192",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-baslat": {
+      "id": "68:1233",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-uretim": {
+      "id": "68:1277",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-basari": {
+      "id": "68:1323",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "b1-tekrar-vurgu": {
+      "id": "68:1347",
+      "status": "built",
+      "section": "02-bolum-1"
+    },
+    "fabrika-ana": {
+      "id": "69:1196",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "dunya-sec": {
+      "id": "69:1255",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "bolum-sec": {
+      "id": "69:1299",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "hazirliga-gec": {
+      "id": "69:1416",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "kilit-kosulu": {
+      "id": "69:1526",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "kilitli-bolum": {
+      "id": "69:1571",
+      "status": "built",
+      "section": "03-fabrika"
+    },
+    "siparis-recete": {
+      "id": "59:1058",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "kavsak-dondur": {
+      "id": "70:1334",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "uretimi-baslat": {
+      "id": "70:1383",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "uretim-simulasyon": {
+      "id": "70:1441",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "sonuc-denetle": {
+      "id": "70:1497",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "sabit-parca": {
+      "id": "70:1562",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-10": {
+      "id": "108:1654",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-25": {
+      "id": "108:1802",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-50": {
+      "id": "108:2003",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-100": {
+      "id": "108:2225",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-200": {
+      "id": "108:2505",
+      "status": "built",
+      "section": "04-hazirlik"
+    },
+    "bolum-tamam": {
+      "id": "59:1192",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "odul": {
+      "id": "71:1403",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "sonraki-bolum": {
+      "id": "71:1434",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "uretim-hatasi": {
+      "id": "71:1494",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "tekrar-ipucu": {
+      "id": "71:1512",
+      "status": "built",
+      "section": "05-basari-basarisizlik"
+    },
+    "duraklat": {
+      "id": "59:1117",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "ipucu-butonu": {
+      "id": "72:1445",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "dogru-kavsak-vurgu": {
+      "id": "72:1495",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "coin-denetimi": {
+      "id": "72:1548",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "devam-yeniden": {
+      "id": "72:1603",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "onay-ayarlar": {
+      "id": "72:1684",
+      "status": "built",
+      "section": "06-ipucu-duraklat"
+    },
+    "bolum-tamam-2": {
+      "id": "59:1218",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "yeni-dunya": {
+      "id": "73:1547",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "yeni-makine": {
+      "id": "73:1573",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "final-200": {
+      "id": "73:1597",
+      "status": "built",
+      "section": "07-dunya-final"
+    },
+    "sonraki-bolum-2": {
+      "id": "73:1623",
+      "status": "built",
+      "section": "07-dunya-final"
+    }
+  },
+  "v2": {
+    "tokens": "VariableCollectionId:58:1036",
+    "components": {
+      "Button": "58:1121",
+      "IconButton": "58:1122",
+      "CloseButton": "58:1126",
+      "MenuButton": "58:1130",
+      "RewardPill": "58:1135",
+      "Logo/PocketFactory": "110:1199",
+      "Board/Belt-H": "107:1196",
+      "Board/Belt-V": "107:1198",
+      "Board/Belt-Corner": "107:1200",
+      "Board/Router": "107:1202",
+      "Board/Machine-Shape": "107:1204",
+      "Board/Machine-Paint": "107:1206",
+      "Board/Input": "107:1208",
+      "Board/Output": "107:1210",
+      "Board/Splitter": "107:1212",
+      "Board/Merger": "107:1214",
+      "Board/FixedBadge": "107:1216"
+    },
+    "boardNotes": "Board/* parçaları board-b5 görselinden (hash 730b9807…) CROP ile kırpılmış; köşe tabanı E+S, rotation +90={N,E}, -90={S,W}, 180={W,N}. Logo instance: splash 110:1995, ana-menu 110:1997.",
+    "sections": {
+      "01-acilis": "59:1039",
+      "02-bolum-1": "59:1040",
+      "03-fabrika": "59:1041",
+      "04-hazirlik": "59:1042",
+      "05-basari-basarisizlik": "59:1043",
+      "06-ipucu-duraklat": "59:1044",
+      "07-dunya-final": "59:1045"
+    },
+    "notes": "v2: Baloo 2 only, sky gradient / navy game bg, cream cards, worker boy guide. v1 ids above (pages/sections/variables/components) are archived."
+  }
+}

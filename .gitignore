@@ -1,0 +1,19 @@
+# Secrets — sunucuda zorunlu, asla commit etme
+.env
+
+# OS / editor
+.DS_Store
+
+# Dependencies / local caches
+node_modules/
+.taste-skill/
+
+# Proje runtime çıktıları (panel üretir / kullanıcı yükler)
+projects/*/references/
+projects/*/previews/
+projects/*/previews-v1/
+projects/*/store/
+projects/*/runs/
+projects/*/assets/
+projects/*/compare/
+projects/.trash/

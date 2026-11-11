@@ -1,0 +1,211 @@
+{
+  "updatedAt": "2026-11-02T08:45:00.000Z",
+  "fixNotes": {
+    "a-001": "02-01b-game-move-limit (Level 14) eklendi: sarı durum hapı 'Moves 15 / 18 · 3 left'",
+    "a-002": "Grid dolguları kaldırıldı",
+    "a-003": "Açıklamalar tek metin, aralıklar daraltıldı, Top Bar 48 → yükseklik 930",
+    "a-004": "Info/Cost dolguları kaldırıldı",
+    "a-005": "Before/After dolguları kaldırıldı",
+    "a-006": "04-03/04-04 Cost: panel/row + 2px panel/border + radius/tile",
+    "a-007": "03-01b-town-need-stars eklendi: Restore Neutral + kilit, Next Level birincil, 'Need 2 more stars to restore'",
+    "a-008": "Yalnızca oklu karo Lit; balon metni güncellendi",
+    "a-009": "01-02 altına Neutral M 'Skip Tutorial'",
+    "a-010": "Ekran ve component metinleri ölçeğe çekildi (17/15→16, 14/12→13, 22→20, logo 56, Reward 26→28); DESIGN.md'ye Number 28/30 eklendi",
+    "a-011": "Etiketler Caption 13/18, sabit 2 satır, üstten hizalı",
+    "a-012": "Language satırında chevron gizlendi",
+    "a-013": "05-01 ve 03-03 Top Bar 48",
+    "a-014": "Restore (37:969): kilit vektör dolgusu temizlendi, kontur + etiket ink/secondary, gölge kaldırıldı, opaklık %60; DESIGN.md'ye 'Pasif buton' eklendi",
+    "a-015": "Scrim çalışıyordu ama %55 parlak görselde zayıftı; 5 diyalogda %80'e çekildi (04-01 scrim yeniden oluşturuldu: 42:974), DESIGN.md güncellendi",
+    "a-016": "Level Tile State=Locked'a Number (Nunito ExtraBold 13/16, ink/primary) eklendi, kilit 24; 03-03'te 9–20 yazıldı",
+    "a-017": "04-03b-hint-free (42:988) eklendi: 'Free Hint!', 'Free hint · 2 left', 'Use Free Hint' birincil. Oyun ekranları Level 07/14 olduğu için Hint 100 doğru; B1 öğreticide Hint çubuğu yok"
+  },
+  "items": [
+    {
+      "id": "a-001",
+      "section": "02-gameplay",
+      "screen": "02-01-game",
+      "severity": "high",
+      "title": "Hamle sınırlı bölüm için hamle sayacı yok",
+      "detail": "Bölüm 11–20 hamle sınırlı ve 02-05 'Moves 0 / 18' gösteriyor, ama hiçbir oyun ekranında (02-01/02-02/02-03) kalan hamle göstergesi yok; oyuncu başarısızlığa habersiz düşer. Akıştaki 'Hamle hakkı kaldı mı?' kararı ekranda karşılanmıyor.",
+      "fix": "02-01'in hamle sınırlı bir varyantını (ör. Level 14) ekle: alt bilgi şeridinde 'No move limit' yerine Stat Pill benzeri 'Moves 6 / 18' sayacı; az hamlede (≤3) uyarı tonu.",
+      "rule": "flow.md karar noktası 'Hamle hakkı kaldı mı?' · DESIGN.md Yapma listesi: değişimi sayı + ikonla göster",
+      "status": "fixed"
+    },
+    {
+      "id": "a-002",
+      "section": "03-town",
+      "screen": "03-03-level-select",
+      "severity": "high",
+      "title": "Bölüm ızgaralarının arkasında token dışı beyaz zemin",
+      "detail": "'Levels 1-10' ve 'Levels 11-20' grid frame'lerinde değişkene bağlı olmayan #FFFFFF dolgu var; krem panel içinde kırık görünen beyaz bloklar oluşuyor.",
+      "fix": "Grid frame dolgularını kaldır (şeffaf) ya da panel/base'e bağla.",
+      "rule": "DESIGN.md Yapma listesi: token dışı renk kullanma",
+      "status": "fixed"
+    },
+    {
+      "id": "a-003",
+      "section": "03-town",
+      "screen": "03-03-level-select",
+      "severity": "medium",
+      "title": "Ekran yüksekliği 966 — alt butonlar ekran dışına taşıyor",
+      "detail": "Frame 430×966; 932 px cihaz görünümünde 'Town' butonu ve alt safe area kesilir. Diğer tüm ekranlar 930.",
+      "fix": "Panel içi boşlukları/satır aralığını (ör. iki açıklama satırını tek satıra indir, grup arası 24→16) daralt ya da grid'i 5 sütun 56'lık kareye çevir; yükseklik 930'a insin.",
+      "rule": "CLAUDE.md ekran kuralı (min 930) · web-interface-guidelines: Safe Areas & Layout",
+      "status": "fixed"
+    },
+    {
+      "id": "a-004",
+      "section": "03-town",
+      "screen": "03-01-town",
+      "severity": "medium",
+      "title": "Bina kartında ve buton satırında beyaz kutular",
+      "detail": "'Info' ve 'Cost' frame'leri bağsız #FFFFFF dolgulu; krem kart içinde başlık/açıklama ve COST alanı beyaz bloklar halinde duruyor. Restore / Next Level satırının arkasında da beyaz şerit görünüyor.",
+      "fix": "Info, Cost ve buton satırı frame dolgularını kaldır; gerekiyorsa panel/row'a bağla.",
+      "rule": "DESIGN.md Yapma listesi: token dışı renk kullanma",
+      "status": "fixed"
+    },
+    {
+      "id": "a-005",
+      "section": "03-town",
+      "screen": "03-02-renovate",
+      "severity": "medium",
+      "title": "BEFORE/AFTER etiketlerinin arkasında beyaz zemin",
+      "detail": "'Before' ve 'After' frame'leri bağsız #FFFFFF dolgulu; görsel kartların altında krem panelden kopuk beyaz bloklar oluşuyor.",
+      "fix": "Dolguyu kaldır ya da panel/row'a bağla.",
+      "rule": "DESIGN.md Yapma listesi: token dışı renk kullanma",
+      "status": "fixed"
+    },
+    {
+      "id": "a-006",
+      "section": "04-game-dialogs",
+      "screen": "04-03-hint",
+      "severity": "medium",
+      "title": "Maliyet satırı token dışı beyaz şerit",
+      "detail": "'Cost' satırı bağsız #FFFFFF dolgulu; diyalog kartında kenarsız beyaz şerit tasarım dilinin (panel/row satır) dışında. Aynı sorun 04-04-not-enough-coins'te de var.",
+      "fix": "04-03 ve 04-04'teki 'Cost' frame'ini panel/row + 2 px panel/border + köşe 12 (satır stili) yap.",
+      "rule": "DESIGN.md Yapma listesi: token dışı renk / yeni kart biçimi uydurma",
+      "status": "fixed"
+    },
+    {
+      "id": "a-007",
+      "section": "03-town",
+      "screen": "03-01-town",
+      "severity": "medium",
+      "title": "Yıldız yetersiz durumu tasarlanmamış",
+      "detail": "Akışta 'Yıldız yeterli mi? Hayır → sonraki bölüm' kararı var; 03-01 yalnızca yeterli yıldız halini gösteriyor. Restore'un pasif hali ve eksik yıldız sayısı yok.",
+      "fix": "03-01'in ikinci durumunu ekle: Restore pasif (neutral, kilit ikonu) + 'Need 2 more stars' satırı, Next Level birincil.",
+      "rule": "flow.md karar noktası 'Yıldız yeterli mi?' · web-interface-guidelines: boş/devre dışı durumlar",
+      "status": "fixed"
+    },
+    {
+      "id": "a-008",
+      "section": "01-opening",
+      "screen": "01-02-tutorial",
+      "severity": "medium",
+      "title": "Öğretici metni 'parlayan karo' diyor ama 3 karo parlıyor",
+      "detail": "Speech bubble 'Turn the glowing one' diyor; ancak Curve/Lit, Straight/Lit karolar ve dönen ikonlu karo birlikte sarı çerçeveli. Hangi karoya dokunulacağı belirsiz.",
+      "fix": "Yalnızca döndürülecek karoyu vurgula (Lit + restart ikonu); bağlı rota karolarını Lit=No yap ya da metni 'Tap the tile with the arrow' olarak değiştir.",
+      "rule": "web-interface-guidelines: Content & Copy (net yönerge)",
+      "status": "fixed"
+    },
+    {
+      "id": "a-009",
+      "section": "01-opening",
+      "screen": "01-02-tutorial",
+      "severity": "low",
+      "title": "Öğreticiyi geçme yolu yok",
+      "detail": "Öğreticide yalnızca pause var; tekrar oynayan veya deneyimli oyuncu için 'Skip' yok.",
+      "fix": "Speech bubble altına küçük Neutral M 'Skip Tutorial' butonu ekle ya da pause diyaloğunda belirt.",
+      "rule": "DESIGN.md Yapma listesi: her diyalogda kapat/iptal yolu",
+      "status": "fixed"
+    },
+    {
+      "id": "a-010",
+      "section": "05-settings",
+      "screen": null,
+      "severity": "low",
+      "title": "Tip ölçeği dışı yazı boyutları",
+      "detail": "DESIGN.md ölçeğinde olmayan boyutlar kullanılmış: 17 (Settings Row etiketi, oyun alt başlığı), 14 (HUD alt etiketleri, durum hapı), 15 (English), 22 (alt başlıklar), 26/28 (ödül, level tile), 12 (03-04 bina etiketleri), logo 64 (DESIGN: 56).",
+      "fix": "Ya ekranları ölçeğe çek (17→16 Body, 14/12→13 Caption, 22→20 Heading, logo→56) ya da kullanılan boyutları DESIGN.md tipografi tablosuna ekle.",
+      "rule": "DESIGN.md Tipografi · Yapma listesi: yeni biçim uydurma",
+      "status": "fixed"
+    },
+    {
+      "id": "a-011",
+      "section": "03-town",
+      "screen": "03-04-town-complete",
+      "severity": "low",
+      "title": "Bina etiketleri 12 px ve iki satıra kırılıyor",
+      "detail": "Old House…Town Square etiketleri 66 px genişlikte 12 px; 'Local Market', 'Fire Station', 'Town Square' iki satıra kırılıyor, satırlar hizasız.",
+      "fix": "Etiketleri Caption 13'e çıkar, sütun genişliğini artır (5×72) veya tüm etiketleri iki satıra sabitle ve üstten hizala.",
+      "rule": "web-interface-guidelines: Content Handling (taşma/kırılma)",
+      "status": "fixed"
+    },
+    {
+      "id": "a-012",
+      "section": "05-settings",
+      "screen": "05-01-settings",
+      "severity": "low",
+      "title": "Language satırında chevron ama tek seçenek",
+      "detail": "Language satırı 'English' + chevron gösteriyor, altında 'More languages coming soon' yazıyor; chevron gidilebilir bir sayfa vaat ediyor.",
+      "fix": "Şimdilik chevron'u gizle (Trailing=Value, ikon yok) ya da satırı pasif tonla göster.",
+      "rule": "web-interface-guidelines: Navigation & State (etkileşim ipucu dürüst olmalı)",
+      "status": "fixed"
+    },
+    {
+      "id": "a-013",
+      "section": "05-settings",
+      "screen": "05-01-settings",
+      "severity": "low",
+      "title": "Top Bar yüksekliği 44 — diğer ekranlarda 48",
+      "detail": "05-01 ve 03-03'te Top Bar 398×44 ve y=56 yerine 54–56 arası; diğer ekranlarda 48. Geçişte HUD zıplar.",
+      "fix": "Top Bar instance'ını 48 yüksekliğe (component varsayılanı) döndür.",
+      "rule": "DESIGN.md Ekran iskeleti · tutarlı spacing",
+      "status": "fixed"
+    },
+    {
+      "id": "a-014",
+      "section": "03-town",
+      "screen": "03-01b-town-need-stars",
+      "severity": "medium",
+      "title": "Pasif Restore butonunda kilit ikonu bozuk, buton aktif görünüyor",
+      "detail": "Restore (Neutral M, 37:969) içindeki Icon/lock'ta gövde kahve dolgulu, kilit halkası beyaz çizgili; nötr zeminde halka kayboluyor ve ikon siyah bir leke gibi görünüyor. Buton ayrıca Level Select ile birebir aynı görünüyor; dokunulamaz olduğu anlaşılmıyor.",
+      "fix": "Kilit ikonunun vektör dolgusunu temizle, iki vektörün kontur rengini ink/secondary yap; butona pasif görünüm ver (opaklık %50 ya da etiket/ikon ink/secondary, alt gölge yok).",
+      "rule": "web-interface-guidelines: devre dışı durumlar net olmalı · DESIGN.md Yapma listesi: değişimi sayı + ikonla göster",
+      "status": "fixed"
+    },
+    {
+      "id": "a-015",
+      "section": "04-game-dialogs",
+      "screen": null,
+      "severity": "medium",
+      "title": "Diyalog arkasındaki karartma görünmüyor",
+      "detail": "04-01, 04-02, 04-03, 04-04 ve 02-05'te Scrim katmanı var (scrim değişkenine bağlı, düğüm opaklığı 0.55) ama önizlemelerde ve ekran görüntüsünde arka plan illüstrasyonu karartılmamış, tam parlak görünüyor; diyalog arka plandan yeterince ayrılmıyor.",
+      "fix": "Figma'da Scrim'in görüntüde etkili olduğunu kontrol et; değilse Scrim'i bg görselinin hemen üstünde yeniden oluştur (dolgu scrim'e bağlı, opaklık düğümde 0.55) ve önizlemeleri yenile.",
+      "rule": "DESIGN.md Ekran iskeleti: diyalogda bg + scrim %55",
+      "status": "fixed"
+    },
+    {
+      "id": "a-016",
+      "section": "03-town",
+      "screen": "03-03-level-select",
+      "severity": "low",
+      "title": "Kilitli bölüm karolarında numara yok",
+      "detail": "9–20 arası kilitli karolar yalnızca kilit ikonu gösteriyor; oyuncu hangi karonun hangi bölüm olduğunu, özellikle 'Move limit' grubunun 11'den başladığını göremiyor.",
+      "fix": "Level Tile State=Locked'a küçük numara ekle (kilidin altında Caption 13, ink/secondary) ya da numarayı kilidin yerine koyup kilidi köşe rozetine taşı.",
+      "rule": "web-interface-guidelines: Content & Copy (bağlam kaybettirme)",
+      "status": "fixed"
+    },
+    {
+      "id": "a-017",
+      "section": "04-game-dialogs",
+      "screen": "04-03-hint",
+      "severity": "low",
+      "title": "Ücretsiz ipucu durumu (Bölüm 1–3) tasarlanmamış",
+      "detail": "Akışa göre B1–3'te ipucu ücretsiz; ama 04-03 yalnızca 100 paralı hali, oyun alt çubuğundaki Hint de her zaman '100' gösteriyor. 01-02 öğreticide ipucu satırının ne göstereceği belirsiz.",
+      "fix": "04-03'ün 'Free' varyantını ekle (Cost satırında 'Free hint · 2 left', Use Hint birincil) ve oyun alt çubuğunda B1–3 için Hint rozetini 'Free' yap.",
+      "rule": "flow.md Ekonomi: ipucu B1–3 ücretsiz",
+      "status": "fixed"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "project": "traffic-tangle",
+  "updatedAt": "2026-11-03T12:36:17.558Z",
+  "items": [
+    {
+      "id": "splash",
+      "note": ""
+    },
+    {
+      "id": "resume-board",
+      "note": ""
+    },
+    {
+      "id": "city-home",
+      "note": ""
+    },
+    {
+      "id": "section-select",
+      "note": ""
+    },
+    {
+      "id": "section-locked",
+      "note": ""
+    },
+    {
+      "id": "building-renewed",
+      "note": ""
+    },
+    {
+      "id": "stars-missing",
+      "note": ""
+    },
+    {
+      "id": "settings",
+      "note": ""
+    },
+    {
+      "id": "game-board",
+      "note": ""
+    },
+    {
+      "id": "wrong-color",
+      "note": ""
+    },
+    {
+      "id": "door-locked",
+      "note": ""
+    },
+    {
+      "id": "out-of-moves",
+      "note": ""
+    },
+    {
+      "id": "world-complete",
+      "note": ""
+    },
+    {
+      "id": "final-200",
+      "note": ""
+    },
+    {
+      "id": "hint-highlight",
+      "note": ""
+    },
+    {
+      "id": "hint-no-coin",
+      "note": ""
+    },
+    {
+      "id": "reset-confirm",
+      "note": ""
+    }
+  ]
+}

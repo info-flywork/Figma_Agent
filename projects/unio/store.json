@@ -1,0 +1,2283 @@
+{
+  "frames": [
+    {
+      "id": "01",
+      "lang": "English",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/English/ios-01.png",
+        "play": "store/English/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "English",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/English/ios-02.png",
+        "play": "store/English/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "English",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/English/ios-03.png",
+        "play": "store/English/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "English",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/English/ios-04.png",
+        "play": "store/English/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "English",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/English/ios-05.png",
+        "play": "store/English/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "English",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/English/ios-06.png",
+        "play": "store/English/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "English",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/English/ios-07.png",
+        "play": "store/English/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "English",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/English/ios-08.png",
+        "play": "store/English/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Türkçe",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Türkçe/ios-01.png",
+        "play": "store/Türkçe/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Türkçe",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Türkçe/ios-02.png",
+        "play": "store/Türkçe/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Türkçe",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Türkçe/ios-03.png",
+        "play": "store/Türkçe/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Türkçe",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Türkçe/ios-04.png",
+        "play": "store/Türkçe/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Türkçe",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Türkçe/ios-05.png",
+        "play": "store/Türkçe/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Türkçe",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Türkçe/ios-06.png",
+        "play": "store/Türkçe/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Türkçe",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Türkçe/ios-07.png",
+        "play": "store/Türkçe/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Türkçe",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Türkçe/ios-08.png",
+        "play": "store/Türkçe/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Deutsch",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Deutsch/ios-01.png",
+        "play": "store/Deutsch/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Deutsch",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Deutsch/ios-02.png",
+        "play": "store/Deutsch/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Deutsch",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Deutsch/ios-03.png",
+        "play": "store/Deutsch/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Deutsch",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Deutsch/ios-04.png",
+        "play": "store/Deutsch/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Deutsch",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Deutsch/ios-05.png",
+        "play": "store/Deutsch/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Deutsch",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Deutsch/ios-06.png",
+        "play": "store/Deutsch/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Deutsch",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Deutsch/ios-07.png",
+        "play": "store/Deutsch/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Deutsch",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Deutsch/ios-08.png",
+        "play": "store/Deutsch/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Español",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Español/ios-01.png",
+        "play": "store/Español/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Español",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Español/ios-02.png",
+        "play": "store/Español/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Español",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Español/ios-03.png",
+        "play": "store/Español/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Español",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Español/ios-04.png",
+        "play": "store/Español/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Español",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Español/ios-05.png",
+        "play": "store/Español/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Español",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Español/ios-06.png",
+        "play": "store/Español/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Español",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Español/ios-07.png",
+        "play": "store/Español/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Español",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Español/ios-08.png",
+        "play": "store/Español/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Français",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Français/ios-01.png",
+        "play": "store/Français/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Français",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Français/ios-02.png",
+        "play": "store/Français/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Français",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Français/ios-03.png",
+        "play": "store/Français/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Français",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Français/ios-04.png",
+        "play": "store/Français/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Français",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Français/ios-05.png",
+        "play": "store/Français/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Français",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Français/ios-06.png",
+        "play": "store/Français/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Français",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Français/ios-07.png",
+        "play": "store/Français/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Français",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Français/ios-08.png",
+        "play": "store/Français/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Italiano",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Italiano/ios-01.png",
+        "play": "store/Italiano/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Italiano",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Italiano/ios-02.png",
+        "play": "store/Italiano/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Italiano",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Italiano/ios-03.png",
+        "play": "store/Italiano/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Italiano",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Italiano/ios-04.png",
+        "play": "store/Italiano/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Italiano",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Italiano/ios-05.png",
+        "play": "store/Italiano/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Italiano",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Italiano/ios-06.png",
+        "play": "store/Italiano/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Italiano",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Italiano/ios-07.png",
+        "play": "store/Italiano/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Italiano",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Italiano/ios-08.png",
+        "play": "store/Italiano/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Português (Brasil)",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-01.png",
+        "play": "store/Português (Brasil)/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Português (Brasil)",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-02.png",
+        "play": "store/Português (Brasil)/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Português (Brasil)",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-03.png",
+        "play": "store/Português (Brasil)/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Português (Brasil)",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-04.png",
+        "play": "store/Português (Brasil)/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Português (Brasil)",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-05.png",
+        "play": "store/Português (Brasil)/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Português (Brasil)",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-06.png",
+        "play": "store/Português (Brasil)/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Português (Brasil)",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-07.png",
+        "play": "store/Português (Brasil)/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Português (Brasil)",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Português (Brasil)/ios-08.png",
+        "play": "store/Português (Brasil)/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "Русский",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/Русский/ios-01.png",
+        "play": "store/Русский/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "Русский",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/Русский/ios-02.png",
+        "play": "store/Русский/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "Русский",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/Русский/ios-03.png",
+        "play": "store/Русский/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "Русский",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/Русский/ios-04.png",
+        "play": "store/Русский/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "Русский",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/Русский/ios-05.png",
+        "play": "store/Русский/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "Русский",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/Русский/ios-06.png",
+        "play": "store/Русский/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "Русский",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/Русский/ios-07.png",
+        "play": "store/Русский/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "Русский",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/Русский/ios-08.png",
+        "play": "store/Русский/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "日本語",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/日本語/ios-01.png",
+        "play": "store/日本語/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "日本語",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/日本語/ios-02.png",
+        "play": "store/日本語/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "日本語",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/日本語/ios-03.png",
+        "play": "store/日本語/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "日本語",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/日本語/ios-04.png",
+        "play": "store/日本語/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "日本語",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/日本語/ios-05.png",
+        "play": "store/日本語/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "日本語",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/日本語/ios-06.png",
+        "play": "store/日本語/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "日本語",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/日本語/ios-07.png",
+        "play": "store/日本語/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "日本語",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/日本語/ios-08.png",
+        "play": "store/日本語/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "한국어",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/한국어/ios-01.png",
+        "play": "store/한국어/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "한국어",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/한국어/ios-02.png",
+        "play": "store/한국어/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "한국어",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/한국어/ios-03.png",
+        "play": "store/한국어/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "한국어",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/한국어/ios-04.png",
+        "play": "store/한국어/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "한국어",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/한국어/ios-05.png",
+        "play": "store/한국어/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "한국어",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/한국어/ios-06.png",
+        "play": "store/한국어/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "한국어",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/한국어/ios-07.png",
+        "play": "store/한국어/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "한국어",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/한국어/ios-08.png",
+        "play": "store/한국어/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "简体中文",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/简体中文/ios-01.png",
+        "play": "store/简体中文/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "简体中文",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/简体中文/ios-02.png",
+        "play": "store/简体中文/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "简体中文",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/简体中文/ios-03.png",
+        "play": "store/简体中文/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "简体中文",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/简体中文/ios-04.png",
+        "play": "store/简体中文/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "简体中文",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/简体中文/ios-05.png",
+        "play": "store/简体中文/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "简体中文",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/简体中文/ios-06.png",
+        "play": "store/简体中文/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "简体中文",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/简体中文/ios-07.png",
+        "play": "store/简体中文/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "简体中文",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/简体中文/ios-08.png",
+        "play": "store/简体中文/play-08.png"
+      }
+    },
+    {
+      "id": "01",
+      "lang": "हिन्दी",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/हिन्दी/ios-01.png",
+        "play": "store/हिन्दी/play-01.png"
+      }
+    },
+    {
+      "id": "02",
+      "lang": "हिन्दी",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/हिन्दी/ios-02.png",
+        "play": "store/हिन्दी/play-02.png"
+      }
+    },
+    {
+      "id": "03",
+      "lang": "हिन्दी",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/हिन्दी/ios-03.png",
+        "play": "store/हिन्दी/play-03.png"
+      }
+    },
+    {
+      "id": "04",
+      "lang": "हिन्दी",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/हिन्दी/ios-04.png",
+        "play": "store/हिन्दी/play-04.png"
+      }
+    },
+    {
+      "id": "05",
+      "lang": "हिन्दी",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/हिन्दी/ios-05.png",
+        "play": "store/हिन्दी/play-05.png"
+      }
+    },
+    {
+      "id": "06",
+      "lang": "हिन्दी",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/हिन्दी/ios-06.png",
+        "play": "store/हिन्दी/play-06.png"
+      }
+    },
+    {
+      "id": "07",
+      "lang": "हिन्दी",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/हिन्दी/ios-07.png",
+        "play": "store/हिन्दी/play-07.png"
+      }
+    },
+    {
+      "id": "08",
+      "lang": "हिन्दी",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/हिन्दी/ios-08.png",
+        "play": "store/हिन्दी/play-08.png"
+      }
+    }
+  ],
+  "palette": [
+    {
+      "role": "Arka plan",
+      "hex": "#7043FF"
+    },
+    {
+      "role": "Başlık",
+      "hex": "#DFFF64"
+    }
+  ],
+  "base": [
+    {
+      "id": "01",
+      "screen": "launch-02-welcome",
+      "files": {
+        "ios": "store/base/ios-01.png",
+        "play": "store/base/play-01.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-01.png",
+        "play": "store/base/concept-play-01.png"
+      },
+      "figmaHash": {
+        "ios": "9a52a4728338540862b482f970c090567bfa3c46",
+        "play": "0254c6ccce47d9822395e1144837a1892e708418"
+      }
+    },
+    {
+      "id": "02",
+      "screen": "discover-03-hangout",
+      "files": {
+        "ios": "store/base/ios-02.png",
+        "play": "store/base/play-02.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-02.png",
+        "play": "store/base/concept-play-02.png"
+      },
+      "figmaHash": {
+        "ios": "b4bebc06057c9f1f16b66a20c684e4ae17aaa4aa",
+        "play": "45bc3f62b8811748e3204f3624ac6c5d1f564889"
+      }
+    },
+    {
+      "id": "03",
+      "screen": "campus-flow-11-02-story-viewer",
+      "files": {
+        "ios": "store/base/ios-03.png",
+        "play": "store/base/play-03.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-03.png",
+        "play": "store/base/concept-play-03.png"
+      },
+      "figmaHash": {
+        "ios": "51af1daf0fb153227592d26217a7d52bce31dfc7",
+        "play": "0ed7171c5da047458e636b15876bed67a317cf89"
+      }
+    },
+    {
+      "id": "04",
+      "screen": "create-flow-05-05-story-preview",
+      "files": {
+        "ios": "store/base/ios-04.png",
+        "play": "store/base/play-04.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-04.png",
+        "play": "store/base/concept-play-04.png"
+      },
+      "figmaHash": {
+        "ios": "9ec2e902c21ade5bbcda94d2ccf66c3d4f87758b",
+        "play": "2df0a757c2c9cc34e51d90bddd2b0c6797d691b7"
+      }
+    },
+    {
+      "id": "05",
+      "screen": "chat-flow-10-10-profile",
+      "files": {
+        "ios": "store/base/ios-05.png",
+        "play": "store/base/play-05.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-05.png",
+        "play": "store/base/concept-play-05.png"
+      },
+      "figmaHash": {
+        "ios": "8d30c9175e9cc290ae764efa4068c0c27ef498fa",
+        "play": "e723e2098662c9edc9d72fc10b40d4f4a6094ff5"
+      }
+    },
+    {
+      "id": "06",
+      "screen": "profile-05-05-my-posts",
+      "files": {
+        "ios": "store/base/ios-06.png",
+        "play": "store/base/play-06.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-06.png",
+        "play": "store/base/concept-play-06.png"
+      },
+      "figmaHash": {
+        "ios": "1080c37d99581e6b20b66ffeb4b7275276eb343a",
+        "play": "69d2f2903e27cfc10caf865959603802209a5802"
+      },
+      "noCharFiles": {
+        "ios": "store/base/ios-06-nochar.png",
+        "play": "store/base/play-06-nochar.png"
+      },
+      "figmaHashPrefix": {
+        "ios": "7abc93",
+        "play": "25a9f9"
+      }
+    },
+    {
+      "id": "07",
+      "screen": "chat-flow-01-01-chats",
+      "files": {
+        "ios": "store/base/ios-07.png",
+        "play": "store/base/play-07.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-07.png",
+        "play": "store/base/concept-play-07.png"
+      },
+      "figmaHash": {
+        "ios": "7951ebede59272c28ea90bae792c57fea5ad98bb",
+        "play": "53b98f573bcf9c25a77ea06eca9e195ce800ea66"
+      }
+    },
+    {
+      "id": "08",
+      "screen": "create-flow-02-02-new-post",
+      "files": {
+        "ios": "store/base/ios-08.png",
+        "play": "store/base/play-08.png"
+      },
+      "concept": {
+        "ios": "store/base/concept-ios-08.png",
+        "play": "store/base/concept-play-08.png"
+      },
+      "figmaHash": {
+        "ios": "4236e08900dbac2c2800cd8d58e2890d8c70e7e5",
+        "play": "930c27eb165acd0cab554031bc064fc71c64ed74"
+      },
+      "noCharFiles": {
+        "ios": "store/base/ios-08-nochar.png",
+        "play": "store/base/play-08-nochar.png"
+      },
+      "figmaHashPrefix": {
+        "ios": "eaf0cf",
+        "play": "fb91f3"
+      }
+    }
+  ],
+  "placed": true,
+  "banners": [
+    {
+      "lang": "English",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/English/banner-3840x1646.png",
+      "figmaNode": "480:6398",
+      "section": "480:6397"
+    },
+    {
+      "lang": "English",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/English/banner-3840x2560.png",
+      "figmaNode": "481:6410",
+      "section": "481:6409"
+    },
+    {
+      "lang": "English",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/English/banner-1024x500.png",
+      "figmaNode": "481:6450",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Türkçe/banner-3840x1646.png",
+      "figmaNode": "483:6862",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Deutsch/banner-3840x1646.png",
+      "figmaNode": "483:6901",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Español",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Español/banner-3840x1646.png",
+      "figmaNode": "483:6940",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Français",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Français/banner-3840x1646.png",
+      "figmaNode": "483:6979",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Italiano",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Italiano/banner-3840x1646.png",
+      "figmaNode": "483:7018",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Português (Brasil)/banner-3840x1646.png",
+      "figmaNode": "483:7057",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Русский",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/Русский/banner-3840x1646.png",
+      "figmaNode": "483:7096",
+      "section": "480:6397"
+    },
+    {
+      "lang": "日本語",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/日本語/banner-3840x1646.png",
+      "figmaNode": "483:7135",
+      "section": "480:6397"
+    },
+    {
+      "lang": "한국어",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/한국어/banner-3840x1646.png",
+      "figmaNode": "483:7174",
+      "section": "480:6397"
+    },
+    {
+      "lang": "简体中文",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/简体中文/banner-3840x1646.png",
+      "figmaNode": "483:7213",
+      "section": "480:6397"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "App Store Header",
+      "w": 3840,
+      "h": 1646,
+      "file": "store/हिन्दी/banner-3840x1646.png",
+      "figmaNode": "483:7252",
+      "section": "480:6397"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Türkçe/banner-3840x2560.png",
+      "figmaNode": "488:6565",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Türkçe",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Türkçe/banner-1024x500.png",
+      "figmaNode": "488:6994",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Deutsch/banner-3840x2560.png",
+      "figmaNode": "488:6604",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Deutsch",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Deutsch/banner-1024x500.png",
+      "figmaNode": "488:7033",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Español",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Español/banner-3840x2560.png",
+      "figmaNode": "488:6643",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Español",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Español/banner-1024x500.png",
+      "figmaNode": "488:7072",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Français",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Français/banner-3840x2560.png",
+      "figmaNode": "488:6682",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Français",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Français/banner-1024x500.png",
+      "figmaNode": "488:7111",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Italiano",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Italiano/banner-3840x2560.png",
+      "figmaNode": "488:6721",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Italiano",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Italiano/banner-1024x500.png",
+      "figmaNode": "488:7150",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Português (Brasil)/banner-3840x2560.png",
+      "figmaNode": "488:6760",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Português (Brasil)",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Português (Brasil)/banner-1024x500.png",
+      "figmaNode": "488:7189",
+      "section": "481:6449"
+    },
+    {
+      "lang": "Русский",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/Русский/banner-3840x2560.png",
+      "figmaNode": "488:6799",
+      "section": "481:6409"
+    },
+    {
+      "lang": "Русский",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/Русский/banner-1024x500.png",
+      "figmaNode": "488:7228",
+      "section": "481:6449"
+    },
+    {
+      "lang": "日本語",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/日本語/banner-3840x2560.png",
+      "figmaNode": "488:6838",
+      "section": "481:6409"
+    },
+    {
+      "lang": "日本語",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/日本語/banner-1024x500.png",
+      "figmaNode": "488:7267",
+      "section": "481:6449"
+    },
+    {
+      "lang": "한국어",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/한국어/banner-3840x2560.png",
+      "figmaNode": "488:6877",
+      "section": "481:6409"
+    },
+    {
+      "lang": "한국어",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/한국어/banner-1024x500.png",
+      "figmaNode": "488:7306",
+      "section": "481:6449"
+    },
+    {
+      "lang": "简体中文",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/简体中文/banner-3840x2560.png",
+      "figmaNode": "488:6916",
+      "section": "481:6409"
+    },
+    {
+      "lang": "简体中文",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/简体中文/banner-1024x500.png",
+      "figmaNode": "488:7345",
+      "section": "481:6449"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "App Store Search Result",
+      "w": 3840,
+      "h": 2560,
+      "file": "store/हिन्दी/banner-3840x2560.png",
+      "figmaNode": "488:6955",
+      "section": "481:6409"
+    },
+    {
+      "lang": "हिन्दी",
+      "name": "Play Store kapak görseli",
+      "w": 1024,
+      "h": 500,
+      "file": "store/हिन्दी/banner-1024x500.png",
+      "figmaNode": "488:7384",
+      "section": "481:6449"
+    }
+  ],
+  "copy": {
+    "English": {
+      "01": {
+        "headline": "Your People, Closer Than You Think.",
+        "highlight": "Your People,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Hang Out. Make Friends.",
+        "highlight": "Make Friends.",
+        "sub": "Join campus events, meet new people, and make every day more exciting."
+      },
+      "03": {
+        "headline": "Find Your Study Buddies On Campus",
+        "highlight": "Study Buddies",
+        "sub": "Meet, chat, and learn with students like you."
+      },
+      "04": {
+        "headline": "Preview Your Story First",
+        "highlight": "Preview Your Story First",
+        "sub": "See it. Perfect it. Then share with confidence."
+      },
+      "05": {
+        "headline": "Your Profile, Your Story",
+        "highlight": "Your Story",
+        "sub": "Share what makes you, connect with who gets you."
+      },
+      "06": {
+        "headline": "Your Topics, Your Story",
+        "highlight": "Your Story",
+        "sub": "Share moments, ideas and campus life."
+      },
+      "07": {
+        "headline": "Chat. Connect. Grow Together.",
+        "highlight": "Connect. Grow Together.",
+        "sub": "Real conversations, real connections."
+      },
+      "08": {
+        "headline": "Share Moments, Start Conversations",
+        "highlight": "Start Conversations",
+        "sub": "Post, connect, and discover what's happening on campus."
+      }
+    },
+    "Türkçe": {
+      "01": {
+        "headline": "İnsanların, Sandığından Çok Yakın.",
+        "highlight": "İnsanların,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Takıl. Arkadaş Edin.",
+        "highlight": "Arkadaş Edin.",
+        "sub": "Kampüs etkinliklerine katıl, yeni insanlarla tanış, her günü daha heyecanlı yap."
+      },
+      "03": {
+        "headline": "Kampüste Ders Arkadaşlarını Bul",
+        "highlight": "Ders Arkadaşlarını",
+        "sub": "Seni anlayan öğrencilerle tanış, sohbet et, birlikte öğren."
+      },
+      "04": {
+        "headline": "Hikâyeni Önce Önizle",
+        "highlight": "Hikâyeni Önce Önizle",
+        "sub": "Gör. Mükemmelleştir.\nSonra güvenle paylaş."
+      },
+      "05": {
+        "headline": "Profilin, Hikâyen",
+        "highlight": "Hikâyen",
+        "sub": "Seni sen yapanı paylaş,\nseni anlayanlarla bağ kur."
+      },
+      "06": {
+        "headline": "Konuların, Hikâyen",
+        "highlight": "Hikâyen",
+        "sub": "Anları, fikirleri ve\nkampüs hayatını paylaş."
+      },
+      "07": {
+        "headline": "Sohbet Et. Bağlan. Birlikte Büyü.",
+        "highlight": "Bağlan. Birlikte Büyü.",
+        "sub": "Gerçek sohbetler,\ngerçek bağlantılar."
+      },
+      "08": {
+        "headline": "Anları Paylaş, Sohbet Başlat",
+        "highlight": "Sohbet Başlat",
+        "sub": "Paylaş, bağlan ve kampüste\nneler olduğunu keşfet."
+      }
+    },
+    "Deutsch": {
+      "01": {
+        "headline": "Deine Leute, Näher als du denkst.",
+        "highlight": "Deine Leute,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Abhängen. Freunde finden.",
+        "highlight": "Freunde finden.",
+        "sub": "Besuche Campus-Events, lerne neue Leute kennen und mach jeden Tag spannender."
+      },
+      "03": {
+        "headline": "Finde deine Lernpartner auf dem Campus",
+        "highlight": "Lernpartner",
+        "sub": "Lerne Studierende wie dich kennen, chatte und lerne gemeinsam."
+      },
+      "04": {
+        "headline": "Vorschau deiner Story zuerst",
+        "highlight": "Vorschau deiner Story zuerst",
+        "sub": "Ansehen. Perfektionieren.\nDann selbstbewusst teilen."
+      },
+      "05": {
+        "headline": "Dein Profil, Deine Story",
+        "highlight": "Deine Story",
+        "sub": "Teile, was dich ausmacht,\nverbinde dich mit Leuten, die dich verstehen."
+      },
+      "06": {
+        "headline": "Deine Themen, Deine Story",
+        "highlight": "Deine Story",
+        "sub": "Teile Momente, Ideen\nund das Campusleben."
+      },
+      "07": {
+        "headline": "Chatten. Vernetzen. Gemeinsam wachsen.",
+        "highlight": "Vernetzen. Gemeinsam wachsen.",
+        "sub": "Echte Gespräche,\nechte Verbindungen."
+      },
+      "08": {
+        "headline": "Teile Momente, Starte Gespräche",
+        "highlight": "Starte Gespräche",
+        "sub": "Poste, vernetze dich und entdecke,\nwas auf dem Campus los ist."
+      }
+    },
+    "Español": {
+      "01": {
+        "headline": "Tu gente, más cerca de lo que crees.",
+        "highlight": "Tu gente,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Sal. Haz amigos.",
+        "highlight": "Haz amigos.",
+        "sub": "Únete a eventos del campus, conoce gente nueva y haz cada día más emocionante."
+      },
+      "03": {
+        "headline": "Encuentra a tus Compañeros de estudio en el campus",
+        "highlight": "Compañeros de estudio",
+        "sub": "Conoce, chatea y aprende con estudiantes como tú."
+      },
+      "04": {
+        "headline": "Previsualiza tu historia primero",
+        "highlight": "Previsualiza tu historia primero",
+        "sub": "Velo. Perfecciónalo.\nLuego compártelo con confianza."
+      },
+      "05": {
+        "headline": "Tu perfil, Tu historia",
+        "highlight": "Tu historia",
+        "sub": "Comparte lo que te hace único,\nconecta con quien te entiende."
+      },
+      "06": {
+        "headline": "Tus temas, Tu historia",
+        "highlight": "Tu historia",
+        "sub": "Comparte momentos, ideas\ny la vida en el campus."
+      },
+      "07": {
+        "headline": "Chatea. Conecta. Crezcan juntos.",
+        "highlight": "Conecta. Crezcan juntos.",
+        "sub": "Conversaciones reales,\nconexiones reales."
+      },
+      "08": {
+        "headline": "Comparte momentos, Inicia conversaciones",
+        "highlight": "Inicia conversaciones",
+        "sub": "Publica, conecta y descubre\nqué pasa en el campus."
+      }
+    },
+    "Français": {
+      "01": {
+        "headline": "Tes proches, plus près que tu ne crois.",
+        "highlight": "Tes proches,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Sortez. Faites des amis.",
+        "highlight": "Faites des amis.",
+        "sub": "Rejoins les événements du campus, rencontre du monde et rends chaque jour plus excitant."
+      },
+      "03": {
+        "headline": "Trouve tes Binômes d'étude sur le campus",
+        "highlight": "Binômes d'étude",
+        "sub": "Rencontre, discute et apprends avec des étudiants comme toi."
+      },
+      "04": {
+        "headline": "Prévisualise ton story d'abord",
+        "highlight": "Prévisualise ton story d'abord",
+        "sub": "Regarde. Perfectionne.\nPuis partage en confiance."
+      },
+      "05": {
+        "headline": "Ton profil, Ta story",
+        "highlight": "Ta story",
+        "sub": "Partage ce qui te rend unique,\nconnecte-toi avec ceux qui te comprennent."
+      },
+      "06": {
+        "headline": "Tes sujets, Ta story",
+        "highlight": "Ta story",
+        "sub": "Partage des moments, des idées\net la vie du campus."
+      },
+      "07": {
+        "headline": "Discute. Connecte. Grandissez ensemble.",
+        "highlight": "Connecte. Grandissez ensemble.",
+        "sub": "De vraies conversations,\nde vrais liens."
+      },
+      "08": {
+        "headline": "Partage des moments, Lance des conversations",
+        "highlight": "Lance des conversations",
+        "sub": "Poste, connecte-toi et découvre\nce qui se passe sur le campus."
+      }
+    },
+    "Italiano": {
+      "01": {
+        "headline": "La tua gente, più vicina di quanto pensi.",
+        "highlight": "La tua gente,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Esci. Fai amicizia.",
+        "highlight": "Fai amicizia.",
+        "sub": "Partecipa agli eventi del campus, conosci nuove persone e rendi ogni giorno più emozionante."
+      },
+      "03": {
+        "headline": "Trova i tuoi compagni di studio nel campus",
+        "highlight": "compagni di studio",
+        "sub": "Incontra, chatta e impara con studenti come te."
+      },
+      "04": {
+        "headline": "Anteprima della tua storia prima",
+        "highlight": "Anteprima della tua storia prima",
+        "sub": "Guardala. Perfezionala.\nPoi condividi con sicurezza."
+      },
+      "05": {
+        "headline": "Il tuo profilo, La tua storia",
+        "highlight": "La tua storia",
+        "sub": "Condividi ciò che ti rende unico,\nconnettiti con chi ti capisce."
+      },
+      "06": {
+        "headline": "I tuoi temi, La tua storia",
+        "highlight": "La tua storia",
+        "sub": "Condividi momenti, idee\ne vita da campus."
+      },
+      "07": {
+        "headline": "Chatta. Connettiti. Crescete insieme.",
+        "highlight": "Connettiti. Crescete insieme.",
+        "sub": "Conversazioni vere,\nlegami veri."
+      },
+      "08": {
+        "headline": "Condividi momenti, Avvia conversazioni",
+        "highlight": "Avvia conversazioni",
+        "sub": "Pubblica, connettiti e scopri\ncosa succede nel campus."
+      }
+    },
+    "Português (Brasil)": {
+      "01": {
+        "headline": "Sua galera, mais perto do que você pensa.",
+        "highlight": "Sua galera,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Curta. Faça amigos.",
+        "highlight": "Faça amigos.",
+        "sub": "Participe de eventos no campus, conheça gente nova e deixe cada dia mais emocionante."
+      },
+      "03": {
+        "headline": "Encontre seus Parceiros de estudo no campus",
+        "highlight": "Parceiros de estudo",
+        "sub": "Conheça, converse e aprenda com estudantes como você."
+      },
+      "04": {
+        "headline": "Pré-visualize sua história",
+        "highlight": "Pré-visualize sua história",
+        "sub": "Veja. Aperfeiçoe.\nDepois compartilhe com confiança."
+      },
+      "05": {
+        "headline": "Seu perfil, Sua história",
+        "highlight": "Sua história",
+        "sub": "Mostre o que te faz único,\nconecte-se com quem te entende."
+      },
+      "06": {
+        "headline": "Seus assuntos, Sua história",
+        "highlight": "Sua história",
+        "sub": "Compartilhe momentos, ideias\ne a vida no campus."
+      },
+      "07": {
+        "headline": "Converse. Conecte. Cresçam juntos.",
+        "highlight": "Conecte. Cresçam juntos.",
+        "sub": "Conversas reais,\nconexões reais."
+      },
+      "08": {
+        "headline": "Compartilhe momentos, Comece conversas",
+        "highlight": "Comece conversas",
+        "sub": "Poste, conecte-se e descubra\no que rola no campus."
+      }
+    },
+    "Русский": {
+      "01": {
+        "headline": "Твои люди, ближе, чем ты думаешь.",
+        "highlight": "Твои люди,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "Общайся. Заводи друзей.",
+        "highlight": "Заводи друзей.",
+        "sub": "Участвуй в событиях кампуса, знакомься с новыми людьми и делай каждый день ярче."
+      },
+      "03": {
+        "headline": "Найди Напарников по учёбе в кампусе",
+        "highlight": "Напарников по учёбе",
+        "sub": "Знакомься, общайся и учись со студентами, как ты."
+      },
+      "04": {
+        "headline": "Сначала просмотри свою историю",
+        "highlight": "Сначала просмотри свою историю",
+        "sub": "Посмотри. Доведи до идеала.\nИ делись с уверенностью."
+      },
+      "05": {
+        "headline": "Твой профиль, Твоя история",
+        "highlight": "Твоя история",
+        "sub": "Расскажи, что делает тебя тобой,\nнайди тех, кто тебя понимает."
+      },
+      "06": {
+        "headline": "Твои темы, Твоя история",
+        "highlight": "Твоя история",
+        "sub": "Делись моментами, идеями\nи жизнью кампуса."
+      },
+      "07": {
+        "headline": "Общайся. Связывайся. Расти вместе.",
+        "highlight": "Связывайся. Расти вместе.",
+        "sub": "Настоящие разговоры,\nнастоящие связи."
+      },
+      "08": {
+        "headline": "Делись моментами, Начинай разговоры",
+        "highlight": "Начинай разговоры",
+        "sub": "Публикуй, общайся и узнавай,\nчто происходит в кампусе."
+      }
+    },
+    "日本語": {
+      "01": {
+        "headline": "あなたの仲間は、 思ったより すぐそばに。",
+        "highlight": "あなたの仲間は、",
+        "sub": ""
+      },
+      "02": {
+        "headline": "集まろう。 友だちをつくろう。",
+        "highlight": "友だちをつくろう。",
+        "sub": "キャンパスのイベントに参加して、新しい出会いで毎日をもっとワクワクに。"
+      },
+      "03": {
+        "headline": "キャンパスで 勉強仲間 を見つけよう",
+        "highlight": "勉強仲間",
+        "sub": "同じ学生と出会って、チャットして、一緒に学ぼう。"
+      },
+      "04": {
+        "headline": "ストーリーを まずプレビュー",
+        "highlight": "ストーリーを まずプレビュー",
+        "sub": "見て、仕上げて、\n自信をもってシェア。"
+      },
+      "05": {
+        "headline": "あなたのプロフィール、 あなたのストーリー",
+        "highlight": "あなたのストーリー",
+        "sub": "あなたらしさをシェアして、\n分かり合える人とつながろう。"
+      },
+      "06": {
+        "headline": "あなたの話題、 あなたのストーリー",
+        "highlight": "あなたのストーリー",
+        "sub": "瞬間もアイデアも、\nキャンパスライフもシェア。"
+      },
+      "07": {
+        "headline": "チャット。 つながる。 一緒に成長。",
+        "highlight": "つながる。 一緒に成長。",
+        "sub": "本物の会話、\n本物のつながり。"
+      },
+      "08": {
+        "headline": "瞬間をシェア、 会話を はじめよう",
+        "highlight": "会話を はじめよう",
+        "sub": "投稿して、つながって、\nキャンパスの今を発見。"
+      }
+    },
+    "한국어": {
+      "01": {
+        "headline": "내 사람들, 생각보다 가까이에.",
+        "highlight": "내 사람들,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "함께 놀자. 친구를 사귀자.",
+        "highlight": "친구를 사귀자.",
+        "sub": "캠퍼스 행사에 참여하고, 새로운 사람들을 만나 매일을 더 설레게 만들어 보세요."
+      },
+      "03": {
+        "headline": "캠퍼스에서 스터디 메이트 찾기",
+        "highlight": "스터디 메이트",
+        "sub": "나 같은 학생들을 만나고, 대화하고, 함께 배워요."
+      },
+      "04": {
+        "headline": "스토리를 먼저 미리보기",
+        "highlight": "스토리를 먼저 미리보기",
+        "sub": "확인하고, 다듬고,\n자신 있게 공유하세요."
+      },
+      "05": {
+        "headline": "나의 프로필, 나의 스토리",
+        "highlight": "나의 스토리",
+        "sub": "나다움을 공유하고,\n나를 알아주는 사람과 연결하세요."
+      },
+      "06": {
+        "headline": "나의 관심사, 나의 스토리",
+        "highlight": "나의 스토리",
+        "sub": "순간과 아이디어,\n캠퍼스 라이프를 공유하세요."
+      },
+      "07": {
+        "headline": "채팅하고. 연결되고. 함께 성장해요.",
+        "highlight": "연결되고. 함께 성장해요.",
+        "sub": "진짜 대화,\n진짜 인연."
+      },
+      "08": {
+        "headline": "순간을 공유하고, 대화를 시작하세요",
+        "highlight": "대화를 시작하세요",
+        "sub": "게시하고, 연결하고,\n캠퍼스 소식을 만나보세요."
+      }
+    },
+    "简体中文": {
+      "01": {
+        "headline": "你的朋友， 比你想的 更近。",
+        "highlight": "你的朋友，",
+        "sub": ""
+      },
+      "02": {
+        "headline": "一起玩。 结交朋友。",
+        "highlight": "结交朋友。",
+        "sub": "参加校园活动，认识新朋友，让每一天都更精彩。"
+      },
+      "03": {
+        "headline": "在校园里 找到学习搭子 一起进步",
+        "highlight": "找到学习搭子",
+        "sub": "认识同学、聊天，一起学习。"
+      },
+      "04": {
+        "headline": "先预览 你的故事",
+        "highlight": "先预览 你的故事",
+        "sub": "先看看，再完善，\n然后自信分享。"
+      },
+      "05": {
+        "headline": "你的主页， 你的故事",
+        "highlight": "你的故事",
+        "sub": "分享真实的你，\n连接懂你的人。"
+      },
+      "06": {
+        "headline": "你的话题， 你的故事",
+        "highlight": "你的故事",
+        "sub": "分享瞬间、想法\n和校园生活。"
+      },
+      "07": {
+        "headline": "聊天。 连接。 共同成长。",
+        "highlight": "连接。 共同成长。",
+        "sub": "真实的对话，\n真实的连接。"
+      },
+      "08": {
+        "headline": "分享瞬间， 开启 对话",
+        "highlight": "开启 对话",
+        "sub": "发帖、连接，\n发现校园新鲜事。"
+      }
+    },
+    "हिन्दी": {
+      "01": {
+        "headline": "आपके लोग, सोच से भी ज़्यादा क़रीब।",
+        "highlight": "आपके लोग,",
+        "sub": ""
+      },
+      "02": {
+        "headline": "घूमें-फिरें। नए दोस्त बनाएं।",
+        "highlight": "नए दोस्त बनाएं।",
+        "sub": "कैंपस इवेंट्स में शामिल हों, नए लोगों से मिलें और हर दिन को और मज़ेदार बनाएं।"
+      },
+      "03": {
+        "headline": "कैंपस पर पढ़ाई के साथी खोजें",
+        "highlight": "पढ़ाई के साथी",
+        "sub": "अपने जैसे छात्रों से मिलें, बात करें और साथ सीखें।"
+      },
+      "04": {
+        "headline": "अपनी स्टोरी पहले देखें",
+        "highlight": "अपनी स्टोरी",
+        "sub": "देखें। परखें। फिर भरोसे से शेयर करें।"
+      },
+      "05": {
+        "headline": "आपकी प्रोफ़ाइल, आपकी कहानी",
+        "highlight": "आपकी प्रोफ़ाइल,",
+        "sub": "बताएं आप क्या ख़ास हैं, उनसे जुड़ें जो आपको समझते हैं।"
+      },
+      "06": {
+        "headline": "आपके विषय, आपकी कहानी",
+        "highlight": "आपके विषय,",
+        "sub": "पल, विचार और कैंपस लाइफ़ शेयर करें।"
+      },
+      "07": {
+        "headline": "चैट करें। जुड़ें। साथ बढ़ें।",
+        "highlight": "चैट करें।",
+        "sub": "असली बातचीत, असली रिश्ते।"
+      },
+      "08": {
+        "headline": "पल शेयर करें, बातचीत शुरू करें",
+        "highlight": "पल शेयर करें,",
+        "sub": "पोस्ट करें, जुड़ें और जानें कैंपस में क्या चल रहा है।"
+      }
+    }
+  },
+  "figma": {
+    "page": "453:5437",
+    "sections": {
+      "ios": "462:5437",
+      "play": "462:5438"
+    },
+    "components": {
+      "phoneIphone": "462:5455",
+      "phoneAndroid": "462:5462"
+    },
+    "nodes": {
+      "English": {
+        "01": {
+          "ios": "462:5439",
+          "play": "462:5440"
+        },
+        "02": {
+          "ios": "462:5441",
+          "play": "462:5442"
+        },
+        "03": {
+          "ios": "462:5443",
+          "play": "462:5444"
+        },
+        "04": {
+          "ios": "462:5445",
+          "play": "462:5446"
+        },
+        "05": {
+          "ios": "462:5447",
+          "play": "462:5448"
+        },
+        "06": {
+          "ios": "462:5449",
+          "play": "462:5450"
+        },
+        "07": {
+          "ios": "462:5451",
+          "play": "462:5452"
+        },
+        "08": {
+          "ios": "462:5453",
+          "play": "462:5454"
+        }
+      },
+      "Türkçe": {
+        "01": {
+          "ios": "475:5517",
+          "play": "475:5707"
+        },
+        "02": {
+          "ios": "475:5548",
+          "play": "475:5736"
+        },
+        "03": {
+          "ios": "475:5579",
+          "play": "475:5763"
+        },
+        "04": {
+          "ios": "475:5609",
+          "play": "475:5791"
+        },
+        "05": {
+          "ios": "475:5624",
+          "play": "475:5805"
+        },
+        "06": {
+          "ios": "475:5649",
+          "play": "475:5830"
+        },
+        "07": {
+          "ios": "475:5667",
+          "play": "475:5842"
+        },
+        "08": {
+          "ios": "475:5689",
+          "play": "475:5862"
+        }
+      },
+      "Deutsch": {
+        "01": {
+          "ios": "476:5628",
+          "play": "476:5818"
+        },
+        "02": {
+          "ios": "476:5659",
+          "play": "476:5847"
+        },
+        "03": {
+          "ios": "476:5690",
+          "play": "476:5874"
+        },
+        "04": {
+          "ios": "476:5720",
+          "play": "476:5902"
+        },
+        "05": {
+          "ios": "476:5735",
+          "play": "476:5916"
+        },
+        "06": {
+          "ios": "476:5760",
+          "play": "476:5941"
+        },
+        "07": {
+          "ios": "476:5778",
+          "play": "476:5953"
+        },
+        "08": {
+          "ios": "476:5800",
+          "play": "476:5973"
+        }
+      },
+      "Español": {
+        "01": {
+          "ios": "476:5986",
+          "play": "476:6176"
+        },
+        "02": {
+          "ios": "476:6017",
+          "play": "476:6205"
+        },
+        "03": {
+          "ios": "476:6048",
+          "play": "476:6232"
+        },
+        "04": {
+          "ios": "476:6078",
+          "play": "476:6260"
+        },
+        "05": {
+          "ios": "476:6093",
+          "play": "476:6274"
+        },
+        "06": {
+          "ios": "476:6118",
+          "play": "476:6299"
+        },
+        "07": {
+          "ios": "476:6136",
+          "play": "476:6311"
+        },
+        "08": {
+          "ios": "476:6158",
+          "play": "476:6331"
+        }
+      },
+      "Français": {
+        "01": {
+          "ios": "476:6344",
+          "play": "476:6534"
+        },
+        "02": {
+          "ios": "476:6375",
+          "play": "476:6563"
+        },
+        "03": {
+          "ios": "476:6406",
+          "play": "476:6590"
+        },
+        "04": {
+          "ios": "476:6436",
+          "play": "476:6618"
+        },
+        "05": {
+          "ios": "476:6451",
+          "play": "476:6632"
+        },
+        "06": {
+          "ios": "476:6476",
+          "play": "476:6657"
+        },
+        "07": {
+          "ios": "476:6494",
+          "play": "476:6669"
+        },
+        "08": {
+          "ios": "476:6516",
+          "play": "476:6689"
+        }
+      },
+      "Italiano": {
+        "01": {
+          "ios": "476:6702",
+          "play": "476:6892"
+        },
+        "02": {
+          "ios": "476:6733",
+          "play": "476:6921"
+        },
+        "03": {
+          "ios": "476:6764",
+          "play": "476:6948"
+        },
+        "04": {
+          "ios": "476:6794",
+          "play": "476:6976"
+        },
+        "05": {
+          "ios": "476:6809",
+          "play": "476:6990"
+        },
+        "06": {
+          "ios": "476:6834",
+          "play": "476:7015"
+        },
+        "07": {
+          "ios": "476:6852",
+          "play": "476:7027"
+        },
+        "08": {
+          "ios": "476:6874",
+          "play": "476:7047"
+        }
+      },
+      "Português (Brasil)": {
+        "01": {
+          "ios": "476:7060",
+          "play": "476:7250"
+        },
+        "02": {
+          "ios": "476:7091",
+          "play": "476:7279"
+        },
+        "03": {
+          "ios": "476:7122",
+          "play": "476:7306"
+        },
+        "04": {
+          "ios": "476:7152",
+          "play": "476:7334"
+        },
+        "05": {
+          "ios": "476:7167",
+          "play": "476:7348"
+        },
+        "06": {
+          "ios": "476:7192",
+          "play": "476:7373"
+        },
+        "07": {
+          "ios": "476:7210",
+          "play": "476:7385"
+        },
+        "08": {
+          "ios": "476:7232",
+          "play": "476:7405"
+        }
+      },
+      "Русский": {
+        "01": {
+          "ios": "477:5997",
+          "play": "477:6187"
+        },
+        "02": {
+          "ios": "477:6028",
+          "play": "477:6216"
+        },
+        "03": {
+          "ios": "477:6059",
+          "play": "477:6243"
+        },
+        "04": {
+          "ios": "477:6089",
+          "play": "477:6271"
+        },
+        "05": {
+          "ios": "477:6104",
+          "play": "477:6285"
+        },
+        "06": {
+          "ios": "477:6129",
+          "play": "477:6310"
+        },
+        "07": {
+          "ios": "477:6147",
+          "play": "477:6322"
+        },
+        "08": {
+          "ios": "477:6169",
+          "play": "477:6342"
+        }
+      },
+      "日本語": {
+        "01": {
+          "ios": "477:6355",
+          "play": "477:6545"
+        },
+        "02": {
+          "ios": "477:6386",
+          "play": "477:6574"
+        },
+        "03": {
+          "ios": "477:6417",
+          "play": "477:6601"
+        },
+        "04": {
+          "ios": "477:6447",
+          "play": "477:6629"
+        },
+        "05": {
+          "ios": "477:6462",
+          "play": "477:6643"
+        },
+        "06": {
+          "ios": "477:6487",
+          "play": "477:6668"
+        },
+        "07": {
+          "ios": "477:6505",
+          "play": "477:6680"
+        },
+        "08": {
+          "ios": "477:6527",
+          "play": "477:6700"
+        }
+      },
+      "한국어": {
+        "01": {
+          "ios": "477:6713",
+          "play": "477:6903"
+        },
+        "02": {
+          "ios": "477:6744",
+          "play": "477:6932"
+        },
+        "03": {
+          "ios": "477:6775",
+          "play": "477:6959"
+        },
+        "04": {
+          "ios": "477:6805",
+          "play": "477:6987"
+        },
+        "05": {
+          "ios": "477:6820",
+          "play": "477:7001"
+        },
+        "06": {
+          "ios": "477:6845",
+          "play": "477:7026"
+        },
+        "07": {
+          "ios": "477:6863",
+          "play": "477:7038"
+        },
+        "08": {
+          "ios": "477:6885",
+          "play": "477:7058"
+        }
+      },
+      "简体中文": {
+        "01": {
+          "ios": "477:7071",
+          "play": "477:7261"
+        },
+        "02": {
+          "ios": "477:7102",
+          "play": "477:7290"
+        },
+        "03": {
+          "ios": "477:7133",
+          "play": "477:7317"
+        },
+        "04": {
+          "ios": "477:7163",
+          "play": "477:7345"
+        },
+        "05": {
+          "ios": "477:7178",
+          "play": "477:7359"
+        },
+        "06": {
+          "ios": "477:7203",
+          "play": "477:7384"
+        },
+        "07": {
+          "ios": "477:7221",
+          "play": "477:7396"
+        },
+        "08": {
+          "ios": "477:7243",
+          "play": "477:7416"
+        }
+      },
+      "हिन्दी": {
+        "01": {
+          "ios": "477:7429",
+          "play": "477:7619"
+        },
+        "02": {
+          "ios": "477:7460",
+          "play": "477:7648"
+        },
+        "03": {
+          "ios": "477:7491",
+          "play": "477:7675"
+        },
+        "04": {
+          "ios": "477:7521",
+          "play": "477:7703"
+        },
+        "05": {
+          "ios": "477:7536",
+          "play": "477:7717"
+        },
+        "06": {
+          "ios": "477:7561",
+          "play": "477:7742"
+        },
+        "07": {
+          "ios": "477:7579",
+          "play": "477:7754"
+        },
+        "08": {
+          "ios": "477:7601",
+          "play": "477:7774"
+        }
+      }
+    }
+  },
+  "styleBrief": {
+    "sig": "store-ref-1794296980354-bdlr.jpg:70985",
+    "text": "**STYLE BRIEF FOR APP STORE SCREENSHOTS**\n\n**1) COPY**\n- Headlines: Short, impactful (3–6 words), use of line breaks for emphasis.\n- Tone: Motivational, clear, and friendly.\n- Wording Patterns: Focus on benefits and transformations (“Speak English Clearly,” “Watch Your Confidence Grow”).\n- Casing: Title Case throughout; keywords occasionally bolded or highlighted.\n- Use of Numbers/Social Proof: Minimal, but leverages progress terms and badges (e.g., “Streaks,” “85% Fluency”).\n- Sub-line Style: Supporting details or feature lists in lighter weight, smaller size, and often in a vertical or bullet format.\n\n**2) TYPOGRAPHY**\n- Font: Geometric sans-serif; modern and approachable.\n- Weights: Bold or semi-bold for headlines, lighter for body/sub-lines.\n- Size Contrast: Strong—headlines large, sub-lines notably smaller.\n- Effects: Mostly flat, occasional use of outlined/badge elements.\n- Colour: Primarily white or deep navy on vibrant backgrounds; occasional color pops (e.g., pink or yellow highlights).\n- Alignment: Left or center, always clean and grid-aligned.\n\n**3) LAYOUT**\n- Headlines near top or mid-frame.\n- Mix of one or two phones per frame, shown straight-on.\n- Floating UI elements (cards, chips) overlap phones for depth.\n- Panoramic continuity between frames (overlapping backgrounds/UI).\n- Cropping: People and devices are partially cropped for dynamic composition.\n\n**4) VISUAL LANGUAGE**\n- Backgrounds: Bold gradients or solid colors, no realistic scenes.\n- Props/Illustration: Limited, focus on real people, 3D effect via soft drop-shadows.\n- Depth: Moderate through overlapping, shadow layering.\n- Mood: Optimistic, positive, energetic.\n\n**5) COLOURS**\n- Palette: Electric blue (#0058FF), white (#FFFFFF), pastel pink (#FF42B6), bright yellow (#FFE600), soft purple/blue gradients (#A7BFFF to #0058FF).",
+    "at": "2026-11-10T07:49:57.942Z"
+  }
+}

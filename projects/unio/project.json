@@ -1,0 +1,138 @@
+{
+  "name": "UNIO",
+  "slug": "unio",
+  "figjamUrl": "",
+  "figmaUrl": "https://www.figma.com/design/3G4UcMYQnJpYTatxjBB3QC/UNIO?node-id=0-1&t=Q7VJZfLrK72PlfMn-1",
+  "figjamKey": "",
+  "figmaKey": "3G4UcMYQnJpYTatxjBB3QC",
+  "referenceIds": [],
+  "visual": {},
+  "figmaReview": {},
+  "job": null,
+  "imported": true,
+  "importNode": "0:1",
+  "lastJob": {
+    "type": "store-banner",
+    "requestedAt": "2026-11-10T11:07:14.847Z",
+    "updatedAt": "2026-11-10T11:10:19.691Z",
+    "steps": [
+      {
+        "label": "App Store Search Result: 11 dile klon + çeviri",
+        "status": "done",
+        "startedAt": "2026-11-10T11:07:20.643Z",
+        "doneAt": "2026-11-10T11:08:09.114Z",
+        "note": "11 klon"
+      },
+      {
+        "label": "Play Store kapak görseli: 11 dile klon + çeviri",
+        "status": "done",
+        "startedAt": "2026-11-10T11:08:09.141Z",
+        "doneAt": "2026-11-10T11:08:21.995Z",
+        "note": "11 klon"
+      },
+      {
+        "label": "PNG’ler dışa aktarılıyor",
+        "status": "done",
+        "startedAt": "2026-11-10T11:08:22.021Z",
+        "doneAt": "2026-11-10T11:10:19.691Z",
+        "note": "22 PNG"
+      }
+    ],
+    "langs": [
+      "Türkçe",
+      "Deutsch",
+      "Español",
+      "Français",
+      "Italiano",
+      "Português (Brasil)",
+      "Русский",
+      "日本語",
+      "한국어",
+      "简体中文",
+      "हिन्दी"
+    ],
+    "phase": "clone",
+    "banners": [
+      {
+        "w": 3840,
+        "h": 2560,
+        "name": "App Store Search Result"
+      },
+      {
+        "w": 1024,
+        "h": 500,
+        "name": "Play Store kapak görseli"
+      }
+    ],
+    "banner": {
+      "w": 3840,
+      "h": 2560,
+      "name": "App Store Search Result"
+    },
+    "runner": {
+      "pid": 17371,
+      "startedAt": "2026-11-10T11:07:14.850Z",
+      "log": "projects/unio/runs/2026-11-10T11-07-14-849Z-store-banner.log"
+    },
+    "finishedAt": "2026-11-10T11:10:19.720Z",
+    "summary": "App Store Search Result (3840×2560) ve Play kapak görseli (1024×500) için 11 dile klon ve çeviri tamamlandı. 22 PNG alındı ve iş `finish` ile kapandı.\n\n- **Figma:** Store sayfasında \"Tanıtım 3840×2560\" ve \"Tanıtım 1024×500\" Section'larına 11 yeni satır eklendi. Satırlar birbirinin 200 px altında ve adları `<Türkçe dil> / Tanıtım <ölçü>` biçiminde. Section yükseklikleri satırlara göre uzatıldı.\n- **Metinler:** Yeni çeviri yazmadım. Metinler daha önce kurulan App Store Header klonlarından alındı. Punto, İngilizce Header'a göre oran korunarak ölçeklendi.\n- **Hintçe:** Arapça'nın yerine Hintçe geldi ve bu işin dil listesinde yer alıyor. Metinleri Header'daki Hintçe satırından aldım.\n- **Taşma düzeltmesi:** Almanca ve Japonca'da \"In Your Network\" çipi sağ kenara taşıyordu, 80 px sola aldım. Play kapakta (1024×500) taşma ölçümü çıkmadı.\n- **Kontrol:** Gözle yalnızca Japonca 3840×2560 ve Almanca 1024×500 karelerine baktım. Japonca çip düzeltmesinden önceki hâlini gördüm. Düzeltilmiş hâlini ve kalan 20 görseli ölçümle denetledim, gözle bakmadım.\n- **Kayıt:** PNG'ler `projects/unio/store/<Dil>/banner-3840x2560.png` ve `banner-1024x500.png` altında. `store.json` → `banners[]` içinde 22 yeni kayıt var."
+  },
+  "costs": [
+    {
+      "type": "import-figma",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.889,
+      "steps": 3,
+      "turns": 98,
+      "at": "2026-11-10T06:39:51.746Z"
+    },
+    {
+      "type": "store-figma",
+      "model": "claude-opus-5-5",
+      "usd": 3.016,
+      "steps": 4,
+      "turns": 57,
+      "at": "2026-11-10T07:24:24.119Z"
+    },
+    {
+      "type": "store-figma",
+      "model": "claude-opus-5-5",
+      "usd": 2.537,
+      "steps": 4,
+      "turns": 59,
+      "at": "2026-11-10T08:55:16.222Z"
+    },
+    {
+      "type": "store-translate",
+      "model": "claude-sonnet-5-5",
+      "usd": 2.615,
+      "steps": 12,
+      "turns": 240,
+      "at": "2026-11-10T09:49:24.359Z"
+    },
+    {
+      "type": "store-banner",
+      "model": "claude-opus-5-5",
+      "usd": 1.93,
+      "steps": 4,
+      "turns": 36,
+      "at": "2026-11-10T10:00:18.910Z"
+    },
+    {
+      "type": "store-banner",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.785,
+      "steps": 2,
+      "turns": 48,
+      "at": "2026-11-10T10:04:51.234Z"
+    },
+    {
+      "type": "store-banner",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.629,
+      "steps": 3,
+      "turns": 45,
+      "at": "2026-11-10T11:10:29.902Z"
+    }
+  ]
+}

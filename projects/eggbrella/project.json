@@ -1,0 +1,127 @@
+{
+  "name": "Eggbrella",
+  "slug": "eggbrella",
+  "figjamUrl": "https://www.figma.com/board/zeuIkuuBXSFBYy37DFRnQ5/Eggbrella?node-id=0-1&t=6CqM8npqESljFHVM-1",
+  "figmaUrl": "https://www.figma.com/design/WRKvOcvsBOzx3djzG8qK5R/EggBrella?node-id=0-1&t=a4KcxV0iowKtMHo5-1",
+  "figjamKey": "zeuIkuuBXSFBYy37DFRnQ5",
+  "figmaKey": "WRKvOcvsBOzx3djzG8qK5R",
+  "referenceIds": [
+    "paylasim",
+    "oyun-acik",
+    "duraklatma",
+    "ayarlar",
+    "oyun-baslangic"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "paylasim": "approved",
+    "oyun-acik": "approved",
+    "duraklatma": "approved",
+    "ayarlar": "approved",
+    "oyun-baslangic": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-edit",
+    "requestedAt": "2026-11-09T11:39:59.617Z",
+    "updatedAt": "2026-11-09T11:40:43.401Z",
+    "steps": [
+      {
+        "label": "Tüm ekranlara uygulanıyor",
+        "status": "done",
+        "startedAt": "2026-11-09T11:40:04.941Z",
+        "doneAt": "2026-11-09T11:40:43.348Z",
+        "note": "ara-reklam silindi, ekranlar kaydırıldı, dev note düzeltildi"
+      },
+      {
+        "label": "Önizlemeler güncelleniyor",
+        "status": "done",
+        "startedAt": "2026-11-09T11:40:43.378Z",
+        "doneAt": "2026-11-09T11:40:43.401Z",
+        "note": "Önizleme: yalnızca ara-reklam kaldırıldı, diğer ekranlar değişmedi"
+      }
+    ],
+    "note": "Uygulamada hiçbir reklam izleme sayfası olmayacak. ara-reklam ekranını ve not kartını Figma'dan sil; flow.md, figma.json ve previews'tan kaldır; Section'ı daralt, kalan ekranları boşluk kalmayacak şekilde sola kaydır. Diğer ekranlarda reklama giden buton/metin/bağlantı ya da dev-note maddesi varsa kaldır veya düzelt (ör. reklam yerine coin ile devam). Başka değişiklik yapma.",
+    "runner": {
+      "pid": 86462,
+      "startedAt": "2026-11-09T11:39:59.620Z",
+      "log": "projects/eggbrella/runs/2026-11-09T11-39-59-619Z-screen-edit.log"
+    },
+    "finishedAt": "2026-11-09T11:40:43.422Z",
+    "summary": "`ara-reklam` ekranı ve dev-note kartı Figma'dan silindi, iş `finish` ile kapandı. Önizlemeleri yeniden almadım, ekran görüntüsü de kontrol etmedim. Kayan ekranların yerleri ve Section boyutu `use_figma` çıktısındaki sayılardan doğrulandı. Kaydırılan ekranların görüntüsü değişmediği için önizleme gerekmedi, ikinci adıma bunu not düştüm.\n\n- **Figma:** `03-oyun-sonu` Section'ında `klip-hazirlaniyor`, `klip-hata`, `paylasim` ve notları 450 px sola kaydı, boşluk kalmadı. Section genişliği 2760'tan 2310'a düştü.\n- **Dev note düzeltmeleri:**\n  - `oyun-sonu` notunda \"ara-reklam sonrası\" girişi kaldırıldı. Giriş artık \"devam-teklifi (Hayır/süre dolması)\".\n  - `yeni-rekor` notundaki ara reklam uç durumu silindi, satır \"Belirsiz.\" oldu. Bu satıra yazacak başka bir uç durum bilgim yoktu.\n- **Dosyalar:** `flow.md`'den ara-reklam çıkarıldı, `klip-hazirlaniyor`, `klip-hata` ve `paylasim` sıra numaraları 03-03, 03-04, 03-05 yapıldı. `figma.json`'dan ara-reklam kaydı silindi, `previews/ara-reklam.png` varsa silindi.\n- **Diğer ekranlar:** Reklam geçen metin taramasında `devam-teklifi` notundaki \"reklam yok\" dışında başka bir şey çıkmadı, ona dokunmadım. Reklama giden başka buton, metin ya da bağlantı yok."
+  },
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.279,
+      "steps": 3,
+      "turns": 12,
+      "at": "2026-11-09T08:51:41.091Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 3.025,
+      "steps": 8,
+      "turns": 1,
+      "at": "2026-11-09T09:01:06.833Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.49,
+      "steps": 9,
+      "turns": 49,
+      "at": "2026-11-09T10:13:41.304Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.528,
+      "steps": 6,
+      "turns": 15,
+      "at": "2026-11-09T10:29:58.615Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 1.109,
+      "steps": 2,
+      "turns": 58,
+      "at": "2026-11-09T10:49:19.439Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.597,
+      "steps": 2,
+      "turns": 45,
+      "at": "2026-11-09T10:56:03.701Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.764,
+      "steps": 2,
+      "turns": 44,
+      "at": "2026-11-09T11:06:28.498Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.743,
+      "steps": 2,
+      "turns": 51,
+      "at": "2026-11-09T11:18:50.944Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.346,
+      "steps": 2,
+      "turns": 19,
+      "at": "2026-11-09T11:40:52.356Z"
+    }
+  ]
+}

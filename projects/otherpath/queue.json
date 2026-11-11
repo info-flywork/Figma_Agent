@@ -1,0 +1,318 @@
+{
+  "project": "otherpath",
+  "updatedAt": "2026-10-26T11:44:31.715Z",
+  "items": [
+    {
+      "id": "01-01-splash",
+      "note": ""
+    },
+    {
+      "id": "01-03-onboarding-compare",
+      "note": ""
+    },
+    {
+      "id": "01-04-onboarding-tool",
+      "note": ""
+    },
+    {
+      "id": "01-05-sign-in",
+      "note": ""
+    },
+    {
+      "id": "01-06-sign-up",
+      "note": ""
+    },
+    {
+      "id": "01-07-forgot-password",
+      "note": ""
+    },
+    {
+      "id": "01-08-new-password",
+      "note": ""
+    },
+    {
+      "id": "01-09-terms",
+      "note": ""
+    },
+    {
+      "id": "01-10-verify-email",
+      "note": ""
+    },
+    {
+      "id": "02-01-life-stage",
+      "note": ""
+    },
+    {
+      "id": "02-02-age",
+      "note": ""
+    },
+    {
+      "id": "02-03-data-home",
+      "note": ""
+    },
+    {
+      "id": "02-04-notifications",
+      "note": ""
+    },
+    {
+      "id": "02-05-system-permission",
+      "note": ""
+    },
+    {
+      "id": "02-06-app-lock",
+      "note": ""
+    },
+    {
+      "id": "02-07-ready",
+      "note": ""
+    },
+    {
+      "id": "03-02-search",
+      "note": ""
+    },
+    {
+      "id": "03-03-empty",
+      "note": ""
+    },
+    {
+      "id": "03-04-detail",
+      "note": ""
+    },
+    {
+      "id": "03-05-story-chosen",
+      "note": ""
+    },
+    {
+      "id": "03-06-story-other",
+      "note": ""
+    },
+    {
+      "id": "03-07-checkin-result",
+      "note": ""
+    },
+    {
+      "id": "03-08-edit",
+      "note": ""
+    },
+    {
+      "id": "03-09-delete",
+      "note": ""
+    },
+    {
+      "id": "03-10-share-card",
+      "note": ""
+    },
+    {
+      "id": "04-01-quota",
+      "note": ""
+    },
+    {
+      "id": "04-03-voice",
+      "note": ""
+    },
+    {
+      "id": "04-04-leave-draft",
+      "note": ""
+    },
+    {
+      "id": "04-05-context",
+      "note": ""
+    },
+    {
+      "id": "04-06-happiness",
+      "note": ""
+    },
+    {
+      "id": "04-07-writing",
+      "note": ""
+    },
+    {
+      "id": "04-09-rewrite",
+      "note": ""
+    },
+    {
+      "id": "04-10-deep",
+      "note": ""
+    },
+    {
+      "id": "04-11-story-card",
+      "note": ""
+    },
+    {
+      "id": "04-12-saved",
+      "note": ""
+    },
+    {
+      "id": "05-01-resources",
+      "note": ""
+    },
+    {
+      "id": "05-02-talk",
+      "note": ""
+    },
+    {
+      "id": "05-03-professional",
+      "note": ""
+    },
+    {
+      "id": "06-01-notification",
+      "note": ""
+    },
+    {
+      "id": "06-02-snooze",
+      "note": ""
+    },
+    {
+      "id": "06-03-manual",
+      "note": ""
+    },
+    {
+      "id": "06-04-what-happened",
+      "note": ""
+    },
+    {
+      "id": "06-05-happiness",
+      "note": ""
+    },
+    {
+      "id": "06-07-done",
+      "note": ""
+    },
+    {
+      "id": "06-08-closed",
+      "note": ""
+    },
+    {
+      "id": "07-01-profile",
+      "note": ""
+    },
+    {
+      "id": "07-02-tendency",
+      "note": ""
+    },
+    {
+      "id": "07-03-category",
+      "note": ""
+    },
+    {
+      "id": "07-04-not-enough",
+      "note": ""
+    },
+    {
+      "id": "07-05-map",
+      "note": ""
+    },
+    {
+      "id": "07-06-slides",
+      "note": ""
+    },
+    {
+      "id": "07-07-share",
+      "note": ""
+    },
+    {
+      "id": "08-01-profile",
+      "note": ""
+    },
+    {
+      "id": "08-02-edit",
+      "note": ""
+    },
+    {
+      "id": "08-03-subscription",
+      "note": ""
+    },
+    {
+      "id": "08-04-notifications",
+      "note": ""
+    },
+    {
+      "id": "08-05-quiet-hours",
+      "note": ""
+    },
+    {
+      "id": "08-06-checkin-prefs",
+      "note": ""
+    },
+    {
+      "id": "08-07-privacy",
+      "note": ""
+    },
+    {
+      "id": "08-08-app-lock",
+      "note": ""
+    },
+    {
+      "id": "08-09-export",
+      "note": ""
+    },
+    {
+      "id": "08-10-delete-account",
+      "note": ""
+    },
+    {
+      "id": "08-11-coach",
+      "note": ""
+    },
+    {
+      "id": "08-12-invite-coach",
+      "note": ""
+    },
+    {
+      "id": "08-13-share-pick",
+      "note": ""
+    },
+    {
+      "id": "08-14-share-manage",
+      "note": ""
+    },
+    {
+      "id": "08-15-gift",
+      "note": ""
+    },
+    {
+      "id": "08-16-gift-message",
+      "note": ""
+    },
+    {
+      "id": "08-17-gift-code",
+      "note": ""
+    },
+    {
+      "id": "08-18-faq",
+      "note": ""
+    },
+    {
+      "id": "08-19-faq-detail",
+      "note": ""
+    },
+    {
+      "id": "08-20-contact",
+      "note": ""
+    },
+    {
+      "id": "08-21-sign-out",
+      "note": ""
+    },
+    {
+      "id": "09-01-upgrade",
+      "note": ""
+    },
+    {
+      "id": "09-02-plan",
+      "note": ""
+    },
+    {
+      "id": "09-03-pay",
+      "note": ""
+    },
+    {
+      "id": "09-04-success",
+      "note": ""
+    },
+    {
+      "id": "09-05-restore",
+      "note": ""
+    }
+  ]
+}

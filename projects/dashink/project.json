@@ -1,0 +1,139 @@
+{
+  "name": "Dashink",
+  "slug": "dashink",
+  "figjamUrl": "https://www.figma.com/board/Fx9M5WLFRJs6IibRs1Gd1b/Dashink?node-id=0-1&t=pGh3ytTvtsKeQTmp-1",
+  "figmaUrl": "https://www.figma.com/design/v0EqS820RVzmPhzGeBQn4m/Dashink?node-id=0-1&t=ZYhMgqGSkHRnpf4Y-1",
+  "figjamKey": "Fx9M5WLFRJs6IibRs1Gd1b",
+  "figmaKey": "v0EqS820RVzmPhzGeBQn4m",
+  "referenceIds": [
+    "egitim",
+    "ana-ekran",
+    "oyun",
+    "oyun-bitti",
+    "magaza"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "egitim": "approved",
+    "ana-ekran": "approved",
+    "oyun": "approved",
+    "oyun-bitti": "approved",
+    "magaza": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-edit",
+    "requestedAt": "2026-11-06T10:31:31.347Z",
+    "updatedAt": "2026-11-06T10:41:17.850Z",
+    "steps": [
+      {
+        "label": "Tüm ekranlara uygulanıyor",
+        "status": "done",
+        "startedAt": "2026-11-06T10:31:36.947Z",
+        "note": "Yeni sayfa 'Oyun – Referans': 10 ekran referansa göre kuruldu, 26 görsel üretildi",
+        "doneAt": "2026-11-06T10:40:48.414Z"
+      },
+      {
+        "label": "Önizlemeler güncelleniyor",
+        "status": "done",
+        "startedAt": "2026-11-06T10:40:48.446Z",
+        "doneAt": "2026-11-06T10:41:17.850Z",
+        "note": "10 önizleme (previews/g-*.png)"
+      }
+    ],
+    "note": "Oyun tasarımını ayrı bir sayfada referans görsele göre duplicate edelim",
+    "images": [
+      "references/attach-1793961091332-8ili.png"
+    ],
+    "runner": {
+      "pid": 58884,
+      "startedAt": "2026-11-06T10:31:31.351Z",
+      "log": "projects/dashink/runs/2026-11-06T10-31-31-349Z-screen-edit.log"
+    },
+    "finishedAt": "2026-11-06T10:41:17.882Z",
+    "summary": "Oyun tasarımını Figma'da **\"Oyun – Referans\"** adlı yeni bir sayfaya, eklediğin referans görsele göre 10 ekran olarak kurdum. Mevcut ekranlara ve ana akışa dokunmadım. Panel işi kapandı.\n\n**Ekranlar**\nAçılış (yükleme çubuğu) · Eğitim 1/3, 2/3, 3/3 · Ana ekran · Bölümler · Görevler · Toplar · Temalar · Ayarlar.\n\n- Metinler, butonlar, kartlar, sayaçlar ve toggle'lar Figma'da düzenlenebilir duruyor. Hepsi auto layout ile kuruldu.\n- Bu sayfa için ayrı bileşenler yaptım: Logo, Geri butonu, altın sayacı, sarı buton ve toggle. İkonlar Lucide'den, 18 tane.\n- Font olarak Nunito kullandım, çünkü Türkçe harflerin hepsi var.\n\n**Görseller**\n26 görseli OpenAI ile referansın kırpılmış parçalarından ürettim (`quality: high`). Kütüphanede (`library.json`) eşleşen asset olmadığı için hepsi üretildi:\n- 3 zemin\n- Açılıştaki top\n- 3 eğitim sahnesi\n- Bölüm ve 4 tema küçük resmi\n- Topların büyük görseli\n- 6 top kaplaması\n- Sandık\n- 3 menü ikonu\n- Altın, yıldız ve taç\n\nİlk üretimde tema ve bölüm resimlerine referansta olmayan bir top karakteri eklenmişti. O 4 görseli karaktersiz olarak yeniden ürettim.\n\n**Kalan farklar** (önizlemeyi referansla yan yana karşılaştırdım)\n- Ekranlar 430×930 boyutunda, referans kareleri ise daha kısa. Bu yüzden boşluklar oransal olarak dağıtıldı. Menü ekranlarının alt kısmında referanstakinden biraz daha fazla yaprak ve gökyüzü görünüyor.\n- Ekranların yüksekliği HUG + en az 930 değil, sabit 930. Bu, CLAUDE.md'deki ekran kuralından bir sapma.\n- Eğitim sayfalarındaki noktalar her adımda tek lacivert nokta olarak gösteriliyor. Referansta bu noktaların renkleri ekrandan ekrana tutarsızdı.\n- Bu sayfada yumuşak gölge ve gradyan buton kullandım, çünkü referans böyle. DESIGN.md'nin \"Yapma listesi\" bunları yasaklıyor; bu sayfa için istisna notu ekledim.\n\n**Dosyalar**\n- `figma.json` → `oyunReferans`: sayfa, Section, bileşen ve ekran id'leri.\n- `DESIGN.md`: bu sayfanın tasarım dili için yeni bir bölüm.\n- `assets/manifest.json`: `g-*` görsel kayıtları, durumları `placed`.\n- `previews/g-*.png`: 10 önizleme.\n\nBu ekranları `flow.md`'ye eklemedim; panelin ana ekran listesinde görünmezler."
+  },
+  "costs": [
+    {
+      "type": "extract-flow",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.225,
+      "steps": 1,
+      "turns": 10,
+      "at": "2026-11-05T05-12-48-192Z"
+    },
+    {
+      "type": "design-references",
+      "model": "claude-opus-5-5",
+      "usd": 3.897,
+      "steps": 1,
+      "turns": 90,
+      "at": "2026-11-05T05-20-47-593Z"
+    },
+    {
+      "type": "design-rest",
+      "model": "claude-opus-5-5",
+      "usd": 4.868,
+      "steps": 1,
+      "turns": 109,
+      "at": "2026-11-05T05-50-28-665Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 1.127,
+      "steps": 1,
+      "turns": 71,
+      "at": "2026-11-05T07-16-33-079Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 1.042,
+      "steps": 1,
+      "turns": 53,
+      "at": "2026-11-05T07-25-18-512Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.374,
+      "steps": 5,
+      "turns": 14,
+      "at": "2026-11-05T11:47:37.887Z"
+    },
+    {
+      "type": "audit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.316,
+      "steps": 5,
+      "turns": 14,
+      "at": "2026-11-05T11:50:08.161Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.555,
+      "steps": 5,
+      "turns": 21,
+      "at": "2026-11-05T11:52:37.498Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.652,
+      "steps": 2,
+      "turns": 46,
+      "at": "2026-11-05T11:55:46.075Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 3.673,
+      "steps": 2,
+      "turns": 61,
+      "at": "2026-11-06T10:41:34.674Z"
+    }
+  ],
+  "restApproved": true
+}

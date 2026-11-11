@@ -1,0 +1,81 @@
+{
+  "name": "Tiny Shift",
+  "slug": "tiny-shift",
+  "figjamUrl": "https://www.figma.com/board/D0n5m0BLwyweMGtXsHh925/Tiny-Shift?node-id=0-1&t=tY3FWgrT6ueBslUG-1",
+  "figmaUrl": "https://www.figma.com/design/eopC3VjhUPmJUT15i7SgR5/Tiny-Shift?node-id=0-1&t=HqFvLQXxOAy68Cg3-1",
+  "figjamKey": "D0n5m0BLwyweMGtXsHh925",
+  "figmaKey": "eopC3VjhUPmJUT15i7SgR5",
+  "referenceIds": [
+    "03-04-town-complete",
+    "05-01-settings",
+    "02-03-vehicle-move",
+    "04-01-pause",
+    "01-01-splash"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "03-04-town-complete": "approved",
+    "05-01-settings": "approved",
+    "02-03-vehicle-move": "approved",
+    "04-01-pause": "approved",
+    "01-01-splash": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-add",
+    "requestedAt": "2026-11-04T11:58:51.810Z",
+    "updatedAt": "2026-11-04T12:00:06.559Z",
+    "steps": [
+      {
+        "label": "flow.md’ye ekleniyor",
+        "status": "done",
+        "startedAt": "2026-11-04T11:58:57.251Z",
+        "doneAt": "2026-11-04T11:59:03.483Z"
+      },
+      {
+        "label": "Figma’da kuruluyor",
+        "status": "done",
+        "startedAt": "2026-11-04T11:59:03.506Z",
+        "doneAt": "2026-11-04T11:59:57.649Z"
+      },
+      {
+        "label": "Görsel ve önizleme",
+        "status": "done",
+        "startedAt": "2026-11-04T11:59:57.671Z",
+        "doneAt": "2026-11-04T12:00:06.559Z"
+      }
+    ],
+    "section": "04-game-dialogs",
+    "after": "04-04-not-enough-coins",
+    "note": "Bölümü bitiremediyse kullanıcı belli bir coin karşılığında ona kaldığı yerden devam etmesi için bir hak tanıyabiliriz",
+    "images": [
+      "references/attach-1793793531797-9cz1.png"
+    ],
+    "runner": {
+      "pid": 28453,
+      "startedAt": "2026-11-04T11:58:51.813Z",
+      "log": "projects/tiny-shift/runs/2026-11-04T11-58-51-811Z-screen-add.log"
+    },
+    "finishedAt": "2026-11-04T12:00:06.582Z",
+    "summary": "Yeni ekran `04-05-continue` (Keep Playing?) kuruldu ve iş bitti. Ekran \"04-game-dialogs\" bölümüne, 04-04'ün sağına eklendi.\n\n- **İçerik:** Hamle bitince oyuncu 900 coin verip +5 hamle ile kaldığı yerden devam edebiliyor. Ekranda bakiye ve \"/ 900 needed\" satırı, \"Play On · 900\" ve \"Give Up\" butonları var.\n- **Kaynak:** 04-04 klonlandı, mevcut component'ler kullanıldı. Yeni görsel üretilmedi, arka plan 04-01'den yeniden kullanıldı.\n- **Dosyalar:** `flow.md` ve `figma.json` güncellendi. `assets/manifest.json`'a bg kaydı, `previews/04-05-continue.png` önizleme olarak eklendi. Ekranın altına da Dev Note kartı kondu.\n- **Referans görsel:** Ekli görseldeki \"Time is Up +20s\" ve \"Fail Offer\" kartını uygulamadım. Notta yalnızca coin karşılığı devam hakkı isteniyordu.\n- **Tutarsızlık:** Dev Note'a \"yetersiz coin → 04-04\" yazdım, ama 04-04'ün metni ipucu (100 coin) için. Bu akış bağlanmadı."
+  },
+  "restApproved": true,
+  "costs": [
+    {
+      "type": "store-references",
+      "model": "claude-opus-5-5",
+      "usd": 2.816,
+      "steps": 1,
+      "turns": 67,
+      "at": "2026-11-03T10-37-59-188Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.507,
+      "steps": 1,
+      "turns": 29,
+      "at": "2026-11-04T11-58-51-811Z"
+    }
+  ]
+}

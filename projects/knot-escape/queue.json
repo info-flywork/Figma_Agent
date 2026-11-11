@@ -1,0 +1,78 @@
+{
+  "project": "knot-escape",
+  "updatedAt": "2026-11-03T06:12:19.371Z",
+  "items": [
+    {
+      "id": "continue-game",
+      "note": ""
+    },
+    {
+      "id": "tutorial",
+      "note": ""
+    },
+    {
+      "id": "home",
+      "note": ""
+    },
+    {
+      "id": "world-select",
+      "note": ""
+    },
+    {
+      "id": "world-locked",
+      "note": ""
+    },
+    {
+      "id": "level-select",
+      "note": ""
+    },
+    {
+      "id": "reward-claimed",
+      "note": ""
+    },
+    {
+      "id": "shop",
+      "note": ""
+    },
+    {
+      "id": "settings",
+      "note": ""
+    },
+    {
+      "id": "rope-drag",
+      "note": ""
+    },
+    {
+      "id": "pause",
+      "note": ""
+    },
+    {
+      "id": "restart-confirm",
+      "note": ""
+    },
+    {
+      "id": "world-complete",
+      "note": ""
+    },
+    {
+      "id": "all-complete",
+      "note": ""
+    },
+    {
+      "id": "out-of-moves",
+      "note": ""
+    },
+    {
+      "id": "booster-hint",
+      "note": ""
+    },
+    {
+      "id": "purchase-popup",
+      "note": ""
+    },
+    {
+      "id": "insufficient-gems",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "updatedAt": "2026-11-05T07:50:00.000Z",
+  "items": [
+    {
+      "id": "a-001",
+      "section": "03-oyun",
+      "screen": "wrong-color",
+      "severity": "medium",
+      "title": "Uyarı modalinde öğretici 'Adım 1/3' rozeti kalmış",
+      "detail": "Yanlış renk uyarısında tutorial'dan kalan 'Adım 1/3' metni var; oyuncu için anlamsız ve akışla çelişiyor.",
+      "fix": "Rozeti bu uyarı ekranından kaldır.",
+      "rule": "DESIGN.md Yapma listesi / placeholder kalmış metin",
+      "status": "fixed"
+    },
+    {
+      "id": "a-002",
+      "section": "03-oyun",
+      "screen": "door-locked",
+      "severity": "medium",
+      "title": "Kapı kilitli uyarısında 'Adım 1/3' rozeti kalmış",
+      "detail": "Öğretici adım göstergesi uyarı modalinde de görünüyor.",
+      "fix": "Rozeti kaldır.",
+      "rule": "DESIGN.md Yapma listesi",
+      "status": "fixed"
+    },
+    {
+      "id": "a-003",
+      "section": "05-ipucu",
+      "screen": "hint-highlight",
+      "severity": "medium",
+      "title": "İpucu vurgu ekranında 'Adım 1/3' rozeti kalmış",
+      "detail": "İpucu akışı öğretici adımı değil; rozet kafa karıştırır.",
+      "fix": "Rozeti kaldır ya da 'İpucu' etiketiyle değiştir.",
+      "rule": "DESIGN.md Yapma listesi",
+      "status": "fixed"
+    },
+    {
+      "id": "a-004",
+      "section": "05-ipucu",
+      "screen": "hint-highlight",
+      "severity": "low",
+      "title": "Coin değeri 250, ipucu bedeli düşüldüğü görünmüyor",
+      "detail": "İpucu 100 coin; ekranda 250 gösteriliyor, düşüş (150 ya da -100) belirtilmemiş.",
+      "fix": "Coin sayacını düşmüş değerle göster veya '-100' geri bildirimi ekle.",
+      "rule": "flow.md: ipucu 100 coin",
+      "status": "fixed"
+    },
+    {
+      "id": "a-005",
+      "section": "04-sonuc",
+      "screen": "world-complete",
+      "severity": "low",
+      "title": "Ödül sonrası coin sayacı güncellenmemiş",
+      "detail": "+500 ödülü gösterilirken üst çubuk 400 coin; diğer sonuç ekranlarıyla aynı değer, tutarsız.",
+      "fix": "Üst çubuğu ödül sonrası değerle güncelle.",
+      "rule": "tutarlılık",
+      "status": "fixed"
+    },
+    {
+      "id": "a-006",
+      "section": "06-duraklatma",
+      "screen": "paused",
+      "severity": "low",
+      "title": "Bölüm numarası ekranlar arasında tutarsız",
+      "detail": "paused / hint-none / level-complete 'Bölüm 14', diğer oyun ekranları 'Bölüm 9'; hamle sayıları da farklı (4 / 9).",
+      "fix": "Referans ekranlarda bölüm ve hamle değerlerini ortak bir senaryoya hizala.",
+      "rule": "tutarlı örnek veri",
+      "status": "fixed"
+    },
+    {
+      "id": "a-007",
+      "section": "03-oyun",
+      "screen": "game-board",
+      "severity": "low",
+      "title": "İkon-only Duraklat/Geri düğmelerinde erişilebilir etiket yok",
+      "detail": "Metin dökümünde Duraklat etiketi yok; yalnızca ikon.",
+      "fix": "Katman adlarını 'Duraklat' / 'Geri' olarak ver (a11y etiketi), dokunma alanı ≥44 korunuyor.",
+      "rule": "web-interface-guidelines: aria-label",
+      "status": "fixed"
+    },
+    {
+      "id": "a-008",
+      "section": "02-sehir",
+      "screen": "settings",
+      "severity": "low",
+      "title": "Ayarlar ekranında yalnızca 'Geri', kapat yolu tek",
+      "detail": "Duraklatmadan ve şehirden açılıyor; geri hedefi belirsiz.",
+      "fix": "Prototip notu ekle: Geri, açan ekrana döner.",
+      "rule": "geri/kapat yolu",
+      "status": "fixed"
+    },
+    {
+      "id": "a-009",
+      "section": "01-giris",
+      "screen": null,
+      "severity": "low",
+      "title": "Yükleme / bağlantı hatası durumu akışta yok",
+      "detail": "flow.md splash sonrası yükleme ve kayıt okunamadı durumu içermiyor.",
+      "fix": "Gerekirse 'Yükleniyor' ve 'Kayıt okunamadı' ekranı ekle (screen-add).",
+      "rule": "boş/yükleme/hata durumları",
+      "status": "open",
+      "note": "Yeni ekran gerektirir (screen-add); bu işte eklenmedi."
+    },
+    {
+      "id": "a-010",
+      "section": "02-sehir",
+      "screen": "settings",
+      "severity": "low",
+      "title": "Toggle bileşeni 56×32, dokunma alanı 44 px altında",
+      "detail": "Ayarlar ekranındaki 3 Toggle instance'ı 32 px yüksekliğinde; tek başına dokunma hedefi 44 px altında kalıyor.",
+      "fix": "Satırın tamamını (≥44 px) dokunulabilir yap ya da Toggle çevresine 44 px hit alanı ekle; geliştirici notuna yaz.",
+      "rule": "web-interface-guidelines: hit target ≥44",
+      "status": "fixed"
+    },
+    {
+      "id": "a-011",
+      "section": "02-sehir",
+      "screen": "shop",
+      "severity": "low",
+      "title": "Mağazada satın alma sonucu/hata durumu yok",
+      "detail": "Mağaza ekranı yalnızca paket listesi gösteriyor; başarılı satın alma, iptal ve ödeme hatası durumları akışta yok.",
+      "fix": "Gerekirse 'Satın alma tamamlandı' ve 'Ödeme başarısız' modal ekranı ekle (screen-add).",
+      "rule": "boş/yükleme/hata durumları",
+      "status": "open",
+      "note": "Yeni ekran gerektirir (screen-add); bu işte eklenmedi."
+    },
+    {
+      "id": "a-012",
+      "section": "01-giris",
+      "screen": "splash",
+      "severity": "low",
+      "title": "figma.json splash id'si güncel değil",
+      "detail": "figma.json'da splash 21:389; Figma'da ekran artık 47:2144 (01-01-splash (typewriter)). Önbellek ekranı bulamıyor.",
+      "fix": "figma.json'daki splash id'sini 47:2144 yap.",
+      "rule": "önbellek tutarlılığı",
+      "status": "fixed"
+    },
+    {
+      "id": "a-013",
+      "section": "03-oyun",
+      "screen": "game-board",
+      "severity": "low",
+      "title": "Oyun ekranları farklı yükseklikte (976–1044)",
+      "detail": "game-board 976, wrong-color/level-intro/hint-highlight 1044, door-locked/low-moves/gate-opened/puzzle-alt/puzzle-50 1020; aynı şablondaki ekranlar boy farkı yaratıyor.",
+      "fix": "Oyun ekranlarını ortak yüksekliğe sabitle ya da uyarı alanını tahta altında sabit yükseklikte ayır.",
+      "rule": "tutarlı ölçü",
+      "status": "fixed"
+    }
+  ]
+}

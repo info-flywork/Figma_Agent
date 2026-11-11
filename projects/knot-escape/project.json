@@ -1,0 +1,182 @@
+{
+  "name": "Knot Escape",
+  "slug": "knot-escape",
+  "figjamUrl": "https://www.figma.com/board/2G2olw7mOELokTaUqOWb38/Knot-Escape?node-id=0-1&t=XAXQD0GluvAfohuJ-1",
+  "figmaUrl": "https://www.figma.com/design/M6NTanzWSZWyueXdDSIir1/Knot-Escape?node-id=0-1&t=Biw04PcVr0HXEfQZ-1",
+  "figjamKey": "2G2olw7mOELokTaUqOWb38",
+  "figmaKey": "M6NTanzWSZWyueXdDSIir1",
+  "referenceIds": [
+    "splash",
+    "game-board",
+    "booster-select",
+    "daily-tasks",
+    "level-complete"
+  ],
+  "visual": {},
+  "figmaReview": {
+    "splash": "approved",
+    "game-board": "approved",
+    "booster-select": "approved",
+    "daily-tasks": "approved",
+    "level-complete": "approved"
+  },
+  "job": null,
+  "lastJob": {
+    "type": "screen-edit",
+    "ids": [
+      "puzzle-30",
+      "puzzle-50",
+      "puzzle-100",
+      "puzzle-150"
+    ],
+    "requestedAt": "2026-11-06T10:28:34.202Z",
+    "updatedAt": "2026-11-06T10:32:05.030Z",
+    "steps": [
+      {
+        "label": "Düzenleniyor: Puzzle · Bölüm 30 (orman, 14 hamle, daha yoğun)",
+        "status": "done",
+        "startedAt": "2026-11-06T10:28:40.839Z",
+        "note": "111:3886 · 13 ip, 26 pin, 2 delik; 1 ip 7 px kaydırıldı",
+        "doneAt": "2026-11-06T10:32:04.857Z"
+      },
+      {
+        "label": "Düzenleniyor: Puzzle · Bölüm 50 (buz, 12 hamle, daha yoğun)",
+        "status": "done",
+        "startedAt": "2026-11-06T10:32:04.881Z",
+        "doneAt": "2026-11-06T10:32:04.904Z",
+        "note": "111:4319 · 15 ip, 30 pin, 2 delik; 1 ip 7 px kaydırıldı"
+      },
+      {
+        "label": "Düzenleniyor: Puzzle · Bölüm 100 (bulut şehir, 10 hamle, çok yoğun)",
+        "status": "done",
+        "startedAt": "2026-11-06T10:32:04.925Z",
+        "doneAt": "2026-11-06T10:32:04.947Z",
+        "note": "112:4238 · 17 ip, 34 pin, 1 delik; 2 ip 3–5 px kaydırıldı"
+      },
+      {
+        "label": "Düzenleniyor: Puzzle · Bölüm 150 (buz, 8 hamle, en yoğun)",
+        "status": "done",
+        "startedAt": "2026-11-06T10:32:04.968Z",
+        "doneAt": "2026-11-06T10:32:04.989Z",
+        "note": "112:4596 · 19 ip, 38 pin, 1 delik; 1 ip 10 px kaydırıldı"
+      },
+      {
+        "label": "Önizlemeler güncelleniyor",
+        "status": "done",
+        "startedAt": "2026-11-06T10:32:05.010Z",
+        "doneAt": "2026-11-06T10:32:05.030Z",
+        "note": "4 önizleme"
+      }
+    ],
+    "note": "puzzle-30 (111:3886), puzzle-50 (111:4319), puzzle-100 (112:4238), puzzle-150 (112:4596) ekranlarındaki ip–pin bağlantısını düzelt. KURAL: her ipin İKİ ucunda da birer pin olmalı ve ipin ucu pinin MERKEZİNE oturmalı (piksel kayması yok); ipsiz/tek başına pin kalmasın, ucu boşta ip kalmasın, bir pin yalnızca bir ipe ait olsun, pin rengi bağlı olduğu ipin rengiyle aynı olsun. Uygulama: her ip görselini iki pin arasında konumlandır — ip görselinin uç noktalarını hesapla (görsel sınırları/rotasyon), ipi uç noktalarına göre ölçekle+döndür ya da pinleri ip uçlarına taşı; pinler ipin üstünde (z-order) dursun. Ekli referans (puzzle-5, 106:5852) doğru örnek: orada her ip iki pinle bitiyor. Ekran başına ip/pin/delik sayılarını ve zorluğu koru (pin sayısı = 2 × ip sayısı olacak şekilde gerekirse ip sayısını ayarla). Bitince her ekranı ekran görüntüsüyle kontrol et: her ip ucunda pin var mı, kayma var mı; raporda ekran başına ip ve pin sayısını yaz. puzzle-5'e dokunma.",
+    "images": [
+      "references/attach-1793959021294-m2gm.webp"
+    ],
+    "runner": {
+      "pid": 58711,
+      "startedAt": "2026-11-06T10:28:34.206Z",
+      "log": "projects/knot-escape/runs/2026-11-06T10-28-34-204Z-screen-edit.log"
+    },
+    "finishedAt": "2026-11-06T10:32:05.050Z",
+    "summary": "Bölüm 30, 50, 100 ve 150 ekranlarında her ipin iki ucuna birer pin oturdu. Dört ekranı da ekran görüntüsüyle kontrol ettim; puzzle-5'e dokunmadım.\n\n**Ne yaptım:**\n- Kütüphanedeki 5 ip görselinin uç noktalarını görselin kendisinden ölçtüm. Figma'daki görseller bu dosyalarla birebir aynı.\n- Her ipin uçlarının ekrandaki konumunu, görselin boyutu ve dönüşü üzerinden hesapladım. O ipin iki pinini bu noktalara taşıdım; pin merkezi ip ucunun tam üstünde.\n- Pinleri ip gruplarından çıkarıp Pins katmanının en üstüne aldım, böylece başka bir ip pinin üstünden geçmiyor. Pin adları hangi ipe ait olduklarını gösteriyor (ör. `Pin · Rope 3 · Red · A`).\n- Taşıma sonrası 4 yerde iki pin birbirine çok yaklaştı. Bu ipleri pinleriyle birlikte 3–10 px kaydırdım; artık iki pin merkezi arasında en az 30 px var.\n\n| Ekran | Node | İp | Pin | Delik |\n|---|---|---|---|---|\n| puzzle-30 | 111:3886 | 13 | 26 | 2 |\n| puzzle-50 | 111:4319 | 15 | 30 | 2 |\n| puzzle-100 | 112:4238 | 17 | 34 | 1 |\n| puzzle-150 | 112:4596 | 19 | 38 | 1 |\n\n**Kontrol sonuçları:**\n- Her ipte tam 2 pin var. Tek başına kalan pin ya da ucu boşta ip yok.\n- Pinlerin rengi bağlı oldukları ipin rengiyle aynı, turuncu ve pembe dahil.\n- Pinler tahtanın içinde kalıyor ve deliklerle çakışmıyor.\n- Önizlemelerde ip uçlarında görünür bir kayma yok.\n- Hamle, ip, pin ve delik sayılarını ve zorluğu değiştirmedim.\n\n**Kalan farklar:**\n- İplerin yerleşimi hâlâ algoritmayla yapılmış. puzzle-5 kadar düzenli görünmüyor ve özellikle Bölüm 150'de ipler yoğun.\n- Turuncu ip hâlâ biraz kahverengiye çalıyor.\n\nDört önizlemeyi `previews/` klasöründe yeniledim ve işi panelde kapattım."
+  },
+  "restApproved": true,
+  "costs": [
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.383,
+      "steps": 1,
+      "turns": 32,
+      "at": "2026-11-04T09-00-25-346Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.515,
+      "steps": 1,
+      "turns": 31,
+      "at": "2026-11-04T09-06-12-850Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.494,
+      "steps": 1,
+      "turns": 27,
+      "at": "2026-11-04T10-04-55-381Z"
+    },
+    {
+      "type": "screen-add",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.607,
+      "steps": 1,
+      "turns": 31,
+      "at": "2026-11-04T11-36-51-128Z"
+    },
+    {
+      "type": "dev-notes",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.744,
+      "steps": 4,
+      "turns": 25,
+      "at": "2026-11-05T11:35:31.193Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.544,
+      "steps": 2,
+      "turns": 33,
+      "at": "2026-11-06T06:29:41.380Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.687,
+      "steps": 2,
+      "turns": 47,
+      "at": "2026-11-06T07:12:46.372Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.448,
+      "steps": 2,
+      "turns": 32,
+      "at": "2026-11-06T07:21:49.701Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.442,
+      "steps": 2,
+      "turns": 30,
+      "at": "2026-11-06T07:24:31.607Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-sonnet-5-5",
+      "usd": 0.422,
+      "steps": 2,
+      "turns": 35,
+      "at": "2026-11-06T07:27:22.093Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 2.254,
+      "steps": 5,
+      "turns": 42,
+      "at": "2026-11-06T10:03:45.481Z"
+    },
+    {
+      "type": "screen-edit",
+      "model": "claude-opus-5-5",
+      "usd": 1.513,
+      "steps": 5,
+      "turns": 38,
+      "at": "2026-11-06T10:32:20.745Z"
+    }
+  ]
+}

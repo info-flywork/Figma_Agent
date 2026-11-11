@@ -1,0 +1,109 @@
+{
+  "name": "Femia_V2",
+  "slug": "femia-v2",
+  "figjamUrl": "https://www.figma.com/board/6LGMlo4otM64PYwmjFHvRw/Femia?node-id=0-1&t=8Qa3gnPUwYRIedbe-1",
+  "figmaUrl": "https://www.figma.com/design/h4fWEW54iHZftr0vmoQ3hn/Femia?node-id=0-1&t=VUS3RlIRxTHICQ4E-1",
+  "figjamKey": "6LGMlo4otM64PYwmjFHvRw",
+  "figmaKey": "h4fWEW54iHZftr0vmoQ3hn",
+  "referenceIds": [
+    "q-birth-year",
+    "profile",
+    "reminder-doctor",
+    "pregnancy-off-confirm",
+    "kick-history"
+  ],
+  "visual": {},
+  "figmaReview": {},
+  "job": null,
+  "lastJob": {
+    "type": "design-references",
+    "ids": [
+      "q-birth-year",
+      "profile",
+      "reminder-doctor",
+      "pregnancy-off-confirm",
+      "kick-history"
+    ],
+    "requestedAt": "2026-10-30T11:47:30.738Z",
+    "updatedAt": "2026-10-30T11:54:11.606Z",
+    "steps": [
+      {
+        "label": "Figma’da tasarlanıyor: Doğum yılınız",
+        "status": "done",
+        "doneAt": "2026-10-30T11:52:04.465Z",
+        "note": "8:7 — ortalı başlık, illüstrasyon alanı, kart içinde wheel"
+      },
+      {
+        "label": "Figma’da tasarlanıyor: Profil",
+        "status": "done",
+        "startedAt": "2026-10-30T11:54:11.450Z",
+        "doneAt": "2026-10-30T11:54:11.470Z",
+        "note": "9:34 — yeni token/font, Plus kartı pembe, yeni çiçek görseli"
+      },
+      {
+        "label": "Figma’da tasarlanıyor: Doktor randevusu",
+        "status": "done",
+        "startedAt": "2026-10-30T11:54:11.489Z",
+        "doneAt": "2026-10-30T11:54:11.509Z",
+        "note": "10:219 — token/font + Soft kart gölgeleri"
+      },
+      {
+        "label": "Figma’da tasarlanıyor: Hamilelik modunu kapat (onay)",
+        "status": "done",
+        "startedAt": "2026-10-30T11:54:11.528Z",
+        "doneAt": "2026-10-30T11:54:11.547Z",
+        "note": "11:296 — token/font, Dialog Float"
+      },
+      {
+        "label": "Figma’da tasarlanıyor: Tekme geçmişi",
+        "status": "done",
+        "startedAt": "2026-10-30T11:54:11.566Z",
+        "doneAt": "2026-10-30T11:54:11.586Z",
+        "note": "12:395 — token/font, grafik lila (faz verisi)"
+      },
+      {
+        "label": "Ekran görselleri üretiliyor (gpt-image-2)",
+        "status": "done",
+        "startedAt": "2026-10-30T11:52:04.485Z",
+        "doneAt": "2026-10-30T11:52:21.371Z",
+        "note": "2 görsel"
+      },
+      {
+        "label": "Görseller Figma’ya yerleştiriliyor",
+        "status": "done",
+        "startedAt": "2026-10-30T11:52:21.393Z",
+        "doneAt": "2026-10-30T11:52:49.440Z",
+        "note": "q-birth-year-hero, profile-plus yerleşti"
+      },
+      {
+        "label": "Önizlemeler kaydediliyor",
+        "status": "done",
+        "startedAt": "2026-10-30T11:52:49.466Z",
+        "doneAt": "2026-10-30T11:54:11.606Z",
+        "note": "5 önizleme previews/ içinde"
+      },
+      {
+        "label": "DESIGN.md referanslara göre yeniden yazılıyor",
+        "status": "done",
+        "startedAt": "2026-10-30T11:47:49.601Z",
+        "doneAt": "2026-10-30T11:50:00.729Z",
+        "note": "Plus Jakarta Sans, gül #C2436D, pembe zemin #FFF4F7, cam yaprak illüstrasyon"
+      },
+      {
+        "label": "Figma: token + component güncelleme",
+        "status": "done",
+        "startedAt": "2026-10-30T11:50:00.751Z",
+        "doneAt": "2026-10-30T11:52:04.443Z",
+        "note": "19 renk, 10 text style (Plus Jakarta Sans), Glow/Soft gölge, Logo component, NavBar Progress logolu"
+      }
+    ],
+    "note": "FigJam’in en üstündeki 5 referans görseli (5:581–5:585) tasarım dilinin kaynağı. DESIGN.md’yi bunlara göre yeniden yaz: açık pembe zemin, yumuşak pembe yaprak/çiçek illüstrasyonları, kalın siyah sans başlıklar, gül rengi pill butonlar, “femia” küçük logo. Token ve component’leri buna göre güncelle, aynı 5 ekranı yeni dile göre düzelt.",
+    "runner": {
+      "pid": 64153,
+      "startedAt": "2026-10-30T11:47:30.744Z",
+      "log": "projects/femia-v2/runs/2026-10-30T11-47-30-739Z-design-references.log"
+    },
+    "finishedAt": "2026-10-30T11:54:11.625Z"
+  },
+  "revisionNote": "FigJam’in en üstündeki 5 referans görseli (5:581–5:585) tasarım dilinin kaynağı. DESIGN.md’yi bunlara göre yeniden yaz: açık pembe zemin, yumuşak pembe yaprak/çiçek illüstrasyonları, kalın siyah sans başlıklar, gül rengi pill butonlar, “femia” küçük logo. Token ve component’leri buna göre güncelle, aynı 5 ekranı yeni dile göre düzelt."
+}
