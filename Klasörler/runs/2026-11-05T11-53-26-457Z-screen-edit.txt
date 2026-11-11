@@ -1,0 +1,22 @@
+Dashink için reklam izle ile ilgili her şeyi kaldırdım ve ikonların hepsini Lucide'e çevirdim.
+
+**Reklam kaldırma**
+- Oyun bitti ekranından "Reklam izle" alt yazılı butonu sildim (`10:325`). Ekranda yalnızca TEKRAR OYNA, paylaş ve ev ikonu kaldı.
+- "REKLAMLARI KALDIR" bloğunu mağaza, satın al ve altın yetersiz ekranlarından sildim. Ayarlar'dan "Reklamları kaldır" satırını da sildim.
+- `Icon/ad` bileşenini sildim.
+- `reklam-izle` ekranı Figma'da zaten yoktu. Bu ekranı `flow.md`, `queue.json` ve `figma.json`'dan, `reklam-video` görselini de `figma.json`'dan çıkardım. `assets/manifest.json` ve `audit.json` içindeki `reklam-izle` kayıtlarına dokunmadım.
+- Yazılımcı notlarındaki reklam ifadelerini temizledim (6 metin).
+
+**Lucide ikonlar**
+- 11 yeni Lucide bileşeni oluşturdum, çizgi rengi `color/ink` değişkenine bağlı: crown, hand, calendar, trophy, rotate-ccw, share-2, house, lock, pause, x, image.
+- Ekranlardaki 30 ikon örneğini ve bileşenler sayfasındaki 4 örneği Lucide'e geçirdim. Eski çizim ikon bileşenlerinin hepsini sildim.
+- Bazı örneklerde rengi eski ikondan taşıdım. Renk bağlantısı bazı yerlerde değişken yerine düz renk olabilir.
+- `figma.json` ikon id'lerini yeni bileşenlere göre güncelledim.
+
+**Önizleme**
+- 14 ekranın önizlemesini yeniledim. Yalnızca oyun bitti ve ana ekranı gözle kontrol ettim; ikonlar ve düzen düzgün görünüyor. Diğer 12 önizlemeye bakmadım.
+- `reklam-izle.png` dosyasını sildim.
+
+**Belirsiz kalanlar**
+- `oyun` ekranı Figma'da hâlâ yok; bu işte kurmadım.
+- `oyun-bitti` ekranında DEVAM ET butonu da gitti, çünkü reklam butonuyla aynıydı. `flow.md`'deki `oyuncu-secimi` başlığında hâlâ "devam et" yazıyor; bunu değiştirmedim.

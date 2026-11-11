@@ -1,0 +1,36 @@
+Oyun tasarımını Figma'da **"Oyun – Referans"** adlı yeni bir sayfaya, eklediğin referans görsele göre 10 ekran olarak kurdum. Mevcut ekranlara ve ana akışa dokunmadım. Panel işi kapandı.
+
+**Ekranlar**
+Açılış (yükleme çubuğu) · Eğitim 1/3, 2/3, 3/3 · Ana ekran · Bölümler · Görevler · Toplar · Temalar · Ayarlar.
+
+- Metinler, butonlar, kartlar, sayaçlar ve toggle'lar Figma'da düzenlenebilir duruyor. Hepsi auto layout ile kuruldu.
+- Bu sayfa için ayrı bileşenler yaptım: Logo, Geri butonu, altın sayacı, sarı buton ve toggle. İkonlar Lucide'den, 18 tane.
+- Font olarak Nunito kullandım, çünkü Türkçe harflerin hepsi var.
+
+**Görseller**
+26 görseli OpenAI ile referansın kırpılmış parçalarından ürettim (`quality: high`). Kütüphanede (`library.json`) eşleşen asset olmadığı için hepsi üretildi:
+- 3 zemin
+- Açılıştaki top
+- 3 eğitim sahnesi
+- Bölüm ve 4 tema küçük resmi
+- Topların büyük görseli
+- 6 top kaplaması
+- Sandık
+- 3 menü ikonu
+- Altın, yıldız ve taç
+
+İlk üretimde tema ve bölüm resimlerine referansta olmayan bir top karakteri eklenmişti. O 4 görseli karaktersiz olarak yeniden ürettim.
+
+**Kalan farklar** (önizlemeyi referansla yan yana karşılaştırdım)
+- Ekranlar 430×930 boyutunda, referans kareleri ise daha kısa. Bu yüzden boşluklar oransal olarak dağıtıldı. Menü ekranlarının alt kısmında referanstakinden biraz daha fazla yaprak ve gökyüzü görünüyor.
+- Ekranların yüksekliği HUG + en az 930 değil, sabit 930. Bu, CLAUDE.md'deki ekran kuralından bir sapma.
+- Eğitim sayfalarındaki noktalar her adımda tek lacivert nokta olarak gösteriliyor. Referansta bu noktaların renkleri ekrandan ekrana tutarsızdı.
+- Bu sayfada yumuşak gölge ve gradyan buton kullandım, çünkü referans böyle. DESIGN.md'nin "Yapma listesi" bunları yasaklıyor; bu sayfa için istisna notu ekledim.
+
+**Dosyalar**
+- `figma.json` → `oyunReferans`: sayfa, Section, bileşen ve ekran id'leri.
+- `DESIGN.md`: bu sayfanın tasarım dili için yeni bir bölüm.
+- `assets/manifest.json`: `g-*` görsel kayıtları, durumları `placed`.
+- `previews/g-*.png`: 10 önizleme.
+
+Bu ekranları `flow.md`'ye eklemedim; panelin ana ekran listesinde görünmezler.

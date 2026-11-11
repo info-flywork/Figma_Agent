@@ -1,0 +1,10 @@
+Dashink için yazılımcı notları tamam. 15 ekranın her birinin altına bir "Dev Note / <ekran id>" kartı ekledim. Not kartlarının hiçbirinin önizlemesini almadım, yalnızca kart id'leri ve section yükseklikleri döndü.
+
+- **Kartlar:** Her kart 430 px genişliğinde. İçinde Amaç, Giriş, Etkileşimler, Durumlar, Dinamik veri, Asset'ler, Animasyon ve Uç durumlar var. Section yüksekliklerini notları kapsayacak kadar uzattım.
+- **Dağılım:** 01 Açılış 2 kart (splash dahil), 02 Ana ekran 1, 03 Oyun döngüsü 5, 04 Ana ekran dalları 7.
+- **`figma.json`:** Her ekranın `screens[id].devNote` alanına kart id'sini yazdım.
+- **Eksik ekranlar:** `oyun` (10:257) ve `reklam-izle` (18:438) Figma dosyasında yok. Bunları kurmadım, çünkü bu iş ekranlara dokunmuyor. Onlara giden etkileşimleri notlarda "Figma'da ekran yok" diye işaretledim. Bu iki ekranın yeniden kurulması ayrı bir iş.
+- **Splash:** `01-01-splash (typewriter)` (33:986) `flow.md`'de kayıtlı değil. Ona da bir kart ekledim. `figma.json`'a `splash` adıyla, "flow.md kaydı yok" notuyla kaydettim. Akışa alınıp alınmayacağı kullanıcı kararı bekliyor.
+- **Belirsiz maddeler:** Akışta ya da tasarımda karşılığı olmayan her yeri "Belirsiz: …" diye yazdım. Örnekler: eğitimin bitiş hedefi, duraklatma ekranı, çevrimdışı ve yükleniyor durumları.
+
+Ek olarak, iş listesine kendim bir adım ("Kayıtlı olmayan ekranlar için not düşülüyor") eklemiştim; tamamlandı olarak işaretli.

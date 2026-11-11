@@ -1,0 +1,17 @@
+Dashink denetimi bitti ve 7 bulguyu `projects/dashink/audit.json`'a yazdım. İki bulgu yüksek öncelikli. Figma'da hiçbir şeyi değiştirmedim, yalnızca okudum. Dört bölümü tek tek taradım. Önizleme görsellerine bakmadım; kontroller metin, boyut ve component verisine dayanıyor.
+
+**Yüksek**
+- **`oyun` ekranı yok.** Kayıtlı node `10:257` dosyada bulunmuyor.
+- **`reklam-izle` ekranı yok.** Kayıtlı node `18:438` dosyada bulunmuyor.
+- Önceki dev-notes işi de bu iki eksik yüzünden durmuştu. İkisinin de yeniden kurulması gerekiyor.
+
+**Orta**
+- **`satin-al-kusan`:** Metinleri `magaza` ile birebir aynı. Onay ve iptal katmanı görünür mü, doğrulanmalı.
+- **`altin-yetersiz`:** İlk 14 metin içinde uyarı başlığı ve "Görev yap" aksiyonu yok. Ekran mağazadan ayırt edilemiyor olabilir.
+
+**Düşük**
+- **`01-01-splash (typewriter)`:** 01 Açılış Section'ında `flow.md` ve `figma.json`'da kaydı olmayan bir frame var (`33:986`). Kayda alınmalı ya da silinmeli.
+- **Mağaza ikonları:** Mağaza ekranlarında 18×18 ikonlar var. Bağımsız dokunma hedefiyse 44 px kuralının altında kalır.
+- **`top-dustu`:** Duraklat ikonu 26×26. Dokunma alanı büyütülmeli.
+
+Diğer ekranlarda 11 pt altı metin, placeholder metin, taşma ya da boş görsel alanı bulmadım. 44 px altı çıkan diğer ikonları bulgu yapmadım, çünkü çoğu büyük bir butonun içindeki glif.

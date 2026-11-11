@@ -1,0 +1,17 @@
+Dev-notes işini durdurdum. Figma'ya hiçbir not kartı eklemedim, `figma.json` da değişmedi.
+
+**Sorun:** `figma.json` içindeki iki ekran Figma'da yok:
+- `oyun` (`10:257`)
+- `reklam-izle` (`18:438`)
+
+Bu id'lerle node bulunamadı. Bölümlerde ada göre arama yaptım, onları da bulamadım. Büyük ihtimalle silindiler ya da başka bir id'yle yeniden oluşturuldular. Önceki `screen-edit` işi `oyun` ekranını bölmüştü. Frame o sırada yeniden oluşmuş olabilir.
+
+**Neden durdum:** İş "her ekranın altına not" diyor, `figma.json` ise bu iki ekranı `built` gösteriyor. Eksik iki ekranı atlayıp devam edersem sessizce eksik bir sonuç çıkar. Yeni id'yi tahmin etmek de riskli. Arka planda soru sorulamadığı için `progress.mjs error` ile adım 1'i hataya çektim.
+
+**Okuma sonucu:** Diğer 16 ekranın metinleri, buton ve component adları toplandı. Kartlar için gereken veri hazır.
+
+**Önerim:**
+1. `oyun` ve `reklam-izle` ekranlarını Figma'da yeniden kur ya da doğru frame id'lerini `figma.json`'a yaz.
+2. İşi yeniden başlat.
+
+Alternatif olarak bu iki ekranı `figma.json`'dan çıkarıp işi 16 ekranla yeniden başlatabilirsiniz.
